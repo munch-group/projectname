@@ -20,7 +20,7 @@ comments:
   hypothesis: true
 
 book:
-  repo-url: "https://github.com/munch-group/repositoryname"
+  repo-url: "https://github.com/munch-group/projectname"
   repo-actions: [edit, issue, source]  
   title: "Title of your project"
   author: "Joanna Doh"  

@@ -4,4 +4,4 @@
 
 Description...
 
-![example event parameter](https://github.com/munch-group/repositoryname/actions/workflows/quarto-publish.yml/badge.svg?event=push)
+![example event parameter](https://github.com/munch-group/projectname/actions/workflows/quarto-publish.yml/badge.svg?event=push)
