@@ -35,7 +35,7 @@ comments:
 book:
   repo-url: "https://github.com/munch-group/projectname"
   repo-actions: [edit, issue, source]  
-  title: "Title of your project"
+  title: "projectname"
   author: "Joanna Doh"  
   chapters:
     - index.qmd
