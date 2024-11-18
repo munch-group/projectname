@@ -26,8 +26,8 @@ format:
       - \makeatletter
       - \@addtoreset{chapter}{part}
       - \makeatother     
-    # include-in-header:
-    #   - file: header_extra.tex
+    include-in-header:
+      - file: header_extra.tex
 
 comments:
   hypothesis: true
