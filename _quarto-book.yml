@@ -54,5 +54,6 @@ book:
       chapters:
       # (the same files must be listed _quarto-slides.yml to render as slides)
       - slides/example.qmd 
+  downloads: [pdf]
      
 bibliography: references.bib
