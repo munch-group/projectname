@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+
+<front>
+
+
+<article-meta>
+
+
+<title-group>
+<article-title>Søren’s cool master thesis about chromatin in
+spermatogenesis</article-title>
+</title-group>
+
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>man</surname>
+<given-names>Søren</given-names>
+</name>
+<string-name>Søren the man</string-name>
+
+<role vocab="https://credit.niso.org" vocab-term="writing – original
+draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
+<xref ref-type="aff" rid="aff-1">a</xref>
+<xref ref-type="corresp" rid="cor-1">&#x002A;</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Aarhus University</institution>
+</institution-wrap>
+
+
+
+
+
+
+
+</aff>
+<author-notes>
+<corresp id="cor-1"></corresp>
+</author-notes>
+
+
+
+
+
+
+
+
+
+<history></history>
+
+
+
+
+
+
+</article-meta>
+
+</front>
+
+<body>
+<sec id="abstract">
+  <title>Abstract</title>
+  <p>Etiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod
+  enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet
+  ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat.
+  Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus
+  urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis,
+  blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex
+  vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus
+  eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id
+  lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et
+  ultrices posuere cubilia curae; Aenean eget enim at diam bibendum
+  tincidunt eu non purus. Nullam id magna ultrices, sodales metus
+  viverra, tempus turpis.</p>
+</sec>
+<sec id="introduction">
+  <title>Introduction</title>
+  <sec id="subsection">
+    <title>Subsection</title>
+    <sec id="subsubsection">
+      <title>Subsubsection</title>
+    </sec>
+  </sec>
+</sec>
+<sec id="results">
+  <title>Results</title>
+  <fig id="fig-danish-interaction">
+    <caption><p>Figure 1: Interaction among Danes: How Danes interact is
+    has very little to do with age and seniority, compared to most other
+    contries.</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-danish-interaction-output-1.png" />
+  </fig>
+</sec>
+<sec id="methods">
+  <title>Methods</title>
+  <p>The 24 subjects from workplaces in Denmark were interviewed …. blah
+  blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+  blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+  blah blah blah blah blah blah blah</p>
+  <disp-quote>
+    <p>lkajs dflkajsd flakjsdf laksdjf alskdfj</p>
+  </disp-quote>
+</sec>
+</body>
+
+<back>
+</back>
+
+
+
+</article>
