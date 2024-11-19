@@ -1,0 +1,28 @@
+project:
+  type: manuscript
+  output-dir: ../_book/thesis
+
+manuscript:
+  article: index.qmd
+
+format:
+  html: default
+  docx: default
+  jats: default
+  pdf:
+    documentclass: scrbook
+    papersize: a4
+    toc: true
+    toc-depth: 2
+    highlight-style: kate 
+    geometry:
+      - right=2.54cm    
+    include-in-header:
+      - file: header_extra.tex
+
+notebook-links: false
+
+execute:
+  freeze: auto
+
+bibliography: references.bib

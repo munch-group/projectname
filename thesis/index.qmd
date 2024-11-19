@@ -1,0 +1,37 @@
+---
+title: Søren's cool master thesis about chromatin in spermatogenesis
+authors:
+  - name: Søren the man
+    affiliation: Aarhus University
+    roles: writing
+    corresponding: true
+---
+
+# Abstract
+
+{{< lipsum 1 >}} 
+
+<!-- dummy text  -->
+
+# Introduction
+
+## Subsection
+
+### Subsubsection
+
+# Results
+
+{{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
+
+<!-- dummy text  -->
+
+# Methods
+
+<!-- dummy text  -->
+
+{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
+
+<!-- dummy text  -->
+
+
+> lkajs dflkajsd flakjsdf laksdjf alskdfj 

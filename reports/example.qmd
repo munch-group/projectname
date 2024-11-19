@@ -17,19 +17,13 @@ params = load_params('../global_params.yml')
 ```
 
 
-## Abstract
+## Section
 
 <!-- Dummy text -->
 Denmmark ... {{< lipsum 1 >}} 
 
 
-## Introduction
-
-Denmark is .... {{< lipsum 3 >}} 
-
-## Results
-
-### Social norms
+### Subsection
 
 In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age. 
 
@@ -46,16 +40,16 @@ I found that neither academic seniority or age of workplace individuals much aff
 <!-- Dummy text -->
 {{< lipsum 1 >}} 
 
-## Discussion
+## Section
 
 This this investigation of `{python} params.sample_size` Danes..., 
 
 <!-- Dummy text -->
 {{< lipsum 1 >}} 
 
-## Methods
+## Section
 
-### Interaction analysis
+### Subsection
 
 <!-- Dummy text -->
 {{< lipsum 1 >}} 
@@ -63,11 +57,6 @@ This this investigation of `{python} params.sample_size` Danes...,
 @tbl-subjects lists the samples included in the analysis.
 
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
-
-<!-- Dummy text -->
-{{< lipsum 1 >}} 
-
-{{< embed ../notebooks/example.ipynb#doc-interviews echo=false >}}
 
 ## References
 
