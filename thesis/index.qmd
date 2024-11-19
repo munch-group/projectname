@@ -1,7 +1,7 @@
 ---
-title: Søren's cool master thesis about chromatin in spermatogenesis
+title: projectname
 authors:
-  - name: Søren the man
+  - name: Jane Doe
     affiliation: Aarhus University
     roles: writing
     corresponding: true
