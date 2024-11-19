@@ -11,17 +11,16 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 
 
 <title-group>
-<article-title>Søren’s cool master thesis about chromatin in
-spermatogenesis</article-title>
+<article-title>projectname</article-title>
 </title-group>
 
 <contrib-group>
 <contrib contrib-type="author" corresp="yes">
 <name>
-<surname>man</surname>
-<given-names>Søren</given-names>
+<surname>Doe</surname>
+<given-names>Jane</given-names>
 </name>
-<string-name>Søren the man</string-name>
+<string-name>Jane Doe</string-name>
 
 <role vocab="https://credit.niso.org" vocab-term="writing – original
 draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
@@ -67,18 +66,17 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <body>
 <sec id="abstract">
   <title>Abstract</title>
-  <p>Etiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod
-  enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet
-  ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat.
-  Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus
-  urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis,
-  blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex
-  vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus
-  eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id
-  lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et
-  ultrices posuere cubilia curae; Aenean eget enim at diam bibendum
-  tincidunt eu non purus. Nullam id magna ultrices, sodales metus
-  viverra, tempus turpis.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+  sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque
+  magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet,
+  vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit
+  pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo
+  eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam
+  elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non
+  fringilla. Integer sit amet elit viverra ante dapibus semper.
+  Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius
+  natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+  mus.</p>
 </sec>
 <sec id="introduction">
   <title>Introduction</title>
