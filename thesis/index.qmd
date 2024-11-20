@@ -1,10 +1,12 @@
 ---
-title: projectname
+title: The most fantastic master thesis ever
 authors:
   - name: Jane Doe
     affiliation: Aarhus University
     roles: writing
     corresponding: true
+date: today
+date-format: long
 ---
 
 # Abstract
@@ -33,5 +35,9 @@ authors:
 
 <!-- dummy text  -->
 
+# Bon mot
 
-> lkajs dflkajsd flakjsdf laksdjf alskdfj 
+> Nothing in Biology Makes Sense except in the Light of Evolution
+>
+> \- Theodosius Dobzhansky
+
