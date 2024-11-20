@@ -10,6 +10,7 @@
 \usepackage{fontspec}
 \newfontfamily\mytitlefont{Lucida Grande}
 
+% front page
 \usepackage[colorlinks]{hyperref} % for text color on title
 \usepackage{titling} % makes \thetitle etc available...
 \usepackage{lipsum}
@@ -33,9 +34,21 @@
 \end{tikzpicture}
 \clearpage}
 
-% \AtEndDocument{\clearpage\thispagestyle{empty}\begin{tikzpicture}[remember picture,overlay]
-% \node at (current page.center) {\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{highres_banner.pdf}};
-% \end{tikzpicture}}
+% back side
+\AtEndDocument{\clearpage\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\draw (current page.center) node[inner sep=0] {\resizebox{!}{350mm}{\includegraphics{highres_banner.pdf}}};
+% \draw (current page.center) node[bag] {  
+    \draw (17, 1.7) node[bag, align=right, anchor=north east] {  
+        \mytitlefont \color{titlecolor} \large Bioinformatics Research Centre \\ 
+        \mytitlefont \color{titlecolor} \large Department of Molecular Biology and Genetics \\ 
+        \mytitlefont \color{titlecolor} \large Aarhus University \\
+        \mytitlefont \color{titlecolor} \large Universitetsbyen 81 \\
+        \mytitlefont \color{titlecolor} \large 8000 Aarhus C \\
+        \mytitlefont \color{titlecolor} \large Denmark
+        };
+
+\end{tikzpicture}}
 
 
 % picture (AU logo in title page)
