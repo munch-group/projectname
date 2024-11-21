@@ -40,7 +40,7 @@ book:
       - reports/example.qmd
     - part: "Tables"
       chapters: 
-      - tables/example.qmd
+      - tables/example.ipynb
     - part: "Slides"
       chapters:
       # (the same files must be listed _quarto-slides.yml to render as slides)

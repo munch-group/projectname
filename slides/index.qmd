@@ -1,5 +1,6 @@
 ---
-title: "Main talk"
+title: "Example"
+data: today
 author: "Your name"
 ---
 

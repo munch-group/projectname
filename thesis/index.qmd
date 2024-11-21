@@ -19,25 +19,43 @@ date-format: long
 
 ## Subsection
 
-### Subsubsection
-
 # Results
 
 {{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
 
-<!-- dummy text  -->
+{{< lipsum 1 >}} 
+
+### Subsubsection
+
+{{< embed ../notebooks/example.ipynb#fig-meaninformality echo=false >}}
+
+@tbl-meaninformality lists the mean interaction scores by position and nationality.
+
+{{< embed ../notebooks/example.ipynb#tbl-meaninformality echo=false >}}
+
+{{< lipsum 1 >}} 
+
 
 # Methods
 
-<!-- dummy text  -->
+@tbl-subjects lists the samples included in the analysis.
+
+{{< lipsum 1 >}} 
 
 {{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
 
-<!-- dummy text  -->
+{{< lipsum 1 >}} 
+
+{{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
+
+{{< lipsum 1 >}} 
+
 
 # Bon mot
 
 > Nothing in Biology Makes Sense except in the Light of Evolution
 >
 > \- Theodosius Dobzhansky
+
+
 

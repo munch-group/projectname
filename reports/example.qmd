@@ -1,7 +1,7 @@
 ---
-title: My manuscript
+title: Example
 author: My Name
-date: 'April 25nd, 2024'
+date: today
 format:
  html:
   code-fold: true
@@ -57,6 +57,16 @@ This this investigation of `{python} params.sample_size` Danes...,
 @tbl-subjects lists the samples included in the analysis.
 
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
+
+{{< lipsum 1 >}} 
+
+{{< embed ../notebooks/example.ipynb#fig-meaninformality echo=false >}}
+
+{{< lipsum 1 >}} 
+
+@tbl-subjects lists the mean interaction scores by position and nationality.
+
+{{< embed ../notebooks/example.ipynb#tbl-meaninformality echo=false >}}
 
 ## References
 
