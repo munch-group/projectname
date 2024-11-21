@@ -14,11 +14,34 @@ format:
     papersize: A4
     toc: true
     toc-depth: 2
-    highlight-style: kate 
+    toc-title: "Table of contents"
+    lof: true
+    lot: true    
     geometry:
-      - right=2.54cm    
+      - right=2.54cm   
+      # - inner=3cm
+      # - outer=4cm
+      # - top=3cm
+      # - bottom=4cm
+      # - headsep=22pt
+      # - headheight=11pt
+      # - footskip=33pt
+      # - ignorehead
+      # - ignorefoot
+      # - heightrounded
+    # linestretch: 1.25 
+    # mainfont: "Times New Roman"
+    # sansfont: "Arial"
+    # monofont: "Courier New"
+    # mathfont: "TeX Gyre Termes Math"             
+    number-sections: true
+    # number-depth: 2    
+    highlight-style: kate 
+ 
     include-in-header:
       - file: header_extra.tex
+    template-partials:
+      - before-body.tex      
 
 notebook-links: false
 

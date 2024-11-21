@@ -1,23 +1,31 @@
 ---
 title: The most fantastic master thesis ever
+subtitle: A more elaborate title further explaining the topic
 authors:
   - name: Jane Doe
     affiliation: Aarhus University
     roles: writing
     corresponding: true
-date: today
+keywords:
+  - Etiam quis 
+  - Pellentesque ante mauris
+  - In id porta
+abstract: |
+  Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.   Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.
+plain-language-summary: |
+  Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim.
+key-points:
+  - Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
+  - Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
+  - Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
+date: last-modified
 date-format: long
+degree: Master of Science in Bioinformatics
 ---
-
-# Abstract
-
-{{< lipsum 1 >}} 
-
-<!-- dummy text  -->
 
 # Introduction
 
-## Subsection
+{{< lipsum 1 >}} 
 
 # Results
 
@@ -25,13 +33,15 @@ date-format: long
 
 {{< lipsum 1 >}} 
 
-### Subsubsection
+## Subsection
 
 {{< embed ../notebooks/example.ipynb#fig-meaninformality echo=false >}}
 
 @tbl-meaninformality lists the mean interaction scores by position and nationality.
 
 {{< embed ../notebooks/example.ipynb#tbl-meaninformality echo=false >}}
+
+### Subsubsection
 
 {{< lipsum 1 >}} 
 
