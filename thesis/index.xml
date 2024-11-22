@@ -11,7 +11,8 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 
 
 <title-group>
-<article-title>projectname</article-title>
+<article-title>The most fantastic master thesis ever</article-title>
+<subtitle>A more elaborate title further explaining the topic</subtitle>
 </title-group>
 
 <contrib-group>
@@ -55,6 +56,27 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <history></history>
 
 
+<abstract>
+<p>Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
+Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at
+sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta
+dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris,
+ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim.
+Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo.
+Praesent maximus lacus nec leo maximus blandit. Etiam quis tortor
+luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna
+pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et,
+sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel
+dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a,
+fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio,
+vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus
+nec leo maximus blandit.</p>
+</abstract>
+<kwd-group kwd-group-type="author">
+<kwd>Etiam quis</kwd>
+<kwd>Pellentesque ante mauris</kwd>
+<kwd>In id porta</kwd>
+</kwd-group>
 
 
 
@@ -64,28 +86,15 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 </front>
 
 <body>
-<sec id="abstract">
-  <title>Abstract</title>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-  sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque
-  magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet,
-  vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit
-  pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo
-  eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam
-  elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non
-  fringilla. Integer sit amet elit viverra ante dapibus semper.
-  Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius
-  natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-  mus.</p>
-</sec>
 <sec id="introduction">
   <title>Introduction</title>
-  <sec id="subsection">
-    <title>Subsection</title>
-    <sec id="subsubsection">
-      <title>Subsubsection</title>
-    </sec>
-  </sec>
+  <p>Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum
+  nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend
+  lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit
+  amet auctor ante accumsan. Nam ut varius metus. Curabitur eget
+  tristique leo. Cras finibus euismod erat eget elementum. Integer vel
+  placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel
+  ante.</p>
 </sec>
 <sec id="results">
   <title>Results</title>
@@ -95,15 +104,339 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
     contries.</p></caption>
     <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-danish-interaction-output-1.png" />
   </fig>
+  <p>Etiam congue quam eget velit convallis, eu sagittis orci
+  vestibulum. Vestibulum at massa turpis. Curabitur ornare ex sed purus
+  vulputate, vitae porta augue rhoncus. Phasellus auctor suscipit purus,
+  vel ultricies nunc. Nunc eleifend nulla ac purus volutpat, id
+  fringilla felis aliquet. Duis vitae porttitor nibh, in rhoncus risus.
+  Vestibulum a est vitae est tristique vehicula. Proin mollis justo id
+  est tempus hendrerit. Praesent suscipit placerat congue. Aliquam eu
+  elit gravida, consequat augue non, ultricies sapien. Nunc ultricies
+  viverra ante, sit amet vehicula ante volutpat id. Etiam tempus purus
+  vitae tellus mollis viverra. Donec at ornare mauris. Aliquam sodales
+  hendrerit ornare. Suspendisse accumsan lacinia sapien, sit amet
+  imperdiet dui molestie ut.</p>
+  <sec id="subsection">
+    <title>Subsection</title>
+    <fig id="fig-meaninformality">
+      <caption><p>Figure 2: Mean interaction scores by position and
+      nationality.</p></caption>
+      <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-meaninformality-output-1.png" />
+    </fig>
+    <p><xref alt="Table 1" rid="tbl-meaninformality">Table 1</xref>
+    lists the mean interaction scores by position and nationality.</p>
+    <fig id="tbl-meaninformality">
+      <caption><p>Table 1: Mean interaction scores by position and
+      nationality.</p></caption>
+      <table-wrap>
+        <table id="T_da10d">
+          <thead>
+            <tr>
+              <th id="T_da10d_level0_col0">position</th>
+              <th id="T_da10d_level0_col1">nationality</th>
+              <th id="T_da10d_level0_col2">informality</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="T_da10d_row0_col0">Professor</td>
+              <td id="T_da10d_row0_col1">GB</td>
+              <td id="T_da10d_row0_col2">8.380414</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row1_col0">Postdoc</td>
+              <td id="T_da10d_row1_col1">NL</td>
+              <td id="T_da10d_row1_col2">8.784014</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row2_col0">Postdoc</td>
+              <td id="T_da10d_row2_col1">GB</td>
+              <td id="T_da10d_row2_col2">8.795308</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row3_col0">Postdoc</td>
+              <td id="T_da10d_row3_col1">US</td>
+              <td id="T_da10d_row3_col2">8.826106</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row4_col0">Professor</td>
+              <td id="T_da10d_row4_col1">UK</td>
+              <td id="T_da10d_row4_col2">9.360650</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row5_col0">PhDstudent</td>
+              <td id="T_da10d_row5_col1">DK</td>
+              <td id="T_da10d_row5_col2">9.506580</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row6_col0">PhDstudent</td>
+              <td id="T_da10d_row6_col1">UK</td>
+              <td id="T_da10d_row6_col2">10.063141</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row7_col0">Postdoc</td>
+              <td id="T_da10d_row7_col1">DK</td>
+              <td id="T_da10d_row7_col2">10.279960</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row8_col0">PhDstudent</td>
+              <td id="T_da10d_row8_col1">CH</td>
+              <td id="T_da10d_row8_col2">10.426218</td>
+            </tr>
+            <tr>
+              <td id="T_da10d_row9_col0">Professor</td>
+              <td id="T_da10d_row9_col1">DK</td>
+              <td id="T_da10d_row9_col2">10.449005</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </fig>
+    <sec id="subsubsection">
+      <title>Subsubsection</title>
+      <p>Duis urna urna, pellentesque eu urna ut, malesuada bibendum
+      dolor. Suspendisse potenti. Vivamus ornare, arcu quis molestie
+      ultrices, magna est accumsan augue, auctor vulputate erat quam
+      quis neque. Nullam scelerisque odio vel ultricies facilisis. Ut
+      porta arcu non magna sagittis lacinia. Cras ornare vulputate
+      lectus a tristique. Pellentesque ac arcu congue, rhoncus mi id,
+      dignissim ligula.</p>
+    </sec>
+  </sec>
 </sec>
 <sec id="methods">
   <title>Methods</title>
+  <p><xref alt="Table 2" rid="tbl-subjects">Table 2</xref> lists the
+  samples included in the analysis.</p>
+  <p>Duis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat
+  pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra
+  quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac
+  accumsan interdum, sem tellus blandit neque, id vulputate diam quam
+  semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus
+  facilisis nulla eget placerat eleifend. Vestibulum non egestas eros,
+  eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id
+  porttitor erat luctus. Nunc sagittis quis eros eu sagittis.
+  Pellentesque dictum, erat at pellentesque sollicitudin, justo augue
+  pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi
+  lorem, at elementum purus tincidunt a. Aliquam finibus enim magna,
+  vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id
+  lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at
+  aliquet sed, facilisis id tortor. Donec ut urna nisi.</p>
   <p>The 24 subjects from workplaces in Denmark were interviewed …. blah
   blah blah blah blah blah blah blah blah blah blah blah blah blah blah
   blah blah blah blah blah blah blah blah blah blah blah blah blah blah
   blah blah blah blah blah blah blah</p>
+  <p>Ut ut condimentum augue, nec eleifend nisl. Sed facilisis egestas
+  odio ac pretium. Pellentesque consequat magna sed venenatis sagittis.
+  Vivamus feugiat lobortis magna vitae accumsan. Pellentesque euismod
+  malesuada hendrerit. Ut non mauris non arcu condimentum sodales vitae
+  vitae dolor. Nullam dapibus, velit eget lacinia rutrum, ipsum justo
+  malesuada odio, et lobortis sapien magna vel lacus. Nulla purus neque,
+  hendrerit non malesuada eget, mattis vel erat. Suspendisse
+  potenti.</p>
+  <fig id="tbl-subjects">
+    <caption><p>Table 2: People included in the analysis.</p></caption>
+    <table-wrap>
+      <table id="T_e468d">
+        <thead>
+          <tr>
+            <th id="T_e468d_level0_col0">name</th>
+            <th id="T_e468d_level0_col1">age</th>
+            <th id="T_e468d_level0_col2">sex</th>
+            <th id="T_e468d_level0_col3">position</th>
+            <th id="T_e468d_level0_col4">nationality</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="T_e468d_row0_col0">Julie</td>
+            <td id="T_e468d_row0_col1">27</td>
+            <td id="T_e468d_row0_col2">F</td>
+            <td id="T_e468d_row0_col3">PhDstudent</td>
+            <td id="T_e468d_row0_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row1_col0">Thomas</td>
+            <td id="T_e468d_row1_col1">33</td>
+            <td id="T_e468d_row1_col2">M</td>
+            <td id="T_e468d_row1_col3">Postdoc</td>
+            <td id="T_e468d_row1_col4">GB</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row2_col0">Emilie</td>
+            <td id="T_e468d_row2_col1">23</td>
+            <td id="T_e468d_row2_col2">F</td>
+            <td id="T_e468d_row2_col3">PhDstudent</td>
+            <td id="T_e468d_row2_col4">CH</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row3_col0">Sofie</td>
+            <td id="T_e468d_row3_col1">31</td>
+            <td id="T_e468d_row3_col2">F</td>
+            <td id="T_e468d_row3_col3">Postdoc</td>
+            <td id="T_e468d_row3_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row4_col0">Sara</td>
+            <td id="T_e468d_row4_col1">29</td>
+            <td id="T_e468d_row4_col2">F</td>
+            <td id="T_e468d_row4_col3">Postdoc</td>
+            <td id="T_e468d_row4_col4">US</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row5_col0">Cecilie</td>
+            <td id="T_e468d_row5_col1">34</td>
+            <td id="T_e468d_row5_col2">F</td>
+            <td id="T_e468d_row5_col3">Postdoc</td>
+            <td id="T_e468d_row5_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row6_col0">Anders</td>
+            <td id="T_e468d_row6_col1">32</td>
+            <td id="T_e468d_row6_col2">M</td>
+            <td id="T_e468d_row6_col3">PhDstudent</td>
+            <td id="T_e468d_row6_col4">UK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row7_col0">Emma</td>
+            <td id="T_e468d_row7_col1">42</td>
+            <td id="T_e468d_row7_col2">F</td>
+            <td id="T_e468d_row7_col3">Professor</td>
+            <td id="T_e468d_row7_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row8_col0">Caroline</td>
+            <td id="T_e468d_row8_col1">31</td>
+            <td id="T_e468d_row8_col2">F</td>
+            <td id="T_e468d_row8_col3">PhDstudent</td>
+            <td id="T_e468d_row8_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row9_col0">Laura</td>
+            <td id="T_e468d_row9_col1">30</td>
+            <td id="T_e468d_row9_col2">F</td>
+            <td id="T_e468d_row9_col3">Postdoc</td>
+            <td id="T_e468d_row9_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row10_col0">Mikkel</td>
+            <td id="T_e468d_row10_col1">33</td>
+            <td id="T_e468d_row10_col2">M</td>
+            <td id="T_e468d_row10_col3">Postdoc</td>
+            <td id="T_e468d_row10_col4">NL</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row11_col0">Jens</td>
+            <td id="T_e468d_row11_col1">27</td>
+            <td id="T_e468d_row11_col2">M</td>
+            <td id="T_e468d_row11_col3">PhDstudent</td>
+            <td id="T_e468d_row11_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row12_col0">Andreas</td>
+            <td id="T_e468d_row12_col1">29</td>
+            <td id="T_e468d_row12_col2">M</td>
+            <td id="T_e468d_row12_col3">PhDstudent</td>
+            <td id="T_e468d_row12_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row13_col0">Jakob</td>
+            <td id="T_e468d_row13_col1">28</td>
+            <td id="T_e468d_row13_col2">M</td>
+            <td id="T_e468d_row13_col3">PhDstudent</td>
+            <td id="T_e468d_row13_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row14_col0">Mathilde</td>
+            <td id="T_e468d_row14_col1">61</td>
+            <td id="T_e468d_row14_col2">F</td>
+            <td id="T_e468d_row14_col3">Professor</td>
+            <td id="T_e468d_row14_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row15_col0">Katrine</td>
+            <td id="T_e468d_row15_col1">35</td>
+            <td id="T_e468d_row15_col2">F</td>
+            <td id="T_e468d_row15_col3">Postdoc</td>
+            <td id="T_e468d_row15_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row16_col0">Poul</td>
+            <td id="T_e468d_row16_col1">30</td>
+            <td id="T_e468d_row16_col2">M</td>
+            <td id="T_e468d_row16_col3">Postdoc</td>
+            <td id="T_e468d_row16_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row17_col0">Anna</td>
+            <td id="T_e468d_row17_col1">26</td>
+            <td id="T_e468d_row17_col2">F</td>
+            <td id="T_e468d_row17_col3">PhDstudent</td>
+            <td id="T_e468d_row17_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row18_col0">Peter</td>
+            <td id="T_e468d_row18_col1">42</td>
+            <td id="T_e468d_row18_col2">M</td>
+            <td id="T_e468d_row18_col3">Professor</td>
+            <td id="T_e468d_row18_col4">GB</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row19_col0">Ida</td>
+            <td id="T_e468d_row19_col1">53</td>
+            <td id="T_e468d_row19_col2">F</td>
+            <td id="T_e468d_row19_col3">Postdoc</td>
+            <td id="T_e468d_row19_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row20_col0">Freja</td>
+            <td id="T_e468d_row20_col1">30</td>
+            <td id="T_e468d_row20_col2">F</td>
+            <td id="T_e468d_row20_col3">Postdoc</td>
+            <td id="T_e468d_row20_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row21_col0">Maria</td>
+            <td id="T_e468d_row21_col1">39</td>
+            <td id="T_e468d_row21_col2">F</td>
+            <td id="T_e468d_row21_col3">Professor</td>
+            <td id="T_e468d_row21_col4">UK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row22_col0">Amalie</td>
+            <td id="T_e468d_row22_col1">29</td>
+            <td id="T_e468d_row22_col2">F</td>
+            <td id="T_e468d_row22_col3">PhDstudent</td>
+            <td id="T_e468d_row22_col4">DK</td>
+          </tr>
+          <tr>
+            <td id="T_e468d_row23_col0">Camilla</td>
+            <td id="T_e468d_row23_col1">35</td>
+            <td id="T_e468d_row23_col2">F</td>
+            <td id="T_e468d_row23_col3">Postdoc</td>
+            <td id="T_e468d_row23_col4">DK</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </fig>
+  <p>Nullam dapibus cursus dolor sit amet consequat. Nulla facilisi.
+  Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam
+  leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor.
+  Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue
+  eget turpis condimentum finibus eu non lorem. Donec finibus eros eu
+  ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac
+  ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu
+  tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend
+  massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis
+  orci hendrerit lacinia sed vitae enim.</p>
+</sec>
+<sec id="bon-mot">
+  <title>Bon mot</title>
   <disp-quote>
-    <p>lkajs dflkajsd flakjsdf laksdjf alskdfj</p>
+    <p>Nothing in Biology Makes Sense except in the Light of
+    Evolution</p>
+    <p>- Theodosius Dobzhansky</p>
   </disp-quote>
 </sec>
 </body>

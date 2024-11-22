@@ -59,7 +59,7 @@
     "href": "notebooks/example.html",
     "title": "Workplace interaction",
     "section": "",
-    "text": "Sampling\nsubjects = pd.read_csv('../data/data_table.csv')\nassert subjects.index.size == params.sample_size\nsubjects\n\n\n\nTable 3.1: People included in the analysis.\n\n\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\n0\nJulie\n27\nF\nPhDstudent\nDK\n\n\n1\nThomas\n33\nM\nPostdoc\nGB\n\n\n2\nEmilie\n23\nF\nPhDstudent\nCH\n\n\n3\nSofie\n31\nF\nPostdoc\nDK\n\n\n4\nSara\n29\nF\nPostdoc\nUS\n\n\n5\nCecilie\n34\nF\nPostdoc\nDK\n\n\n6\nAnders\n32\nM\nPhDstudent\nUK\n\n\n7\nEmma\n42\nF\nProfessor\nDK\n\n\n8\nCaroline\n31\nF\nPhDstudent\nDK\n\n\n9\nLaura\n30\nF\nPostdoc\nDK\n\n\n10\nMikkel\n33\nM\nPostdoc\nNL\n\n\n11\nJens\n27\nM\nPhDstudent\nDK\n\n\n12\nAndreas\n29\nM\nPhDstudent\nDK\n\n\n13\nJakob\n28\nM\nPhDstudent\nDK\n\n\n14\nMathilde\n61\nF\nProfessor\nDK\n\n\n15\nKatrine\n35\nF\nPostdoc\nDK\n\n\n16\nPoul\n30\nM\nPostdoc\nDK\n\n\n17\nAnna\n26\nF\nPhDstudent\nDK\n\n\n18\nPeter\n42\nM\nProfessor\nGB\n\n\n19\nIda\n53\nF\nPostdoc\nDK\n\n\n20\nFreja\n30\nF\nPostdoc\nDK\n\n\n21\nMaria\n39\nF\nProfessor\nUK\n\n\n22\nAmalie\n29\nF\nPhDstudent\nDK\n\n\n23\nCamilla\n35\nF\nPostdoc\nDK\nThe 24 subjects from workplaces in Denmark were interviewed …. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+    "text": "Sampling\nsubjects = pd.read_csv('../data/data_table.csv')\nassert subjects.index.size == params.sample_size\nsubjects\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\n0\nJulie\n27\nF\nPhDstudent\nDK\n\n\n1\nThomas\n33\nM\nPostdoc\nGB\n\n\n2\nEmilie\n23\nF\nPhDstudent\nCH\n\n\n3\nSofie\n31\nF\nPostdoc\nDK\n\n\n4\nSara\n29\nF\nPostdoc\nUS\n\n\n5\nCecilie\n34\nF\nPostdoc\nDK\n\n\n6\nAnders\n32\nM\nPhDstudent\nUK\n\n\n7\nEmma\n42\nF\nProfessor\nDK\n\n\n8\nCaroline\n31\nF\nPhDstudent\nDK\n\n\n9\nLaura\n30\nF\nPostdoc\nDK\n\n\n10\nMikkel\n33\nM\nPostdoc\nNL\n\n\n11\nJens\n27\nM\nPhDstudent\nDK\n\n\n12\nAndreas\n29\nM\nPhDstudent\nDK\n\n\n13\nJakob\n28\nM\nPhDstudent\nDK\n\n\n14\nMathilde\n61\nF\nProfessor\nDK\n\n\n15\nKatrine\n35\nF\nPostdoc\nDK\n\n\n16\nPoul\n30\nM\nPostdoc\nDK\n\n\n17\nAnna\n26\nF\nPhDstudent\nDK\n\n\n18\nPeter\n42\nM\nProfessor\nGB\n\n\n19\nIda\n53\nF\nPostdoc\nDK\n\n\n20\nFreja\n30\nF\nPostdoc\nDK\n\n\n21\nMaria\n39\nF\nProfessor\nUK\n\n\n22\nAmalie\n29\nF\nPhDstudent\nDK\n\n\n23\nCamilla\n35\nF\nPostdoc\nDK\nwith pd.option_context('display.max_rows', None,): # prints *all* rows\n    display(subjects.style.hide()) # .style.hide() hides the index)\n\n\n\nTable 3.1: People included in the analysis.\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\nJulie\n27\nF\nPhDstudent\nDK\n\n\nThomas\n33\nM\nPostdoc\nGB\n\n\nEmilie\n23\nF\nPhDstudent\nCH\n\n\nSofie\n31\nF\nPostdoc\nDK\n\n\nSara\n29\nF\nPostdoc\nUS\n\n\nCecilie\n34\nF\nPostdoc\nDK\n\n\nAnders\n32\nM\nPhDstudent\nUK\n\n\nEmma\n42\nF\nProfessor\nDK\n\n\nCaroline\n31\nF\nPhDstudent\nDK\n\n\nLaura\n30\nF\nPostdoc\nDK\n\n\nMikkel\n33\nM\nPostdoc\nNL\n\n\nJens\n27\nM\nPhDstudent\nDK\n\n\nAndreas\n29\nM\nPhDstudent\nDK\n\n\nJakob\n28\nM\nPhDstudent\nDK\n\n\nMathilde\n61\nF\nProfessor\nDK\n\n\nKatrine\n35\nF\nPostdoc\nDK\n\n\nPoul\n30\nM\nPostdoc\nDK\n\n\nAnna\n26\nF\nPhDstudent\nDK\n\n\nPeter\n42\nM\nProfessor\nGB\n\n\nIda\n53\nF\nPostdoc\nDK\n\n\nFreja\n30\nF\nPostdoc\nDK\n\n\nMaria\n39\nF\nProfessor\nUK\n\n\nAmalie\n29\nF\nPhDstudent\nDK\n\n\nCamilla\n35\nF\nPostdoc\nDK\nThe 24 subjects from workplaces in Denmark were interviewed …. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
     "crumbs": [
       "Notebooks",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Workplace interaction</span>"
@@ -81,7 +81,7 @@
     "href": "notebooks/example.html#interviews",
     "title": "Workplace interaction",
     "section": "Interviews",
-    "text": "Interviews\nIn interviewed {python} params.sample_size workplace individuals were interviewed by …. blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah,\n\n\ndf = pd.DataFrame({'name': subjects.name, \n                   'seniority': np.random.randint(0, 5, params.sample_size), \n                   'age': subjects.age})\ndf['informality'] = np.random.normal(loc=10, scale=1, size=params.sample_size)\ndf\n\n\n\n\n\n\n\n\nname\nseniority\nage\ninformality\n\n\n\n\n0\nJulie\n3\n27\n10.521626\n\n\n1\nThomas\n4\n33\n10.772829\n\n\n2\nEmilie\n0\n23\n10.516766\n\n\n3\nSofie\n1\n31\n10.327173\n\n\n4\nSara\n1\n29\n9.754641\n\n\n5\nCecilie\n0\n34\n10.221000\n\n\n6\nAnders\n2\n32\n8.314176\n\n\n7\nEmma\n0\n42\n8.575147\n\n\n8\nCaroline\n1\n31\n9.206357\n\n\n9\nLaura\n3\n30\n10.797567\n\n\n10\nMikkel\n1\n33\n11.499277\n\n\n11\nJens\n2\n27\n11.063566\n\n\n12\nAndreas\n0\n29\n9.659546\n\n\n13\nJakob\n1\n28\n11.785800\n\n\n14\nMathilde\n3\n61\n9.594928\n\n\n15\nKatrine\n4\n35\n11.112726\n\n\n16\nPoul\n1\n30\n9.663458\n\n\n17\nAnna\n2\n26\n10.064946\n\n\n18\nPeter\n4\n42\n10.802578\n\n\n19\nIda\n1\n53\n9.216518\n\n\n20\nFreja\n1\n30\n9.051864\n\n\n21\nMaria\n1\n39\n9.383668\n\n\n22\nAmalie\n3\n29\n10.576490\n\n\n23\nCamilla\n4\n35\n11.531902\n\n\n\n\n\n\n\n\nwith sns.plotting_context('paper', font_scale=0.8):\n# with sns.plotting_context('poster'):\n    plt.figure(figsize=(4,3))\n    sns.scatterplot(x='age', y='informality', data=df, hue='seniority', palette='viridis')\n    plt.ylabel('How informal you can be')\n    plt.xlabel('Age')\n    plt.legend(title='Seniority', loc='lower right', labels=['Undergrad', 'Postgrad', 'PhD', 'Postdoc', 'Professor'])\n    plt.ylim(bottom=0)\n\n\n\n\n\n\n\nFigure 3.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.\n\n\n\n\n\nSeems Danish people act very informally unaffected by age and seniority.\n\ninformality_age_cor = df.informality.corr(df.age)\ninformality_age_cor\n\n0.3730584885637572\n\n\n\ninformality_seniority_cor = df.informality.corr(df.seniority)\ninformality_seniority_cor\n\n0.03236165591084931\n\n\n\n\nThe correlation between informality and age was 0.373 and the correlation between informality and seniority was 0.032.\n\n\n\nsns.lmplot(x='age', y='informality', data=df, hue='seniority', palette='viridis')\nplt.ylabel('How informal you can be')\nplt.xlabel('Age') ;\n\n\n\n\n\n\n\nFigure 3.2: Interaction among Danes: Regressions of informality against age for five levels of seniority.",
+    "text": "Interviews\nIn interviewed {python} params.sample_size workplace individuals were interviewed by …. blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah,\n\n# generate some random sample data\nscores = pd.DataFrame({\n    'name': subjects.name, \n    'informality': np.random.normal(loc=10, scale=1, size=params.sample_size)\n})\ndata = pd.merge(subjects, scores, on='name')\ndata\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\ninformality\n\n\n\n\n0\nJulie\n27\nF\nPhDstudent\nDK\n9.223361\n\n\n1\nThomas\n33\nM\nPostdoc\nGB\n8.795308\n\n\n2\nEmilie\n23\nF\nPhDstudent\nCH\n10.426218\n\n\n3\nSofie\n31\nF\nPostdoc\nDK\n10.534878\n\n\n4\nSara\n29\nF\nPostdoc\nUS\n8.826106\n\n\n5\nCecilie\n34\nF\nPostdoc\nDK\n9.878605\n\n\n6\nAnders\n32\nM\nPhDstudent\nUK\n10.063141\n\n\n7\nEmma\n42\nF\nProfessor\nDK\n10.187506\n\n\n8\nCaroline\n31\nF\nPhDstudent\nDK\n9.198389\n\n\n9\nLaura\n30\nF\nPostdoc\nDK\n10.683329\n\n\n10\nMikkel\n33\nM\nPostdoc\nNL\n8.784014\n\n\n11\nJens\n27\nM\nPhDstudent\nDK\n9.802865\n\n\n12\nAndreas\n29\nM\nPhDstudent\nDK\n9.760604\n\n\n13\nJakob\n28\nM\nPhDstudent\nDK\n8.580145\n\n\n14\nMathilde\n61\nF\nProfessor\nDK\n10.710505\n\n\n15\nKatrine\n35\nF\nPostdoc\nDK\n10.561337\n\n\n16\nPoul\n30\nM\nPostdoc\nDK\n9.340961\n\n\n17\nAnna\n26\nF\nPhDstudent\nDK\n10.087765\n\n\n18\nPeter\n42\nM\nProfessor\nGB\n8.380414\n\n\n19\nIda\n53\nF\nPostdoc\nDK\n10.040613\n\n\n20\nFreja\n30\nF\nPostdoc\nDK\n9.476502\n\n\n21\nMaria\n39\nF\nProfessor\nUK\n9.360650\n\n\n22\nAmalie\n29\nF\nPhDstudent\nDK\n9.892934\n\n\n23\nCamilla\n35\nF\nPostdoc\nDK\n11.723457\n\n\n\n\n\n\n\n\nplt.figure(figsize=(4,3))\nsns.scatterplot(x='age', y='informality', data=data, hue='position', palette='viridis')\nplt.ylabel('How informal you can be')\nplt.xlabel('Age')\nplt.legend(title='Seniority', loc='lower right')\nplt.ylim(bottom=0)\n\n\n\n\n\n\n\nFigure 3.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.\n\n\n\n\n\nSeems Danish people act very informally unaffected by age and seniority.\n\ninformality_age_cor = data.informality.corr(data.age)\ninformality_age_cor\n\n0.17926237629740563\n\n\n\nmean_informality = data.groupby(['position', 'nationality']).informality.mean().to_frame().reset_index()\nmean_informality.sort_values('informality').style.hide() # hide index\n\n\n\nTable 3.2: Mean interaction scores by position and nationality.\n\n\n\n\n\n\n\n\nposition\nnationality\ninformality\n\n\n\n\nProfessor\nGB\n8.380414\n\n\nPostdoc\nNL\n8.784014\n\n\nPostdoc\nGB\n8.795308\n\n\nPostdoc\nUS\n8.826106\n\n\nProfessor\nUK\n9.360650\n\n\nPhDstudent\nDK\n9.506580\n\n\nPhDstudent\nUK\n10.063141\n\n\nPostdoc\nDK\n10.279960\n\n\nPhDstudent\nCH\n10.426218\n\n\nProfessor\nDK\n10.449005\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3.2: Mean interaction scores by position and nationality.\n\n\n\n\n\n\n\nThe correlation between informality and age was 0.183 and the correlation between informality and seniority was 0.155.\n\n\n\nsns.lmplot(x='age', y='informality', data=df, hue='seniority', palette='viridis', height=3, aspect=4/3)\nplt.ylabel('How informal you can be')\nplt.xlabel('Age') ;\n\n\n\n\n\n\n\nFigure 3.3: Interaction among Danes: Regressions of informality against age for five levels of seniority.",
     "crumbs": [
       "Notebooks",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Workplace interaction</span>"
@@ -102,7 +102,7 @@
     "href": "index.html#section",
     "title": "projectname",
     "section": "Section",
-    "text": "Section\nEtiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.",
+    "text": "Section\nPraesent ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur sed iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur eu. Integer consectetur augue justo, at placerat erat posuere at. Ut elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus lobortis risus ut, rutrum vulputate justo. Nulla facilisi.",
     "crumbs": [
       "Preface"
     ]
@@ -112,7 +112,7 @@
     "href": "index.html#section-1",
     "title": "projectname",
     "section": "Section",
-    "text": "Section\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.",
+    "text": "Section\nEtiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.",
     "crumbs": [
       "Preface"
     ]
@@ -120,188 +120,177 @@
   {
     "objectID": "reports/example.html",
     "href": "reports/example.html",
-    "title": "My manuscript",
+    "title": "Example",
     "section": "",
-    "text": "Section\nDenmmark … Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.",
+    "text": "Section\nDenmmark … Nulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet.",
     "crumbs": [
       "Reports",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>My manuscript</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "reports/example.html#section",
     "href": "reports/example.html#section",
-    "title": "My manuscript",
+    "title": "Example",
     "section": "",
-    "text": "Subsection\nIn Denmark, the workplace interaction is very informal and largely unaffected by seniority and age.\n\n\n\nThe 24 subjects from workplaces in Denmark were interviewed …. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah\n\n\n\nI found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see Figure 10.1).\n\n\n\n\n\n\n\n\n\nFigure 4.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.\n\n\n\n\n\n\n\n\n\n\nThe correlation between informality and age was 0.373 and the correlation between informality and seniority was 0.032.\n\n\n\n\nEtiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.",
+    "text": "Subsection\nIn Denmark, the workplace interaction is very informal and largely unaffected by seniority and age.\n\n\n\nThe 24 subjects from workplaces in Denmark were interviewed …. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah\n\n\n\nI found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see Figure 8.1).\n\n\n\n\n\n\n\n\n\nFigure 4.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.\n\n\n\n\n\n\n\n\n\n\nThe correlation between informality and age was 0.183 and the correlation between informality and seniority was 0.155.\n\n\n\n\nPraesent ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur sed iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur eu. Integer consectetur augue justo, at placerat erat posuere at. Ut elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus lobortis risus ut, rutrum vulputate justo. Nulla facilisi.",
     "crumbs": [
       "Reports",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>My manuscript</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "reports/example.html#section-1",
     "href": "reports/example.html#section-1",
-    "title": "My manuscript",
+    "title": "Example",
     "section": "Section",
-    "text": "Section\nThis this investigation of 24 Danes…,\n\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.",
+    "text": "Section\nThis this investigation of 24 Danes…,\n\nEtiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.",
     "crumbs": [
       "Reports",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>My manuscript</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "reports/example.html#section-2",
     "href": "reports/example.html#section-2",
-    "title": "My manuscript",
+    "title": "Example",
     "section": "Section",
-    "text": "Section\n\nSubsection\n\nAenean placerat luctus tortor vitae molestie. Nulla at aliquet nulla. Sed efficitur tellus orci, sed fringilla lectus laoreet eget. Vivamus maximus quam sit amet arcu dignissim, sed accumsan massa ullamcorper. Sed iaculis tincidunt feugiat. Nulla in est at nunc ultricies dictum ut vitae nunc. Aenean convallis vel diam at malesuada. Suspendisse arcu libero, vehicula tempus ultrices a, placerat sit amet tortor. Sed dictum id nulla commodo mattis. Aliquam mollis, nunc eu tristique faucibus, purus lacus tincidunt nulla, ac pretium lorem nunc ut enim. Curabitur eget mattis nisl, vitae sodales augue. Nam felis massa, bibendum sit amet nulla vel, vulputate rutrum lacus. Aenean convallis odio pharetra nulla mattis consequat.\nTable 4.1 lists the samples included in the analysis.\n\n\n\n\n\nTable 4.1: People included in the analysis.\n\n\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\n0\nJulie\n27\nF\nPhDstudent\nDK\n\n\n1\nThomas\n33\nM\nPostdoc\nGB\n\n\n2\nEmilie\n23\nF\nPhDstudent\nCH\n\n\n3\nSofie\n31\nF\nPostdoc\nDK\n\n\n4\nSara\n29\nF\nPostdoc\nUS\n\n\n5\nCecilie\n34\nF\nPostdoc\nDK\n\n\n6\nAnders\n32\nM\nPhDstudent\nUK\n\n\n7\nEmma\n42\nF\nProfessor\nDK\n\n\n8\nCaroline\n31\nF\nPhDstudent\nDK\n\n\n9\nLaura\n30\nF\nPostdoc\nDK\n\n\n10\nMikkel\n33\nM\nPostdoc\nNL\n\n\n11\nJens\n27\nM\nPhDstudent\nDK\n\n\n12\nAndreas\n29\nM\nPhDstudent\nDK\n\n\n13\nJakob\n28\nM\nPhDstudent\nDK\n\n\n14\nMathilde\n61\nF\nProfessor\nDK\n\n\n15\nKatrine\n35\nF\nPostdoc\nDK\n\n\n16\nPoul\n30\nM\nPostdoc\nDK\n\n\n17\nAnna\n26\nF\nPhDstudent\nDK\n\n\n18\nPeter\n42\nM\nProfessor\nGB\n\n\n19\nIda\n53\nF\nPostdoc\nDK\n\n\n20\nFreja\n30\nF\nPostdoc\nDK\n\n\n21\nMaria\n39\nF\nProfessor\nUK\n\n\n22\nAmalie\n29\nF\nPhDstudent\nDK\n\n\n23\nCamilla\n35\nF\nPostdoc\nDK",
+    "text": "Section\n\nSubsection\n\nNulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet.\nTable 9.1 lists the samples included in the analysis.\n\n\n\n\n\nTable 4.1: People included in the analysis.\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\nJulie\n27\nF\nPhDstudent\nDK\n\n\nThomas\n33\nM\nPostdoc\nGB\n\n\nEmilie\n23\nF\nPhDstudent\nCH\n\n\nSofie\n31\nF\nPostdoc\nDK\n\n\nSara\n29\nF\nPostdoc\nUS\n\n\nCecilie\n34\nF\nPostdoc\nDK\n\n\nAnders\n32\nM\nPhDstudent\nUK\n\n\nEmma\n42\nF\nProfessor\nDK\n\n\nCaroline\n31\nF\nPhDstudent\nDK\n\n\nLaura\n30\nF\nPostdoc\nDK\n\n\nMikkel\n33\nM\nPostdoc\nNL\n\n\nJens\n27\nM\nPhDstudent\nDK\n\n\nAndreas\n29\nM\nPhDstudent\nDK\n\n\nJakob\n28\nM\nPhDstudent\nDK\n\n\nMathilde\n61\nF\nProfessor\nDK\n\n\nKatrine\n35\nF\nPostdoc\nDK\n\n\nPoul\n30\nM\nPostdoc\nDK\n\n\nAnna\n26\nF\nPhDstudent\nDK\n\n\nPeter\n42\nM\nProfessor\nGB\n\n\nIda\n53\nF\nPostdoc\nDK\n\n\nFreja\n30\nF\nPostdoc\nDK\n\n\nMaria\n39\nF\nProfessor\nUK\n\n\nAmalie\n29\nF\nPhDstudent\nDK\n\n\nCamilla\n35\nF\nPostdoc\nDK\n\n\n\n\n\n\n\n\n\nUt ut condimentum augue, nec eleifend nisl. Sed facilisis egestas odio ac pretium. Pellentesque consequat magna sed venenatis sagittis. Vivamus feugiat lobortis magna vitae accumsan. Pellentesque euismod malesuada hendrerit. Ut non mauris non arcu condimentum sodales vitae vitae dolor. Nullam dapibus, velit eget lacinia rutrum, ipsum justo malesuada odio, et lobortis sapien magna vel lacus. Nulla purus neque, hendrerit non malesuada eget, mattis vel erat. Suspendisse potenti.\n\n\n\n\n\n\n\n\n\nFigure 4.2: Mean interaction scores by position and nationality.\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nTable 9.1 lists the mean interaction scores by position and nationality.\n\n\n\n\n\nTable 4.2: Mean interaction scores by position and nationality.\n\n\n\n\n\n\n\n\nposition\nnationality\ninformality\n\n\n\n\nProfessor\nGB\n8.380414\n\n\nPostdoc\nNL\n8.784014\n\n\nPostdoc\nGB\n8.795308\n\n\nPostdoc\nUS\n8.826106\n\n\nProfessor\nUK\n9.360650\n\n\nPhDstudent\nDK\n9.506580\n\n\nPhDstudent\nUK\n10.063141\n\n\nPostdoc\nDK\n10.279960\n\n\nPhDstudent\nCH\n10.426218\n\n\nProfessor\nDK\n10.449005",
     "crumbs": [
       "Reports",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>My manuscript</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "reports/example.html#references",
     "href": "reports/example.html#references",
-    "title": "My manuscript",
+    "title": "Example",
     "section": "References",
     "text": "References",
     "crumbs": [
       "Reports",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>My manuscript</span>"
-    ]
-  },
-  {
-    "objectID": "tables/example.html",
-    "href": "tables/example.html",
-    "title": "Result tables",
-    "section": "",
-    "text": "This is a table of results from a csv file:\n\n\n\n\nTable 5.1: This could be a table listing results of an analysis.\n\n\n\n\n\n\n\n\n\n\npos\nwhen_DAF_is_half\nwhen_mutation_has_freq2\npopulation\n\n\n\n\n0\n10122953\n-1.390610\n-6.29509\nCDX\n\n\n1\n11859476\n-2.693320\n-6.64483\nCDX\n\n\n2\n11864438\n-2.693320\n-6.64483\nCDX\n\n\n3\n32635171\n-2.224110\n-6.58804\nCDX\n\n\n4\n105249963\n-1.406140\n-6.11750\nCDX\n\n\n5\n3712725\n-1.086690\n-6.50623\nCHB\n\n\n6\n3713920\n-2.062530\n-9.86443\nCHB\n\n\n7\n3717514\n-2.635040\n-6.90527\nCHB\n\n\n8\n3720564\n-2.399250\n-6.07486\nCHB\n\n\n9\n3720591\n-2.399250\n-6.07486\nCHB\n\n\n10\n3721203\n-2.399250\n-6.07486\nCHB\n\n\n11\n3721452\n-2.399250\n-6.07486\nCHB\n\n\n12\n32812742\n-3.157760\n-6.19174\nCHB\n\n\n13\n47349640\n-1.544110\n-6.06731\nCHB\n\n\n14\n47352820\n-2.056060\n-8.20242\nCHB\n\n\n15\n151669901\n-1.644880\n-8.53576\nCHB\n\n\n16\n3706646\n-2.436120\n-6.34196\nCHS\n\n\n17\n10214581\n-2.539500\n-9.20117\nCHS\n\n\n18\n122431333\n-0.937105\n-6.22082\nCHS\n\n\n19\n141669308\n-1.019170\n-6.12830\nCHS\n\n\n20\n49962327\n-1.766100\n-6.61933\nJPT\n\n\n21\n142111497\n-1.409290\n-6.26781\nJPT\n\n\n22\n20348765\n-2.042520\n-6.05583\nKHV\n\n\n23\n20349644\n-1.773100\n-8.27088\nKHV\n\n\n24\n69126919\n-1.338150\n-6.76224\nKHV\n\n\n25\n151669901\n-2.155580\n-7.15834\nKHV\n\n\n26\n153982797\n-1.289470\n-6.11440\nKHV\n\n\n\n\n\n\n\n\n\n\nShow more tables (these are the same again):\n\nimport pandas as pd\npd.read_csv('../results/result_table.csv')\n\n\n\n\n\n\n\n\npos\nwhen_DAF_is_half\nwhen_mutation_has_freq2\npopulation\n\n\n\n\n0\n10122953\n-1.390610\n-6.29509\nCDX\n\n\n1\n11859476\n-2.693320\n-6.64483\nCDX\n\n\n2\n11864438\n-2.693320\n-6.64483\nCDX\n\n\n3\n32635171\n-2.224110\n-6.58804\nCDX\n\n\n4\n105249963\n-1.406140\n-6.11750\nCDX\n\n\n5\n3712725\n-1.086690\n-6.50623\nCHB\n\n\n6\n3713920\n-2.062530\n-9.86443\nCHB\n\n\n7\n3717514\n-2.635040\n-6.90527\nCHB\n\n\n8\n3720564\n-2.399250\n-6.07486\nCHB\n\n\n9\n3720591\n-2.399250\n-6.07486\nCHB\n\n\n10\n3721203\n-2.399250\n-6.07486\nCHB\n\n\n11\n3721452\n-2.399250\n-6.07486\nCHB\n\n\n12\n32812742\n-3.157760\n-6.19174\nCHB\n\n\n13\n47349640\n-1.544110\n-6.06731\nCHB\n\n\n14\n47352820\n-2.056060\n-8.20242\nCHB\n\n\n15\n151669901\n-1.644880\n-8.53576\nCHB\n\n\n16\n3706646\n-2.436120\n-6.34196\nCHS\n\n\n17\n10214581\n-2.539500\n-9.20117\nCHS\n\n\n18\n122431333\n-0.937105\n-6.22082\nCHS\n\n\n19\n141669308\n-1.019170\n-6.12830\nCHS\n\n\n20\n49962327\n-1.766100\n-6.61933\nJPT\n\n\n21\n142111497\n-1.409290\n-6.26781\nJPT\n\n\n22\n20348765\n-2.042520\n-6.05583\nKHV\n\n\n23\n20349644\n-1.773100\n-8.27088\nKHV\n\n\n24\n69126919\n-1.338150\n-6.76224\nKHV\n\n\n25\n151669901\n-2.155580\n-7.15834\nKHV\n\n\n26\n153982797\n-1.289470\n-6.11440\nKHV\n\n\n\n\n\n\n\n\nimport pandas as pd\npd.read_csv('../results/result_table.csv')\n\n\n\n\n\n\n\n\npos\nwhen_DAF_is_half\nwhen_mutation_has_freq2\npopulation\n\n\n\n\n0\n10122953\n-1.390610\n-6.29509\nCDX\n\n\n1\n11859476\n-2.693320\n-6.64483\nCDX\n\n\n2\n11864438\n-2.693320\n-6.64483\nCDX\n\n\n3\n32635171\n-2.224110\n-6.58804\nCDX\n\n\n4\n105249963\n-1.406140\n-6.11750\nCDX\n\n\n5\n3712725\n-1.086690\n-6.50623\nCHB\n\n\n6\n3713920\n-2.062530\n-9.86443\nCHB\n\n\n7\n3717514\n-2.635040\n-6.90527\nCHB\n\n\n8\n3720564\n-2.399250\n-6.07486\nCHB\n\n\n9\n3720591\n-2.399250\n-6.07486\nCHB\n\n\n10\n3721203\n-2.399250\n-6.07486\nCHB\n\n\n11\n3721452\n-2.399250\n-6.07486\nCHB\n\n\n12\n32812742\n-3.157760\n-6.19174\nCHB\n\n\n13\n47349640\n-1.544110\n-6.06731\nCHB\n\n\n14\n47352820\n-2.056060\n-8.20242\nCHB\n\n\n15\n151669901\n-1.644880\n-8.53576\nCHB\n\n\n16\n3706646\n-2.436120\n-6.34196\nCHS\n\n\n17\n10214581\n-2.539500\n-9.20117\nCHS\n\n\n18\n122431333\n-0.937105\n-6.22082\nCHS\n\n\n19\n141669308\n-1.019170\n-6.12830\nCHS\n\n\n20\n49962327\n-1.766100\n-6.61933\nJPT\n\n\n21\n142111497\n-1.409290\n-6.26781\nJPT\n\n\n22\n20348765\n-2.042520\n-6.05583\nKHV\n\n\n23\n20349644\n-1.773100\n-8.27088\nKHV\n\n\n24\n69126919\n-1.338150\n-6.76224\nKHV\n\n\n25\n151669901\n-2.155580\n-7.15834\nKHV\n\n\n26\n153982797\n-1.289470\n-6.11440\nKHV",
-    "crumbs": [
-      "Tables",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Result tables</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html",
     "href": "slides/index.html",
-    "title": "Main talk",
+    "title": "Example",
     "section": "",
     "text": "Admixture displacement in each geographical region",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#admixture-displacement-in-each-geographical-region",
     "href": "slides/index.html#admixture-displacement-in-each-geographical-region",
-    "title": "Main talk",
+    "title": "Example",
     "section": "",
     "text": "This is a subtitle\nHere we have some text that may run over several lines of the slide frame, depending on how long it is.\n\nfirst item\n\nA sub item\n\n\nNext, we’ll brief review some theme-specific components.\n\nNote that all of the standard Reveal.js features can be used with this theme, even if we don’t highlight them here.",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#additional-theme-classes",
     "href": "slides/index.html#additional-theme-classes",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Additional theme classes",
     "text": "Additional theme classes\n\nSome extra things you can do with the clean theme\nSpecial classes for emphasis\n\n.alert class for default emphasis, e.g. important note.\n.fg class for custom colour, e.g. important note.\n.bg class for custom background, e.g. important note.\n\nCross-references\n\n.button class provides a Beamer-like button, e.g. Summary",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#social-norms",
     "href": "slides/index.html#social-norms",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Social norms",
     "text": "Social norms\n\nSampling\nWe used a sample size of 24.\nIn Denmark, the workplace interaction is very informal and largely unaffected by seniority and age.\n\n\n\nThe 24 subjects from workplaces in Denmark were interviewed …. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#social-norms-1",
     "href": "slides/index.html#social-norms-1",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Social norms",
-    "text": "Social norms\n\nNeither academic seniority or age affected interaction\n\n\n\n\n\n\n\n\n\nFigure 6.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.\n\n\n\n\n\n\n\n\n\n\nThe correlation between informality and age was 0.373 and the correlation between informality and seniority was 0.032.",
+    "text": "Social norms\n\nNeither academic seniority or age affected interaction\n\n\n\n\n\n\n\n\n\nFigure 5.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.\n\n\n\n\n\n\n\n\n\n\nThe correlation between informality and age was 0.183 and the correlation between informality and seniority was 0.155.",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#slide-title",
     "href": "slides/index.html#slide-title",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Slide title",
     "text": "Slide title\n\n\nEat spaghetti\nDrink wine",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#slide-title-1",
     "href": "slides/index.html#slide-title-1",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Slide title",
     "text": "Slide title\n\n\nLeft column\n\n\nOne\nTwo\nThree",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#admixture-displacement-in-each-geographical-region-1",
     "href": "slides/index.html#admixture-displacement-in-each-geographical-region-1",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Admixture displacement in each geographical region",
-    "text": "Admixture displacement in each geographical region\n\n\n\n\n\nThe correlation between informality and age was 0.373 and the correlation between informality and seniority was 0.032.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 6.2: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.",
+    "text": "Admixture displacement in each geographical region\n\n\n\n\n\nThe correlation between informality and age was 0.183 and the correlation between informality and seniority was 0.155.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 5.2: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "slides/index.html#slide-title-2",
     "href": "slides/index.html#slide-title-2",
-    "title": "Main talk",
+    "title": "Example",
     "section": "Slide Title",
     "text": "Slide Title\nSlide content\n\n\n\n\nSchumer et al. (2018)",
     "crumbs": [
       "Slides",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Main talk</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example</span>"
     ]
   },
   {
     "objectID": "thesis/index.html",
     "href": "thesis/index.html",
-    "title": "projectname",
+    "title": "The most fantastic master thesis ever",
     "section": "",
-    "text": "Abstract\nProin sodales neque erat, varius cursus diam tincidunt sit amet. Etiam scelerisque fringilla nisl eu venenatis. Donec sem ipsum, scelerisque ac venenatis quis, hendrerit vel mauris. Praesent semper erat sit amet purus condimentum, sit amet auctor mi feugiat. In hac habitasse platea dictumst. Nunc ac mauris in massa feugiat bibendum id in dui. Praesent accumsan urna at lacinia aliquet. Proin ultricies eu est quis pellentesque. In vel lorem at nisl rhoncus cursus eu quis mi. In eu rutrum ante, quis placerat justo. Etiam euismod nibh nibh, sed elementum nunc imperdiet in. Praesent gravida nunc vel odio lacinia, at tempus nisl placerat. Aenean id ipsum sed est sagittis hendrerit non in tortor.",
+    "text": "Introduction\nEtiam congue quam eget velit convallis, eu sagittis orci vestibulum. Vestibulum at massa turpis. Curabitur ornare ex sed purus vulputate, vitae porta augue rhoncus. Phasellus auctor suscipit purus, vel ultricies nunc. Nunc eleifend nulla ac purus volutpat, id fringilla felis aliquet. Duis vitae porttitor nibh, in rhoncus risus. Vestibulum a est vitae est tristique vehicula. Proin mollis justo id est tempus hendrerit. Praesent suscipit placerat congue. Aliquam eu elit gravida, consequat augue non, ultricies sapien. Nunc ultricies viverra ante, sit amet vehicula ante volutpat id. Etiam tempus purus vitae tellus mollis viverra. Donec at ornare mauris. Aliquam sodales hendrerit ornare. Suspendisse accumsan lacinia sapien, sit amet imperdiet dui molestie ut.",
     "crumbs": [
       "Thesis",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>projectname</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>The most fantastic master thesis ever</span>"
     ]
   },
   {
     "objectID": "thesis/index.html#subsection",
     "href": "thesis/index.html#subsection",
-    "title": "projectname",
+    "title": "The most fantastic master thesis ever",
     "section": "Subsection",
-    "text": "Subsection\n\nSubsubsection",
+    "text": "Subsection\n\n\n\n\n\n\n\n\n\nFigure 8.2: Mean interaction scores by position and nationality.\n\n\n\n\n\n\nTable 8.1 lists the mean interaction scores by position and nationality.\n\n\n\n\n\nTable 8.1: Mean interaction scores by position and nationality.\n\n\n\n\n\n\n\n\nposition\nnationality\ninformality\n\n\n\n\nProfessor\nGB\n8.380414\n\n\nPostdoc\nNL\n8.784014\n\n\nPostdoc\nGB\n8.795308\n\n\nPostdoc\nUS\n8.826106\n\n\nProfessor\nUK\n9.360650\n\n\nPhDstudent\nDK\n9.506580\n\n\nPhDstudent\nUK\n10.063141\n\n\nPostdoc\nDK\n10.279960\n\n\nPhDstudent\nCH\n10.426218\n\n\nProfessor\nDK\n10.449005\n\n\n\n\n\n\n\n\n\n\nSubsubsection\nDuis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan interdum, sem tellus blandit neque, id vulputate diam quam semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus. Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi lorem, at elementum purus tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id tortor. Donec ut urna nisi.",
     "crumbs": [
       "Thesis",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>projectname</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>The most fantastic master thesis ever</span>"
     ]
   }
 ]
