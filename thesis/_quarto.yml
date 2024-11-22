@@ -12,11 +12,12 @@ format:
   pdf:
     documentclass: scrbook
     papersize: A4
+    # sansfont: Helvetica
     toc: true
     toc-depth: 2
     toc-title: "Table of contents"
-    lof: true
-    lot: true    
+    # lof: true
+    # lot: true    
     geometry:
       - right=2.54cm   
       # - inner=3cm
