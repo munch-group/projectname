@@ -1,0 +1,40 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+\cleardoublepage
+\thispagestyle{empty}
+{\centering
+\hbox{}\vskip 0cm plus 1fill
+{\mytitlefont \Huge\bfseries $title$ \par}
+$if(subtitle)$
+\vspace{3ex}
+{\Large\bfseries $subtitle$ \par}
+$endif$
+\vspace{6ex}
+$for(by-author)$
+{\Large\bfseries $by-author.name.literal$ \par}
+\vspace{3ex}
+{\bfseries\large $date$ \par}
+\vskip 0cm plus 2fill
+{\resizebox{!}{50mm}{\includegraphics[width=\textwidth]{ausegl_sort.pdf}} \par}
+\vskip 0cm plus 2fill
+{\bfseries\large $degree$ \par}
+\vspace{3ex}
+$for(by-author.affiliations)$%
+$if(it.department)$%
+{\bfseries\large $it.department$ \par}
+\vspace{3ex}
+$endif$%
+{\bfseries\large $it.name$ \par}
+$endfor$$endfor$%
+\vspace{12ex}
+{\small Submitted in fulfillment of the requirements
+of the degree of $degree$ \par}
+\pagebreak
+\begin{quote}
+\raggedright    
+$plain-language-summary$
+\end{quote}
+}
+$endif$
