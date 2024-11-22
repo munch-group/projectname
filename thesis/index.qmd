@@ -1,23 +1,23 @@
 ---
-title: The most fantastic master thesis ever
-subtitle: A more elaborate title further explaining the topic
+title: Title of my thesis
+subtitle: Some subtitle for my thesis
 authors:
-  - name: Jane Doe
+  - name: Your Name
     affiliation: Aarhus University
     roles: writing
     corresponding: true
 keywords:
-  - Etiam quis 
-  - Pellentesque ante mauris
-  - In id porta
+  - Blah blah 
+  - Blah blah 
+  - Blah blah 
 abstract: |
-  Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.   Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.
+  Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 plain-language-summary: |
-  Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Etiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim.
+  Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 key-points:
-  - Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
-  - Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
-  - Etiam quis tortor luctus, pellentesque ante a, finibus dolor.
+  - Blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+  - Blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+  - Blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 date: last-modified
 date-format: long
 degree: Master of Science in Bioinformatics
@@ -25,40 +25,52 @@ degree: Master of Science in Bioinformatics
 
 # Introduction
 
-{{< lipsum 1 >}} 
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+# Methods
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+## Sampling
+
+@tbl-subjects lists the samples included in the analysis. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+{{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
+
+{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+## Statistical analysis
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+### Clustering
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+### Linear models
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
 
 # Results
 
+As shown in @fig-danish-interaction, blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
 {{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
 
-{{< lipsum 1 >}} 
-
-## Subsection
+As shown in @fig-meaninformality, ... blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 {{< embed ../notebooks/example.ipynb#fig-meaninformality echo=false >}}
 
-@tbl-meaninformality lists the mean interaction scores by position and nationality.
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ...  @tbl-meaninformality lists the mean interaction scores by position and nationality.
 
 {{< embed ../notebooks/example.ipynb#tbl-meaninformality echo=false >}}
 
 ### Subsubsection
 
-{{< lipsum 1 >}} 
-
-
-# Methods
-
-@tbl-subjects lists the samples included in the analysis.
-
-{{< lipsum 1 >}} 
-
-{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
-
-{{< lipsum 1 >}} 
-
-{{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
-
-{{< lipsum 1 >}} 
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 
 # Bon mot
