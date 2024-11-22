@@ -8,8 +8,11 @@
 \usepackage{upquote}
 
 \usepackage{fontspec}
-\newfontfamily\mytitlefont{Arial}
-% \newfontfamily\mytitlefont{\sfdefault}
+% % \usepackage[T1]{fontenc}
+% \usepackage{tgbonum}
+
+% % \newfontfamily\mytitlefont{\fontfamily{phv}\selectfont}
+% \newcommand{\mytitlefont}{\fontfamily{phv}\selectfont}
 
 % front page
 \usepackage[colorlinks]{hyperref} % for text color on title
@@ -24,13 +27,17 @@
 \draw (current page.center) node[inner sep=0, opacity=0.5] {\resizebox{!}{100mm}{\includegraphics{ausegl_sort.pdf}}};
 % \draw (current page.center) node[bag] {  
         \draw (17, 1.7) node[bag, align=right, anchor=north east] {  
-    \mytitlefont \color{titlecolor} \Large \textbf{Thesis} \\ 
+    % \mytitlefont 
+    \color{titlecolor} \Large \textbf{Thesis} \\ 
     \\ 
-    \mytitlefont \color{titlecolor} \Huge \textbf{\thetitle} \\ 
+    % \mytitlefont 
+    \color{titlecolor} \Huge \textbf{\thetitle} \\ 
     \\ 
-    \mytitlefont \color{titlecolor} \huge \theauthor \\
+    % \mytitlefont
+    \color{titlecolor} \huge \theauthor \\
     \\
-    \mytitlefont \color{titlecolor} \Large \thedate 
+    % \mytitlefont 
+    \color{titlecolor} \Large \thedate 
     };
 \end{tikzpicture}
 \clearpage}
@@ -41,12 +48,18 @@
 \draw (current page.center) node[inner sep=0] {\resizebox{!}{350mm}{\includegraphics{highres_banner.pdf}}};
 % \draw (current page.center) node[bag] {  
     \draw (17, 1.7) node[bag, align=right, anchor=north east] {  
-        \mytitlefont \color{titlecolor} \large Bioinformatics Research Centre \\ 
-        \mytitlefont \color{titlecolor} \large Department of Molecular Biology and Genetics \\ 
-        \mytitlefont \color{titlecolor} \large Aarhus University \\
-        \mytitlefont \color{titlecolor} \large Universitetsbyen 81 \\
-        \mytitlefont \color{titlecolor} \large 8000 Aarhus C \\
-        \mytitlefont \color{titlecolor} \large Denmark
+        % \mytitlefont 
+        \color{titlecolor} \large Bioinformatics Research Centre \\ 
+        % \mytitlefont 
+        \color{titlecolor} \large Department of Molecular Biology and Genetics \\ 
+        % \mytitlefont 
+        \color{titlecolor} \large Aarhus University \\
+        % \mytitlefont 
+        \color{titlecolor} \large Universitetsbyen 81 \\
+        % \mytitlefont 
+        \color{titlecolor} \large 8000 Aarhus C \\
+        % \mytitlefont 
+        \color{titlecolor} \large Denmark
         };
 
 \end{tikzpicture}}
