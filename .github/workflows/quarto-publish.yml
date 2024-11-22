@@ -39,10 +39,9 @@ jobs:
           # uncomment below and fill to pin a version
           # version: SPECIFIC-QUARTO-VERSION-HERE
 
-      - name: texlive
-        uses: xu-cheng/texlive-action@v2
-        with:
-          scheme: full
+      - name: Set up texlive
+        uses: paolobrasolin/setup-texlive-action@v1
+        run: tlmgr version
 
       - name: Render Quarto Project - default profile
         uses: quarto-dev/quarto-actions/render@v2
