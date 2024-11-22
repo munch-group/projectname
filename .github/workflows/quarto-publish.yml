@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build-deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: Check out repository
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-      - run: pip install jupyter pandas pyyaml tabulate pycryptodome>3.10 pbkdf2 cryptography && sudo apt-get install -y librsvg2-bin
+      - run: pip install jupyter pandas pyyaml tabulate pycryptodome>3.10 pbkdf2 cryptography && sudo apt install -y librsvg2-bin ttf-mscorefonts-installer
           
       # - uses: r-lib/actions/setup-r@v2
       # - uses: r-lib/actions/setup-r-dependencies@v2
