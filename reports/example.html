@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="My Name">
-<meta name="dcterms.date" content="2024-11-22">
+<meta name="dcterms.date" content="2024-11-23">
 
 <title>Example – projectname</title>
 <style>
@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -141,11 +160,6 @@ ul.task-list li input[type="checkbox"] {
   <a href="../workflow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">GWF workflow</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workflow_notebooks.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">GWF workflow for notebooks</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -251,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 22, 2024</p>
+      <p class="date">November 23, 2024</p>
     </div>
   </div>
   
@@ -266,20 +280,20 @@ ul.task-list li input[type="checkbox"] {
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">Section</h2>
 <!-- Dummy text -->
-<p>Denmmark … Praesent ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur sed iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur eu. Integer consectetur augue justo, at placerat erat posuere at. Ut elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus lobortis risus ut, rutrum vulputate justo. Nulla facilisi.</p>
+<p>Denmmark … Nullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim.</p>
 <section id="subsection" class="level3">
 <h3 class="anchored" data-anchor-id="subsection">Subsection</h3>
 <p>In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age.</p>
 <div class="quarto-embed-nb-cell" data-notebook="/home/runner/work/projectname/projectname/notebooks/example.ipynb" data-notebook-title="Workplace interaction" data-notebook-cellid="cell-doc-sampling">
-<div id="cell-doc-sampling" class="cell" data-execution_count="27">
-<div id="doc-sampling" class="cell-output cell-output-display cell-output-markdown" data-execution_count="27">
+<div id="cell-doc-sampling" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.361924Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.361781Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.364278Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.364030Z&quot;}" data-execution_count="8">
+<div id="doc-sampling" class="cell-output cell-output-display cell-output-markdown" data-execution_count="8">
 <p>The 24 subjects from workplaces in Denmark were interviewed …. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
 </div>
 </div>
 </div>
-<p>I found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see <a href="../thesis/index.html#fig-danish-interaction" class="quarto-xref">Figure&nbsp;<span>9.1</span></a>).</p>
+<p>I found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see <a href="../thesis/index.html#fig-danish-interaction" class="quarto-xref">Figure&nbsp;<span>8.1</span></a>).</p>
 <div class="quarto-embed-nb-cell" data-notebook="/home/runner/work/projectname/projectname/notebooks/example.ipynb" data-notebook-title="Workplace interaction" data-notebook-cellid="cell-fig-danish-interaction">
-<div id="cell-fig-danish-interaction" class="cell" data-execution_count="29">
+<div id="cell-fig-danish-interaction" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.373535Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.373416Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.467342Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.466882Z&quot;}" data-execution_count="10">
 <div class="cell-output cell-output-display">
 <div id="fig-danish-interaction" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -287,7 +301,7 @@ ul.task-list li input[type="checkbox"] {
 <img src="example_files/figure-html/..-notebooks-example-fig-danish-interaction-output-1.png" width="367" height="286" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danish-interaction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.
+Figure&nbsp;3.1: Interaction among Danes: How Danes interact is has very little to do with age and seniority, compared to most other contries.
 </figcaption>
 </figure>
 </div>
@@ -296,219 +310,219 @@ Figure&nbsp;4.1: Interaction among Danes: How Danes interact is has very little 
 </div>
 <!-- Dummy text -->
 <div class="quarto-embed-nb-cell" data-notebook="/home/runner/work/projectname/projectname/notebooks/example.ipynb" data-notebook-title="Workplace interaction" data-notebook-cellid="cell-doc-formality-correlation">
-<div id="cell-doc-formality-correlation" class="cell" data-execution_count="51">
-<div id="doc-formality-correlation" class="cell-output cell-output-display cell-output-markdown" data-execution_count="51">
-<p>The correlation between informality and age was 0.183 and the correlation between informality and seniority was 0.155.</p>
+<div id="cell-doc-formality-correlation" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.606906Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.606763Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.609830Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.609477Z&quot;}" data-execution_count="14">
+<div id="doc-formality-correlation" class="cell-output cell-output-display cell-output-markdown" data-execution_count="14">
+<p>The correlation between informality and age was 0.131.</p>
 </div>
 </div>
 </div>
 <!-- Dummy text -->
-<p>Duis urna urna, pellentesque eu urna ut, malesuada bibendum dolor. Suspendisse potenti. Vivamus ornare, arcu quis molestie ultrices, magna est accumsan augue, auctor vulputate erat quam quis neque. Nullam scelerisque odio vel ultricies facilisis. Ut porta arcu non magna sagittis lacinia. Cras ornare vulputate lectus a tristique. Pellentesque ac arcu congue, rhoncus mi id, dignissim ligula.</p>
+<p>Aenean placerat luctus tortor vitae molestie. Nulla at aliquet nulla. Sed efficitur tellus orci, sed fringilla lectus laoreet eget. Vivamus maximus quam sit amet arcu dignissim, sed accumsan massa ullamcorper. Sed iaculis tincidunt feugiat. Nulla in est at nunc ultricies dictum ut vitae nunc. Aenean convallis vel diam at malesuada. Suspendisse arcu libero, vehicula tempus ultrices a, placerat sit amet tortor. Sed dictum id nulla commodo mattis. Aliquam mollis, nunc eu tristique faucibus, purus lacus tincidunt nulla, ac pretium lorem nunc ut enim. Curabitur eget mattis nisl, vitae sodales augue. Nam felis massa, bibendum sit amet nulla vel, vulputate rutrum lacus. Aenean convallis odio pharetra nulla mattis consequat.</p>
 </section>
 </section>
 <section id="section-1" class="level2">
 <h2 class="anchored" data-anchor-id="section-1">Section</h2>
 <p>This this investigation of 24 Danes…,</p>
 <!-- Dummy text -->
-<p>Etiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 </section>
 <section id="section-2" class="level2">
 <h2 class="anchored" data-anchor-id="section-2">Section</h2>
 <section id="subsection-1" class="level3">
 <h3 class="anchored" data-anchor-id="subsection-1">Subsection</h3>
 <!-- Dummy text -->
-<p>Nunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.</p>
-<p><a href="../thesis/index.html#tbl-subjects" class="quarto-xref">Table&nbsp;<span>8.1</span></a> lists the samples included in the analysis.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p><a href="../thesis/index.html#tbl-subjects" class="quarto-xref">Table&nbsp;<span>7.1</span></a> lists the samples included in the analysis.</p>
 <div class="quarto-embed-nb-cell" data-notebook="/home/runner/work/projectname/projectname/notebooks/example.ipynb" data-notebook-title="Workplace interaction" data-notebook-cellid="cell-tbl-subjects">
-<div class="cell" data-execution_count="26">
-<div id="tbl-subjects" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="26">
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.327554Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.327345Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.360241Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.359944Z&quot;}" data-execution_count="7">
+<div id="tbl-subjects" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="7" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.327554Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.327345Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.360241Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.359944Z&quot;}">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-subjects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;4.1: People included in the analysis.
+Table&nbsp;3.1: People included in the analysis.
 </figcaption>
 <div aria-describedby="tbl-subjects-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output cell-output-display">
 <style type="text/css">
 </style>
 
-<table id="T_e468d" class="do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<table id="T_41cb9" class="do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
-<th id="T_e468d_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">name</th>
-<th id="T_e468d_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">age</th>
-<th id="T_e468d_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">sex</th>
-<th id="T_e468d_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">position</th>
-<th id="T_e468d_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">nationality</th>
+<th id="T_41cb9_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">name</th>
+<th id="T_41cb9_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">age</th>
+<th id="T_41cb9_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">sex</th>
+<th id="T_41cb9_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">position</th>
+<th id="T_41cb9_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">nationality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td id="T_e468d_row0_col0" class="data row0 col0">Julie</td>
-<td id="T_e468d_row0_col1" class="data row0 col1">27</td>
-<td id="T_e468d_row0_col2" class="data row0 col2">F</td>
-<td id="T_e468d_row0_col3" class="data row0 col3">PhDstudent</td>
-<td id="T_e468d_row0_col4" class="data row0 col4">DK</td>
+<td id="T_41cb9_row0_col0" class="data row0 col0">Julie</td>
+<td id="T_41cb9_row0_col1" class="data row0 col1">27</td>
+<td id="T_41cb9_row0_col2" class="data row0 col2">F</td>
+<td id="T_41cb9_row0_col3" class="data row0 col3">PhDstudent</td>
+<td id="T_41cb9_row0_col4" class="data row0 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row1_col0" class="data row1 col0">Thomas</td>
-<td id="T_e468d_row1_col1" class="data row1 col1">33</td>
-<td id="T_e468d_row1_col2" class="data row1 col2">M</td>
-<td id="T_e468d_row1_col3" class="data row1 col3">Postdoc</td>
-<td id="T_e468d_row1_col4" class="data row1 col4">GB</td>
+<td id="T_41cb9_row1_col0" class="data row1 col0">Thomas</td>
+<td id="T_41cb9_row1_col1" class="data row1 col1">33</td>
+<td id="T_41cb9_row1_col2" class="data row1 col2">M</td>
+<td id="T_41cb9_row1_col3" class="data row1 col3">Postdoc</td>
+<td id="T_41cb9_row1_col4" class="data row1 col4">GB</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row2_col0" class="data row2 col0">Emilie</td>
-<td id="T_e468d_row2_col1" class="data row2 col1">23</td>
-<td id="T_e468d_row2_col2" class="data row2 col2">F</td>
-<td id="T_e468d_row2_col3" class="data row2 col3">PhDstudent</td>
-<td id="T_e468d_row2_col4" class="data row2 col4">CH</td>
+<td id="T_41cb9_row2_col0" class="data row2 col0">Emilie</td>
+<td id="T_41cb9_row2_col1" class="data row2 col1">23</td>
+<td id="T_41cb9_row2_col2" class="data row2 col2">F</td>
+<td id="T_41cb9_row2_col3" class="data row2 col3">PhDstudent</td>
+<td id="T_41cb9_row2_col4" class="data row2 col4">CH</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row3_col0" class="data row3 col0">Sofie</td>
-<td id="T_e468d_row3_col1" class="data row3 col1">31</td>
-<td id="T_e468d_row3_col2" class="data row3 col2">F</td>
-<td id="T_e468d_row3_col3" class="data row3 col3">Postdoc</td>
-<td id="T_e468d_row3_col4" class="data row3 col4">DK</td>
+<td id="T_41cb9_row3_col0" class="data row3 col0">Sofie</td>
+<td id="T_41cb9_row3_col1" class="data row3 col1">31</td>
+<td id="T_41cb9_row3_col2" class="data row3 col2">F</td>
+<td id="T_41cb9_row3_col3" class="data row3 col3">Postdoc</td>
+<td id="T_41cb9_row3_col4" class="data row3 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row4_col0" class="data row4 col0">Sara</td>
-<td id="T_e468d_row4_col1" class="data row4 col1">29</td>
-<td id="T_e468d_row4_col2" class="data row4 col2">F</td>
-<td id="T_e468d_row4_col3" class="data row4 col3">Postdoc</td>
-<td id="T_e468d_row4_col4" class="data row4 col4">US</td>
+<td id="T_41cb9_row4_col0" class="data row4 col0">Sara</td>
+<td id="T_41cb9_row4_col1" class="data row4 col1">29</td>
+<td id="T_41cb9_row4_col2" class="data row4 col2">F</td>
+<td id="T_41cb9_row4_col3" class="data row4 col3">Postdoc</td>
+<td id="T_41cb9_row4_col4" class="data row4 col4">US</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row5_col0" class="data row5 col0">Cecilie</td>
-<td id="T_e468d_row5_col1" class="data row5 col1">34</td>
-<td id="T_e468d_row5_col2" class="data row5 col2">F</td>
-<td id="T_e468d_row5_col3" class="data row5 col3">Postdoc</td>
-<td id="T_e468d_row5_col4" class="data row5 col4">DK</td>
+<td id="T_41cb9_row5_col0" class="data row5 col0">Cecilie</td>
+<td id="T_41cb9_row5_col1" class="data row5 col1">34</td>
+<td id="T_41cb9_row5_col2" class="data row5 col2">F</td>
+<td id="T_41cb9_row5_col3" class="data row5 col3">Postdoc</td>
+<td id="T_41cb9_row5_col4" class="data row5 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row6_col0" class="data row6 col0">Anders</td>
-<td id="T_e468d_row6_col1" class="data row6 col1">32</td>
-<td id="T_e468d_row6_col2" class="data row6 col2">M</td>
-<td id="T_e468d_row6_col3" class="data row6 col3">PhDstudent</td>
-<td id="T_e468d_row6_col4" class="data row6 col4">UK</td>
+<td id="T_41cb9_row6_col0" class="data row6 col0">Anders</td>
+<td id="T_41cb9_row6_col1" class="data row6 col1">32</td>
+<td id="T_41cb9_row6_col2" class="data row6 col2">M</td>
+<td id="T_41cb9_row6_col3" class="data row6 col3">PhDstudent</td>
+<td id="T_41cb9_row6_col4" class="data row6 col4">UK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row7_col0" class="data row7 col0">Emma</td>
-<td id="T_e468d_row7_col1" class="data row7 col1">42</td>
-<td id="T_e468d_row7_col2" class="data row7 col2">F</td>
-<td id="T_e468d_row7_col3" class="data row7 col3">Professor</td>
-<td id="T_e468d_row7_col4" class="data row7 col4">DK</td>
+<td id="T_41cb9_row7_col0" class="data row7 col0">Emma</td>
+<td id="T_41cb9_row7_col1" class="data row7 col1">42</td>
+<td id="T_41cb9_row7_col2" class="data row7 col2">F</td>
+<td id="T_41cb9_row7_col3" class="data row7 col3">Professor</td>
+<td id="T_41cb9_row7_col4" class="data row7 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row8_col0" class="data row8 col0">Caroline</td>
-<td id="T_e468d_row8_col1" class="data row8 col1">31</td>
-<td id="T_e468d_row8_col2" class="data row8 col2">F</td>
-<td id="T_e468d_row8_col3" class="data row8 col3">PhDstudent</td>
-<td id="T_e468d_row8_col4" class="data row8 col4">DK</td>
+<td id="T_41cb9_row8_col0" class="data row8 col0">Caroline</td>
+<td id="T_41cb9_row8_col1" class="data row8 col1">31</td>
+<td id="T_41cb9_row8_col2" class="data row8 col2">F</td>
+<td id="T_41cb9_row8_col3" class="data row8 col3">PhDstudent</td>
+<td id="T_41cb9_row8_col4" class="data row8 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row9_col0" class="data row9 col0">Laura</td>
-<td id="T_e468d_row9_col1" class="data row9 col1">30</td>
-<td id="T_e468d_row9_col2" class="data row9 col2">F</td>
-<td id="T_e468d_row9_col3" class="data row9 col3">Postdoc</td>
-<td id="T_e468d_row9_col4" class="data row9 col4">DK</td>
+<td id="T_41cb9_row9_col0" class="data row9 col0">Laura</td>
+<td id="T_41cb9_row9_col1" class="data row9 col1">30</td>
+<td id="T_41cb9_row9_col2" class="data row9 col2">F</td>
+<td id="T_41cb9_row9_col3" class="data row9 col3">Postdoc</td>
+<td id="T_41cb9_row9_col4" class="data row9 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row10_col0" class="data row10 col0">Mikkel</td>
-<td id="T_e468d_row10_col1" class="data row10 col1">33</td>
-<td id="T_e468d_row10_col2" class="data row10 col2">M</td>
-<td id="T_e468d_row10_col3" class="data row10 col3">Postdoc</td>
-<td id="T_e468d_row10_col4" class="data row10 col4">NL</td>
+<td id="T_41cb9_row10_col0" class="data row10 col0">Mikkel</td>
+<td id="T_41cb9_row10_col1" class="data row10 col1">33</td>
+<td id="T_41cb9_row10_col2" class="data row10 col2">M</td>
+<td id="T_41cb9_row10_col3" class="data row10 col3">Postdoc</td>
+<td id="T_41cb9_row10_col4" class="data row10 col4">NL</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row11_col0" class="data row11 col0">Jens</td>
-<td id="T_e468d_row11_col1" class="data row11 col1">27</td>
-<td id="T_e468d_row11_col2" class="data row11 col2">M</td>
-<td id="T_e468d_row11_col3" class="data row11 col3">PhDstudent</td>
-<td id="T_e468d_row11_col4" class="data row11 col4">DK</td>
+<td id="T_41cb9_row11_col0" class="data row11 col0">Jens</td>
+<td id="T_41cb9_row11_col1" class="data row11 col1">27</td>
+<td id="T_41cb9_row11_col2" class="data row11 col2">M</td>
+<td id="T_41cb9_row11_col3" class="data row11 col3">PhDstudent</td>
+<td id="T_41cb9_row11_col4" class="data row11 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row12_col0" class="data row12 col0">Andreas</td>
-<td id="T_e468d_row12_col1" class="data row12 col1">29</td>
-<td id="T_e468d_row12_col2" class="data row12 col2">M</td>
-<td id="T_e468d_row12_col3" class="data row12 col3">PhDstudent</td>
-<td id="T_e468d_row12_col4" class="data row12 col4">DK</td>
+<td id="T_41cb9_row12_col0" class="data row12 col0">Andreas</td>
+<td id="T_41cb9_row12_col1" class="data row12 col1">29</td>
+<td id="T_41cb9_row12_col2" class="data row12 col2">M</td>
+<td id="T_41cb9_row12_col3" class="data row12 col3">PhDstudent</td>
+<td id="T_41cb9_row12_col4" class="data row12 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row13_col0" class="data row13 col0">Jakob</td>
-<td id="T_e468d_row13_col1" class="data row13 col1">28</td>
-<td id="T_e468d_row13_col2" class="data row13 col2">M</td>
-<td id="T_e468d_row13_col3" class="data row13 col3">PhDstudent</td>
-<td id="T_e468d_row13_col4" class="data row13 col4">DK</td>
+<td id="T_41cb9_row13_col0" class="data row13 col0">Jakob</td>
+<td id="T_41cb9_row13_col1" class="data row13 col1">28</td>
+<td id="T_41cb9_row13_col2" class="data row13 col2">M</td>
+<td id="T_41cb9_row13_col3" class="data row13 col3">PhDstudent</td>
+<td id="T_41cb9_row13_col4" class="data row13 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row14_col0" class="data row14 col0">Mathilde</td>
-<td id="T_e468d_row14_col1" class="data row14 col1">61</td>
-<td id="T_e468d_row14_col2" class="data row14 col2">F</td>
-<td id="T_e468d_row14_col3" class="data row14 col3">Professor</td>
-<td id="T_e468d_row14_col4" class="data row14 col4">DK</td>
+<td id="T_41cb9_row14_col0" class="data row14 col0">Mathilde</td>
+<td id="T_41cb9_row14_col1" class="data row14 col1">61</td>
+<td id="T_41cb9_row14_col2" class="data row14 col2">F</td>
+<td id="T_41cb9_row14_col3" class="data row14 col3">Professor</td>
+<td id="T_41cb9_row14_col4" class="data row14 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row15_col0" class="data row15 col0">Katrine</td>
-<td id="T_e468d_row15_col1" class="data row15 col1">35</td>
-<td id="T_e468d_row15_col2" class="data row15 col2">F</td>
-<td id="T_e468d_row15_col3" class="data row15 col3">Postdoc</td>
-<td id="T_e468d_row15_col4" class="data row15 col4">DK</td>
+<td id="T_41cb9_row15_col0" class="data row15 col0">Katrine</td>
+<td id="T_41cb9_row15_col1" class="data row15 col1">35</td>
+<td id="T_41cb9_row15_col2" class="data row15 col2">F</td>
+<td id="T_41cb9_row15_col3" class="data row15 col3">Postdoc</td>
+<td id="T_41cb9_row15_col4" class="data row15 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row16_col0" class="data row16 col0">Poul</td>
-<td id="T_e468d_row16_col1" class="data row16 col1">30</td>
-<td id="T_e468d_row16_col2" class="data row16 col2">M</td>
-<td id="T_e468d_row16_col3" class="data row16 col3">Postdoc</td>
-<td id="T_e468d_row16_col4" class="data row16 col4">DK</td>
+<td id="T_41cb9_row16_col0" class="data row16 col0">Poul</td>
+<td id="T_41cb9_row16_col1" class="data row16 col1">30</td>
+<td id="T_41cb9_row16_col2" class="data row16 col2">M</td>
+<td id="T_41cb9_row16_col3" class="data row16 col3">Postdoc</td>
+<td id="T_41cb9_row16_col4" class="data row16 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row17_col0" class="data row17 col0">Anna</td>
-<td id="T_e468d_row17_col1" class="data row17 col1">26</td>
-<td id="T_e468d_row17_col2" class="data row17 col2">F</td>
-<td id="T_e468d_row17_col3" class="data row17 col3">PhDstudent</td>
-<td id="T_e468d_row17_col4" class="data row17 col4">DK</td>
+<td id="T_41cb9_row17_col0" class="data row17 col0">Anna</td>
+<td id="T_41cb9_row17_col1" class="data row17 col1">26</td>
+<td id="T_41cb9_row17_col2" class="data row17 col2">F</td>
+<td id="T_41cb9_row17_col3" class="data row17 col3">PhDstudent</td>
+<td id="T_41cb9_row17_col4" class="data row17 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row18_col0" class="data row18 col0">Peter</td>
-<td id="T_e468d_row18_col1" class="data row18 col1">42</td>
-<td id="T_e468d_row18_col2" class="data row18 col2">M</td>
-<td id="T_e468d_row18_col3" class="data row18 col3">Professor</td>
-<td id="T_e468d_row18_col4" class="data row18 col4">GB</td>
+<td id="T_41cb9_row18_col0" class="data row18 col0">Peter</td>
+<td id="T_41cb9_row18_col1" class="data row18 col1">42</td>
+<td id="T_41cb9_row18_col2" class="data row18 col2">M</td>
+<td id="T_41cb9_row18_col3" class="data row18 col3">Professor</td>
+<td id="T_41cb9_row18_col4" class="data row18 col4">GB</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row19_col0" class="data row19 col0">Ida</td>
-<td id="T_e468d_row19_col1" class="data row19 col1">53</td>
-<td id="T_e468d_row19_col2" class="data row19 col2">F</td>
-<td id="T_e468d_row19_col3" class="data row19 col3">Postdoc</td>
-<td id="T_e468d_row19_col4" class="data row19 col4">DK</td>
+<td id="T_41cb9_row19_col0" class="data row19 col0">Ida</td>
+<td id="T_41cb9_row19_col1" class="data row19 col1">53</td>
+<td id="T_41cb9_row19_col2" class="data row19 col2">F</td>
+<td id="T_41cb9_row19_col3" class="data row19 col3">Postdoc</td>
+<td id="T_41cb9_row19_col4" class="data row19 col4">DK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row20_col0" class="data row20 col0">Freja</td>
-<td id="T_e468d_row20_col1" class="data row20 col1">30</td>
-<td id="T_e468d_row20_col2" class="data row20 col2">F</td>
-<td id="T_e468d_row20_col3" class="data row20 col3">Postdoc</td>
-<td id="T_e468d_row20_col4" class="data row20 col4">DK</td>
+<td id="T_41cb9_row20_col0" class="data row20 col0">Freja</td>
+<td id="T_41cb9_row20_col1" class="data row20 col1">30</td>
+<td id="T_41cb9_row20_col2" class="data row20 col2">F</td>
+<td id="T_41cb9_row20_col3" class="data row20 col3">Postdoc</td>
+<td id="T_41cb9_row20_col4" class="data row20 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row21_col0" class="data row21 col0">Maria</td>
-<td id="T_e468d_row21_col1" class="data row21 col1">39</td>
-<td id="T_e468d_row21_col2" class="data row21 col2">F</td>
-<td id="T_e468d_row21_col3" class="data row21 col3">Professor</td>
-<td id="T_e468d_row21_col4" class="data row21 col4">UK</td>
+<td id="T_41cb9_row21_col0" class="data row21 col0">Maria</td>
+<td id="T_41cb9_row21_col1" class="data row21 col1">39</td>
+<td id="T_41cb9_row21_col2" class="data row21 col2">F</td>
+<td id="T_41cb9_row21_col3" class="data row21 col3">Professor</td>
+<td id="T_41cb9_row21_col4" class="data row21 col4">UK</td>
 </tr>
 <tr class="odd">
-<td id="T_e468d_row22_col0" class="data row22 col0">Amalie</td>
-<td id="T_e468d_row22_col1" class="data row22 col1">29</td>
-<td id="T_e468d_row22_col2" class="data row22 col2">F</td>
-<td id="T_e468d_row22_col3" class="data row22 col3">PhDstudent</td>
-<td id="T_e468d_row22_col4" class="data row22 col4">DK</td>
+<td id="T_41cb9_row22_col0" class="data row22 col0">Amalie</td>
+<td id="T_41cb9_row22_col1" class="data row22 col1">29</td>
+<td id="T_41cb9_row22_col2" class="data row22 col2">F</td>
+<td id="T_41cb9_row22_col3" class="data row22 col3">PhDstudent</td>
+<td id="T_41cb9_row22_col4" class="data row22 col4">DK</td>
 </tr>
 <tr class="even">
-<td id="T_e468d_row23_col0" class="data row23 col0">Camilla</td>
-<td id="T_e468d_row23_col1" class="data row23 col1">35</td>
-<td id="T_e468d_row23_col2" class="data row23 col2">F</td>
-<td id="T_e468d_row23_col3" class="data row23 col3">Postdoc</td>
-<td id="T_e468d_row23_col4" class="data row23 col4">DK</td>
+<td id="T_41cb9_row23_col0" class="data row23 col0">Camilla</td>
+<td id="T_41cb9_row23_col1" class="data row23 col1">35</td>
+<td id="T_41cb9_row23_col2" class="data row23 col2">F</td>
+<td id="T_41cb9_row23_col3" class="data row23 col3">Postdoc</td>
+<td id="T_41cb9_row23_col4" class="data row23 col4">DK</td>
 </tr>
 </tbody>
 </table>
@@ -518,95 +532,95 @@ Table&nbsp;4.1: People included in the analysis.
 </div>
 </div>
 </div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p>Duis urna urna, pellentesque eu urna ut, malesuada bibendum dolor. Suspendisse potenti. Vivamus ornare, arcu quis molestie ultrices, magna est accumsan augue, auctor vulputate erat quam quis neque. Nullam scelerisque odio vel ultricies facilisis. Ut porta arcu non magna sagittis lacinia. Cras ornare vulputate lectus a tristique. Pellentesque ac arcu congue, rhoncus mi id, dignissim ligula.</p>
 <div class="quarto-embed-nb-cell" data-notebook="/home/runner/work/projectname/projectname/notebooks/example.ipynb" data-notebook-title="Workplace interaction" data-notebook-cellid="cell-fig-meaninformality">
-<div id="cell-fig-meaninformality" class="cell" data-execution_count="61">
+<div id="cell-fig-meaninformality" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.480200Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.480065Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.605011Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.604597Z&quot;}" data-execution_count="13">
 <div class="cell-output cell-output-display">
 <div id="fig-meaninformality" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-meaninformality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="example_files/figure-html/..-notebooks-example-fig-meaninformality-output-1.png" width="436" height="286" class="figure-img">
+<img src="example_files/figure-html/..-notebooks-example-fig-meaninformality-output-1.png" width="428" height="286" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-meaninformality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4.2: Mean interaction scores by position and nationality.
+Figure&nbsp;3.2: Mean interaction scores by position and nationality.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p>Etiam non efficitur urna, quis elementum nisi. Mauris posuere a augue vel gravida. Praesent luctus erat et ex iaculis interdum. Nulla vestibulum quam ac nunc consequat vulputate. Nullam iaculis lobortis sem sit amet fringilla. Aliquam semper, metus ut blandit semper, nulla velit fermentum sapien, fermentum ultrices dolor sapien sed leo. Vestibulum molestie faucibus magna, at feugiat nulla ullamcorper a. Aliquam erat volutpat. Praesent scelerisque magna a justo maximus, sit amet suscipit mauris tempor. Nulla nec dolor eget ipsum pellentesque lobortis a in ipsum. Morbi turpis turpis, fringilla a eleifend maximus, viverra nec neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-<p><a href="../thesis/index.html#tbl-subjects" class="quarto-xref">Table&nbsp;<span>8.1</span></a> lists the mean interaction scores by position and nationality.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+<p><a href="../thesis/index.html#tbl-subjects" class="quarto-xref">Table&nbsp;<span>7.1</span></a> lists the mean interaction scores by position and nationality.</p>
 <div class="quarto-embed-nb-cell" data-notebook="/home/runner/work/projectname/projectname/notebooks/example.ipynb" data-notebook-title="Workplace interaction" data-notebook-cellid="cell-tbl-meaninformality">
-<div class="cell" data-execution_count="72">
-<div id="tbl-meaninformality" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="72">
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.473282Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.473186Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.478455Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.478057Z&quot;}" data-execution_count="12">
+<div id="tbl-meaninformality" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="12" data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-23T17:15:39.473282Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-23T17:15:39.473186Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-23T17:15:39.478455Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-23T17:15:39.478057Z&quot;}">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-meaninformality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;4.2: Mean interaction scores by position and nationality.
+Table&nbsp;3.2: Mean interaction scores by position and nationality.
 </figcaption>
 <div aria-describedby="tbl-meaninformality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="72">
+<div class="cell-output cell-output-display" data-execution_count="12">
 <style type="text/css">
 </style>
 
-<table id="T_da10d" class="do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<table id="T_42276" class="do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
-<th id="T_da10d_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">position</th>
-<th id="T_da10d_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">nationality</th>
-<th id="T_da10d_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">informality</th>
+<th id="T_42276_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">position</th>
+<th id="T_42276_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">nationality</th>
+<th id="T_42276_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">informality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td id="T_da10d_row0_col0" class="data row0 col0">Professor</td>
-<td id="T_da10d_row0_col1" class="data row0 col1">GB</td>
-<td id="T_da10d_row0_col2" class="data row0 col2">8.380414</td>
+<td id="T_42276_row0_col0" class="data row0 col0">Professor</td>
+<td id="T_42276_row0_col1" class="data row0 col1">GB</td>
+<td id="T_42276_row0_col2" class="data row0 col2">8.086033</td>
 </tr>
 <tr class="even">
-<td id="T_da10d_row1_col0" class="data row1 col0">Postdoc</td>
-<td id="T_da10d_row1_col1" class="data row1 col1">NL</td>
-<td id="T_da10d_row1_col2" class="data row1 col2">8.784014</td>
+<td id="T_42276_row1_col0" class="data row1 col0">Professor</td>
+<td id="T_42276_row1_col1" class="data row1 col1">UK</td>
+<td id="T_42276_row1_col2" class="data row1 col2">9.590511</td>
 </tr>
 <tr class="odd">
-<td id="T_da10d_row2_col0" class="data row2 col0">Postdoc</td>
-<td id="T_da10d_row2_col1" class="data row2 col1">GB</td>
-<td id="T_da10d_row2_col2" class="data row2 col2">8.795308</td>
+<td id="T_42276_row2_col0" class="data row2 col0">Postdoc</td>
+<td id="T_42276_row2_col1" class="data row2 col1">DK</td>
+<td id="T_42276_row2_col2" class="data row2 col2">9.880289</td>
 </tr>
 <tr class="even">
-<td id="T_da10d_row3_col0" class="data row3 col0">Postdoc</td>
-<td id="T_da10d_row3_col1" class="data row3 col1">US</td>
-<td id="T_da10d_row3_col2" class="data row3 col2">8.826106</td>
+<td id="T_42276_row3_col0" class="data row3 col0">Postdoc</td>
+<td id="T_42276_row3_col1" class="data row3 col1">GB</td>
+<td id="T_42276_row3_col2" class="data row3 col2">9.949350</td>
 </tr>
 <tr class="odd">
-<td id="T_da10d_row4_col0" class="data row4 col0">Professor</td>
-<td id="T_da10d_row4_col1" class="data row4 col1">UK</td>
-<td id="T_da10d_row4_col2" class="data row4 col2">9.360650</td>
+<td id="T_42276_row4_col0" class="data row4 col0">Postdoc</td>
+<td id="T_42276_row4_col1" class="data row4 col1">US</td>
+<td id="T_42276_row4_col2" class="data row4 col2">10.366486</td>
 </tr>
 <tr class="even">
-<td id="T_da10d_row5_col0" class="data row5 col0">PhDstudent</td>
-<td id="T_da10d_row5_col1" class="data row5 col1">DK</td>
-<td id="T_da10d_row5_col2" class="data row5 col2">9.506580</td>
+<td id="T_42276_row5_col0" class="data row5 col0">PhDstudent</td>
+<td id="T_42276_row5_col1" class="data row5 col1">DK</td>
+<td id="T_42276_row5_col2" class="data row5 col2">10.608510</td>
 </tr>
 <tr class="odd">
-<td id="T_da10d_row6_col0" class="data row6 col0">PhDstudent</td>
-<td id="T_da10d_row6_col1" class="data row6 col1">UK</td>
-<td id="T_da10d_row6_col2" class="data row6 col2">10.063141</td>
+<td id="T_42276_row6_col0" class="data row6 col0">PhDstudent</td>
+<td id="T_42276_row6_col1" class="data row6 col1">CH</td>
+<td id="T_42276_row6_col2" class="data row6 col2">10.751572</td>
 </tr>
 <tr class="even">
-<td id="T_da10d_row7_col0" class="data row7 col0">Postdoc</td>
-<td id="T_da10d_row7_col1" class="data row7 col1">DK</td>
-<td id="T_da10d_row7_col2" class="data row7 col2">10.279960</td>
+<td id="T_42276_row7_col0" class="data row7 col0">Postdoc</td>
+<td id="T_42276_row7_col1" class="data row7 col1">NL</td>
+<td id="T_42276_row7_col2" class="data row7 col2">11.244057</td>
 </tr>
 <tr class="odd">
-<td id="T_da10d_row8_col0" class="data row8 col0">PhDstudent</td>
-<td id="T_da10d_row8_col1" class="data row8 col1">CH</td>
-<td id="T_da10d_row8_col2" class="data row8 col2">10.426218</td>
+<td id="T_42276_row8_col0" class="data row8 col0">PhDstudent</td>
+<td id="T_42276_row8_col1" class="data row8 col1">UK</td>
+<td id="T_42276_row8_col2" class="data row8 col2">11.322927</td>
 </tr>
 <tr class="even">
-<td id="T_da10d_row9_col0" class="data row9 col0">Professor</td>
-<td id="T_da10d_row9_col1" class="data row9 col1">DK</td>
-<td id="T_da10d_row9_col2" class="data row9 col2">10.449005</td>
+<td id="T_42276_row9_col0" class="data row9 col0">Professor</td>
+<td id="T_42276_row9_col1" class="data row9 col1">DK</td>
+<td id="T_42276_row9_col2" class="data row9 col2">12.400968</td>
 </tr>
 </tbody>
 </table>
@@ -620,6 +634,9 @@ Table&nbsp;4.2: Mean interaction scores by position and nationality.
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" role="list" style="display: none">
+
+</div>
 
 
 </section>
