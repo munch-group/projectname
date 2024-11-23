@@ -6,7 +6,7 @@
 # ---
 
 # %% [markdown]
-"""
+r"""
 
 Example workflow using mapping between intput and output of each target. 
 It is made to show all the ways information may be passed through an workflow.
@@ -54,9 +54,11 @@ file label:                'output_path'                              'output_pa
 """
 
 # %%
+import os
 from pathlib import Path
 from gwf import Workflow, AnonymousTarget
 from gwf.workflow import collect
+import glob
 
 # %% [markdown]
 """
@@ -246,6 +248,29 @@ def merge_names(paths, output_path):
     # return target
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
+# task template function
+def run_notebook(path, dependencies, memory='8g', walltime='00:10:00', cores=1):    
+    """
+    Executes a notebook inplace and saves the output.
+    """
+    # path of output sentinel file
+    sentinel = modify_path(path, base=f'.{str(Path(path).name)}', suffix='.sentinel')
+    # sentinel = path.parent / f'.{path.name}'
+
+    # input specification
+    inputs = [path] + dependencies
+    # output specification mapping a label to each file
+    outputs = {'sentinel': sentinel}
+    # resource specification
+    options = {'memory': memory, 'walltime': walltime, 'cores': cores} 
+
+    # commands to run in task (bash script)
+    spec = f"""
+    jupyter nbconvert --to notebook --execute --inplace {path} && touch {sentinel}
+    """
+    # return target
+    return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
+
 
 # %% [markdown]
 """
@@ -290,3 +315,22 @@ merge_other_target = gwf.target_from_template(
     merge_names(collected_outputs['unique_other_paths'], "results/merged_not_me_names.txt")
     )
 
+# make notebooks depend on all output files from workflow
+notebook_dependencies = []
+for x in gwf.targets.values():
+    outputs = x.outputs
+    if type(outputs) is dict:
+        for o in outputs.values():
+            notebook_dependencies.append(o)
+    elif type(outputs) is list:
+        notebook_dependencies.extend(outputs)
+
+#  run notebooks in sorted order nb01_, nb02_, ...
+for path in glob.glob('notebooks/*.ipynb'):
+    target = gwf.target_from_template(
+        os.path.basename(path), run_notebook(path, notebook_dependencies))
+    # make notebooks depend on all previous notebooks
+    notebook_dependencies.append(target.outputs['sentinel'])
+
+
+# %%

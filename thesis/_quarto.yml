@@ -49,4 +49,4 @@ notebook-links: false
 execute:
   freeze: auto
 
-bibliography: references.bib
+bibliography: ../references.bib
