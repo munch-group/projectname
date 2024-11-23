@@ -25,25 +25,29 @@ degree: Master of Science in Bioinformatics
 
 # Introduction
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Blah blah blah blah blah blah blah blah blah blah [see @NielsenSlatkin2016, chap. 1]. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah [@Nam2015; @Dutheil2015]. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah [@Prufer2012]. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Skov et al. showed blah blah blah [-@Skov2023]. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 # Methods
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Following @Munch2014, blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 ## Sampling
 
-@tbl-subjects lists the samples included in the analysis. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah (@tbl-subjects ). Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
-
-{{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 ## Statistical analysis
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah $\pi_k = \prod_{i=1}^K x_i$ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah (@eq-stat) blah blah blah blah blah blah.
+
+$$
+\lambda = \sum_{k=1}^N \pi_k
+$$ {#eq-stat}
 
 ### Clustering
 
@@ -51,7 +55,11 @@ Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 
 ### Linear models
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. As shown in @eq-lineq, blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+$$
+y \sim \beta_1 x + \beta_2
+$$ {#eq-lineq}
 
 
 # Results
@@ -81,6 +89,6 @@ Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 
 
 # References
-<!-- 
+
 ::: {#refs}
-::: -->
+:::
