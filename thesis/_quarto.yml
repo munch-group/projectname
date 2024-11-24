@@ -11,7 +11,7 @@ format:
   jats: default
 
   pdf:
-    latex-clean: false
+    # latex-clean: false
     documentclass: scrbook
     pdf-engine: pdflatex
     papersize: A4
