@@ -90,22 +90,48 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-%% Palatino font:
+% Palatino font:
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{palatino}
 
-\usepackage{pifont}
+\usepackage{mathpazo}
 
 \usepackage{upquote}
-
-\usepackage{fontspec}
-% % \usepackage[T1]{fontenc}
-% \usepackage{tgbonum}
-
-% % \newfontfamily\mytitlefont{\fontfamily{phv}\selectfont}
-% \newcommand{\mytitlefont}{\fontfamily{phv}\selectfont}
 
 % front page
 \usepackage[colorlinks]{hyperref} % for text color on title
@@ -273,16 +299,16 @@
 
 
 \renewcommand*{\chapterformat}{%
-  \textcolor[rgb]{0.7, 0.7, 0.7}{\thechapter}\autodot\enskip%
+\textcolor[rgb]{0.7, 0.7, 0.7}{\thechapter}\autodot\enskip%
 }
 \renewcommand*{\sectionformat}{%
-  \textcolor[rgb]{0.7, 0.7, 0.7}{\thesection}\autodot\enskip%
+\textcolor[rgb]{0.7, 0.7, 0.7}{\thesection}\autodot\enskip%
 }
 \renewcommand*{\subsectionformat}{%
-  \textcolor[rgb]{0.7, 0.7, 0.7}{\thesubsection}\autodot\enskip%
+\textcolor[rgb]{0.7, 0.7, 0.7}{\thesubsection}\autodot\enskip%
 }
 \renewcommand*{\subsubsectionformat}{%
-  \textcolor[rgb]{0.7, 0.7, 0.7}{\thesubsubsection}\autodot\enskip%
+\textcolor[rgb]{0.7, 0.7, 0.7}{\thesubsubsection}\autodot\enskip%
 }
 
 
@@ -362,7 +388,7 @@
 \makeatother
 \subtitle{Some subtitle for my thesis}
 \author{Your Name}
-\date{November 23, 2024}
+\date{November 24, 2024}
 
 \begin{document}
 \frontmatter
@@ -377,7 +403,7 @@
 \vspace{6ex}
 {\Large\bfseries Your Name \par}
 \vspace{3ex}
-{\bfseries\large November 23, 2024 \par}
+{\bfseries\large November 24, 2024 \par}
 \vskip 0cm plus 2fill
 {\resizebox{!}{50mm}{\includegraphics[width=\textwidth]{ausegl_sort.pdf}} \par}
 \vskip 0cm plus 2fill
@@ -411,28 +437,41 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah.
 \mainmatter
 \chapter{Introduction}\label{introduction}
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+Blah blah blah blah blah blah blah blah blah blah (see Nielsen and
+Slatkin 2016, chap. 1). Blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah (Nam et al. 2015;
+Dutheil et al. 2015). Blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah (Prüfer et al. 2012). Blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah.
+blah blah blah. Skov et al.~showed blah blah blah (2023). Blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah.
 
 \chapter{Methods}\label{methods}
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+Following Munch et al. (2014), blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah.
+blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 \section{Sampling}\label{sampling}
 
-Table~\ref{tbl-subjects} lists the samples included in the analysis.
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+\phantomsection\label{doc-sampling}
+The 24 subjects from workplaces in Denmark were interviewed \ldots. blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah.
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah (Table~\ref{tbl-subjects} ). Blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah. Blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah.
 
 \begin{longtable}[]{@{}lllll@{}}
 
@@ -478,24 +517,29 @@ Camilla & 35 & F & Postdoc & DK \\
 
 \end{longtable}
 
-\phantomsection\label{doc-sampling}
-The 24 subjects from workplaces in Denmark were interviewed \ldots. blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah
-
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah.
+blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah.
 
 \section{Statistical analysis}\label{statistical-analysis}
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah \(\pi_k = \prod_{i=1}^K x_i\)
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah.
+blah blah blah blah blah blah blah (Equation~\ref{eq-stat}) blah blah
+blah blah blah blah.
+
+\begin{equation}\phantomsection\label{eq-stat}{
+\lambda = \sum_{k=1}^N \pi_k
+}\end{equation}
 
 \subsection{Clustering}\label{clustering}
 
@@ -504,9 +548,26 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-blah blah blah blah blah blah blah.
+blah blah blah blah blah blah blah. Blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 \subsection{Linear models}\label{linear-models}
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah. As shown in
+Equation~\ref{eq-lineq}, blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah.
+
+\begin{equation}\phantomsection\label{eq-lineq}{
+y \sim \beta_1 x + \beta_2
+}\end{equation}
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
@@ -591,7 +652,21 @@ Professor & DK & 12.400968 \\
 
 \end{longtable}
 
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah.
+
 \subsection{Subsubsection}\label{subsubsection}
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+blah blah blah blah blah blah blah.
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 blah blah blah blah blah blah blah blah blah blah blah blah blah blah
@@ -609,6 +684,48 @@ Nothing in Biology Makes Sense except in the Light of Evolution
 \end{quote}
 
 \chapter{References}\label{references}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-Dutheil2015}
+Dutheil, Julien Y, Kasper Munch, Kiwoong Nam, Thomas Mailund, and Mikkel
+H Schierup. 2015. {``{Strong Selective Sweeps on the X Chromosome in the
+Human-Chimpanzee Ancestor Explain Its Low Divergence}.''} \emph{PLOS
+Genetics} 11 (8): e1005451.
+\url{https://doi.org/10.1371/journal.pgen.1005451}.
+
+\bibitem[\citeproctext]{ref-Munch2014}
+Munch, Kasper, Thomas Mailund, Julien Y Dutheil, and Mikkel Schierup.
+2014. {``{A fine-scale recombination map of the human--chimpanzee
+ancestor reveals faster change in humans than in chimpanzees and a
+strong impact of GC-biased gene conversion}.''} \emph{Genome Research}
+24 (3): 467--74. \url{https://doi.org/10.1101/gr.158469.113}.
+
+\bibitem[\citeproctext]{ref-Nam2015}
+Nam, Kiwoong, Kasper Munch, Asger Hobolth, Julien Dutheil, Krishna R
+Veeramah, August E Woerner, Michael F Hammer, et al. 2015. {``{Extreme
+selective sweeps independently targeted the X chromosomes of the great
+apes}.''} \emph{Proceedings of the National Academy of Sciences} 112
+(20): 6413--18. \url{https://doi.org/10.1073/pnas.1419306112}.
+
+\bibitem[\citeproctext]{ref-NielsenSlatkin2016}
+Nielsen, Rasmgb, and Montgomery Slatkin. 2016. \emph{An Introduction to
+Population Genetics: Theory and Applications}.
+
+\bibitem[\citeproctext]{ref-Prufer2012}
+Prüfer, Kay, Kasper Munch, Ines Hellmann, Keiko Akagi, Jason R. Miller,
+Brian Walenz, Sergey Koren, et al. 2012. {``{The bonobo genome compared
+with the chimpanzee and human genomes}.''} \emph{Nature} 486 (7404):
+527--31. \url{https://doi.org/10.1038/nature11128}.
+
+\bibitem[\citeproctext]{ref-Skov2023}
+Skov, Laurits, Moisès Coll Macià, Elise Anne Lucotte, Maria Izabel Alvez
+Cavassim, David Castellano, Mikkel Heide Schierup, and Kasper Munch.
+2023. {``{Extraordinary selection on the human X chromosome associated
+with archaic admixture}.''} \emph{Cell Genomics}, 100274.
+\url{https://doi.org/10.1016/j.xgen.2023.100274}.
+
+\end{CSLReferences}
 
 
 \backmatter
