@@ -9,18 +9,20 @@ format:
   html: default
   docx: default
   jats: default
+
   pdf:
+    latex-clean: false
     documentclass: scrbook
     pdf-engine: pdflatex
     papersize: A4
-    # sansfont: Helvetica
     toc: true
     toc-depth: 2
     toc-title: "Table of contents"
-    # lof: true
-    # lot: true    
+    lof: false
+    lot: false    
     geometry:
-      - right=2.54cm   
+      - left=2.54cm
+      - right=2.54cm           
       # - inner=3cm
       # - outer=4cm
       # - top=3cm
@@ -31,13 +33,8 @@ format:
       # - ignorehead
       # - ignorefoot
       # - heightrounded
-    # linestretch: 1.25 
-    # mainfont: "Times New Roman"
-    # sansfont: "Arial"
-    # monofont: "Courier New"
-    # mathfont: "TeX Gyre Termes Math"             
+    linestretch: 1.0
     number-sections: true
-    # number-depth: 2    
     highlight-style: kate 
  
     include-in-header:
@@ -46,6 +43,8 @@ format:
       - before-body.tex      
 
 notebook-links: false
+
+lightbox: true
 
 execute:
   freeze: auto
