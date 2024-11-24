@@ -11,6 +11,7 @@ format:
   jats: default
   pdf:
     documentclass: scrbook
+    pdf-engine: pdflatex
     papersize: A4
     # sansfont: Helvetica
     toc: true
