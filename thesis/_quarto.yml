@@ -19,7 +19,8 @@ format:
     toc-depth: 2
     toc-title: "Table of contents"
     lof: false
-    lot: false    
+    lot: false
+    fig-align: center
     geometry:
       - left=2.54cm
       - right=2.54cm           
@@ -36,7 +37,7 @@ format:
     linestretch: 1.0
     number-sections: true
     highlight-style: kate 
- 
+    tbl-cap-location: bottom
     include-in-header:
       - file: header_extra.tex
     template-partials:
