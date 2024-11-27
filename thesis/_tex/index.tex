@@ -120,15 +120,17 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 % definitions for citeproc citations
@@ -412,9 +414,6 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage{bookmark}
 
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
@@ -435,7 +434,7 @@
 \makeatother
 \subtitle{Some subtitle for my thesis}
 \author{Your Name}
-\date{November 24, 2024}
+\date{November 27, 2024}
 
 \begin{document}
 \frontmatter
@@ -464,7 +463,7 @@
 {\bfseries\Large\textit{Master of Science in Bioinformatics} \par}
 \vspace{3ex}
 
-{\bfseries\large November 24, 2024 \par}
+{\bfseries\large November 27, 2024 \par}
 \vspace{3ex}
 
 \vspace{12ex}
@@ -539,7 +538,7 @@ luctus fringilla. Suspendisse potenti.}
 
 \centering{
 
-\includegraphics[width=0.5\textwidth,height=\textheight]{illustrations/elephant.png}
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{illustrations/elephant.png}
 
 }
 
@@ -563,7 +562,7 @@ potenti.} You can see an elephant in Figure~\ref{fig-elephant}.
 
 \centering{
 
-\includegraphics{illustrations/elephant.png}
+\pandocbounded{\includegraphics[keepaspectratio]{illustrations/elephant.png}}
 
 }
 
@@ -575,7 +574,7 @@ potenti.} You can see an elephant in Figure~\ref{fig-elephant}.
 
 \centering{
 
-\includegraphics{illustrations/elephant.png}
+\pandocbounded{\includegraphics[keepaspectratio]{illustrations/elephant.png}}
 
 }
 
@@ -630,11 +629,6 @@ fringilla et in quam.}
 
 \begin{longtable}[]{@{}lllll@{}}
 
-\caption{\label{tbl-subjects}People included in the analysis.}
-
-\tabularnewline
-
-\caption{}\label{T_8db8e}\tabularnewline
 \toprule\noalign{}
 name & age & sex & position & nationality \\
 \midrule\noalign{}
@@ -644,6 +638,8 @@ name & age & sex & position & nationality \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
+\tabularnewline
+\caption{}\label{T_8db8e}\tabularnewline
 \endlastfoot
 Julie & 27 & F & PhDstudent & DK \\
 Thomas & 33 & M & Postdoc & GB \\
@@ -670,6 +666,10 @@ Maria & 39 & F & Professor & UK \\
 Amalie & 29 & F & PhDstudent & DK \\
 Camilla & 35 & F & Postdoc & DK \\
 
+
+\caption{\label{tbl-subjects}People included in the analysis.}
+
+\tabularnewline
 \end{longtable}
 
 \emph{Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam
@@ -807,12 +807,6 @@ the mean interaction scores by position and nationality.
 
 \begin{longtable}[]{@{}lll@{}}
 
-\caption{\label{tbl-meaninformality}Mean interaction scores by position
-and nationality.}
-
-\tabularnewline
-
-\caption{}\label{T_fca36}\tabularnewline
 \toprule\noalign{}
 position & nationality & informality \\
 \midrule\noalign{}
@@ -822,6 +816,8 @@ position & nationality & informality \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
+\tabularnewline
+\caption{}\label{T_fca36}\tabularnewline
 \endlastfoot
 Professor & UK & 8.949278 \\
 PhDstudent & CH & 9.623167 \\
@@ -834,6 +830,11 @@ Postdoc & US & 10.808717 \\
 Professor & GB & 11.626458 \\
 PhDstudent & UK & 11.709714 \\
 
+
+\caption{\label{tbl-meaninformality}Mean interaction scores by position
+and nationality.}
+
+\tabularnewline
 \end{longtable}
 
 \emph{Ligula molestie convallis magnis elit tellus volutpat. Hac id in
