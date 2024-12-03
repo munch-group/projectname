@@ -23,10 +23,22 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 </name>
 <string-name>Your Name</string-name>
 
+<role>analysis,</role>
+<role></role>
 <role vocab="https://credit.niso.org" vocab-term="writing – original
 draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
 <xref ref-type="aff" rid="aff-1">a</xref>
 <xref ref-type="corresp" rid="cor-1">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Munch</surname>
+<given-names>Kasper</given-names>
+</name>
+<string-name>Kasper Munch</string-name>
+
+<role vocab="https://credit.niso.org" vocab-term="supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+<xref ref-type="aff" rid="aff-1">a</xref>
 </contrib>
 </contrib-group>
 <aff id="aff-1">
@@ -56,26 +68,6 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <history></history>
 
 
-<abstract>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.</p>
-</abstract>
-<kwd-group kwd-group-type="author">
-<kwd>Vestibulum</kwd>
-<kwd>Nunc ac dignissim</kwd>
-<kwd>Proin feugiat</kwd>
-</kwd-group>
 
 
 
@@ -85,6 +77,23 @@ qui officia deserunt mollit anim id est laborum.</p>
 </front>
 
 <body>
+<sec id="abstract">
+  <title>Abstract</title>
+  <p><italic>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+  culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+  occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</italic></p>
+</sec>
 <sec id="introduction">
   <title>Introduction</title>
   <p><italic>Fringilla sem fusce vivamus pellentesque in commodo
@@ -897,10 +906,22 @@ qui officia deserunt mollit anim id est laborum.</p>
 </name>
 <string-name>Your Name</string-name>
 
+<role>analysis,</role>
+<role></role>
 <role vocab="https://credit.niso.org" vocab-term="writing – original
 draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing</role>
 <xref ref-type="aff" rid="aff-1-nb-article">a</xref>
 <xref ref-type="corresp" rid="cor-1-nb-article">&#x002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Munch</surname>
+<given-names>Kasper</given-names>
+</name>
+<string-name>Kasper Munch</string-name>
+
+<role vocab="https://credit.niso.org" vocab-term="supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+<xref ref-type="aff" rid="aff-1-nb-article">a</xref>
 </contrib>
 </contrib-group>
 <aff id="aff-1-nb-article">
@@ -918,24 +939,26 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <author-notes>
 <corresp id="cor-1-nb-article"></corresp>
 </author-notes>
-<abstract>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.</p>
-</abstract>
 </front-stub>
 
 <body>
+<sec id="abstract-nb-article">
+  <title>Abstract</title>
+  <p><italic>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+  culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+  occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</italic></p>
+</sec>
 <sec id="introduction-nb-article">
   <title>Introduction</title>
   <p><italic>Fringilla sem fusce vivamus pellentesque in commodo
@@ -1318,11 +1341,11 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
   </sec>
   <sec id="subsection-with-code-nb-article">
     <title>Subsection (with code)</title>
-    <sec id="cell-9dd5f164-nb-article" specific-use="notebook-content">
+    <sec id="eea785a1-nb-article" specific-use="notebook-content">
     <code language="python"># this code is executed but not shown in the output
 x = 5</code>
     </sec>
-    <sec id="cell-1127262b-nb-article" specific-use="notebook-content">
+    <sec id="cell-897caf07-nb-article" specific-use="notebook-content">
     <p><italic>Pulvinar tempus nascetur sollicitudin fringilla
     sodales.</italic> The value of <monospace>x</monospace> is 5.
     <italic>Sapien ullamcorper pretium tellus ultricies sodales aliquet.

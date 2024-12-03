@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-12-03">
-<meta name="keywords" content="Vestibulum, Nunc ac dignissim, Proin feugiat">
 
 <title>Title of my thesis</title>
 <style>
@@ -127,10 +126,8 @@ window.Quarto = {
 </script>
 
 <meta name="citation_title" content="Title of my thesis">
-<meta name="citation_abstract" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-">
-<meta name="citation_keywords" content="Vestibulum,Nunc ac dignissim,Proin feugiat">
 <meta name="citation_author" content="Your Name">
+<meta name="citation_author" content="Kasper Munch">
 <meta name="citation_publication_date" content="2024-12-03">
 <meta name="citation_cover_date" content="2024-12-03">
 <meta name="citation_year" content="2024">
@@ -157,11 +154,19 @@ window.Quarto = {
     <div class="quarto-title-meta-container">
       <div class="quarto-title-meta-column-start">
             <div class="quarto-title-meta-author">
-          <div class="quarto-title-meta-heading">Author</div>
+          <div class="quarto-title-meta-heading">Authors</div>
           <div class="quarto-title-meta-heading">Affiliation</div>
           
                 <div class="quarto-title-meta-contents">
             <p class="author">Your Name </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Aarhus University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Kasper Munch </p>
           </div>
                 <div class="quarto-title-meta-contents">
                     <p class="affiliation">
@@ -187,19 +192,7 @@ window.Quarto = {
       <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div><div class="quarto-title-meta-contents"><p><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></p></div><div class="quarto-title-meta-contents"><p><a href="index-meca.zip" data-meca-link="true"><i class="bi bi-archive"></i>MECA Bundle</a></p></div></div></div>
     </div>
 
-    <div>
-      <div class="abstract">
-        <div class="block-title">Abstract</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
 
-    <div>
-      <div class="keywords">
-        <div class="block-title">Keywords</div>
-        <p>Vestibulum, Nunc ac dignissim, Proin feugiat</p>
-      </div>
-    </div>
 
     <div class="quarto-other-links-text-target">
     </div>  </div>
@@ -209,7 +202,8 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
   <li><a href="#subsection-with-references" id="toc-subsection-with-references" class="nav-link" data-scroll-target="#subsection-with-references">Subsection (with references)</a></li>
   <li><a href="#subsubsection-with-illustrations" id="toc-subsubsection-with-illustrations" class="nav-link" data-scroll-target="#subsubsection-with-illustrations">Subsubsection (with illustrations)</a></li>
@@ -244,6 +238,11 @@ window.Quarto = {
   
 
 
+<!-- Italics are "grayed out" to make the example use stand out from dummy content. To make them black, just remove the last line in header_extra.tex: "\renewcommand\emph[1]{\oldemph{\color{gray}#1}}" -->
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+</section>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
 <p><em>Fringilla sem fusce vivamus pellentesque in commodo penatibus bibendum. Vestibulum aptent volutpat vehicula eu rutrum lobortis consequat. Euismod lectus ultrices; duis duis ipsum rhoncus. Ipsum vitae primis potenti suscipit per nascetur rutrum lobortis. Scelerisque pulvinar duis interdum sapien elementum consequat vitae orci. Suspendisse tempor nisl accumsan dolor potenti euismod sed.</em></p>

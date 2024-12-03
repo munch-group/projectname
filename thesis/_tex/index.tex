@@ -367,10 +367,8 @@
 % }
 
 \usepackage{xcolor}
-% \let\oldtextit\textit 
-% \renewcommand\textit[1]{\oldtextit{\color{blue}#1}}
 \let\oldemph\emph
-\renewcommand\emph[1]{\oldemph{\color{gray}#1}}
+\renewcommand\emph[1]{\oldemph{\color{gray}#1}} % delete this line to make italics black again.
 
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -420,7 +418,6 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Title of my thesis},
-  pdfkeywords={Vestibulum, Nunc ac dignissim, Proin feugiat},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
@@ -433,7 +430,7 @@
 }
 \makeatother
 \subtitle{Some subtitle for my thesis}
-\author{Your Name}
+\author{Your Name \and Kasper Munch}
 \date{December 3, 2024}
 
 \begin{document}
@@ -450,6 +447,11 @@
 \vspace{6ex}
 
     {\Large\bfseries Your Name \par}
+    %
+        %
+        {\bfseries\large Aarhus University \par}
+    %
+    {\Large\bfseries Kasper Munch \par}
     %
         %
         {\bfseries\large Aarhus University \par}
@@ -478,6 +480,7 @@ Somethings was not previously know. I found something and was able to
 conclude something. The perspectives of this result is something. \par
 \raggedleft    
     {- Your Name \par}
+    {- Kasper Munch \par}
 %    
 \end{quote}
 }
@@ -490,6 +493,22 @@ conclude something. The perspectives of this result is something. \par
 
 \setstretch{1}
 \mainmatter
+\chapter{Abstract}\label{abstract}
+
+\emph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+qui officia deserunt mollit anim id est laborum.}
+
 \chapter{Introduction}\label{introduction}
 
 \emph{Fringilla sem fusce vivamus pellentesque in commodo penatibus
