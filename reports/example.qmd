@@ -1,5 +1,5 @@
 ---
-title: Example
+title: Markdown in Quarto
 author: My Name
 date: today
 format:
@@ -9,7 +9,7 @@ format:
 
 ```{python}
 #| echo: false
-# make global parameters available to embed in text
+# make global parameters available to embed in the text
 import sys
 sys.path.append('..')
 from global_params import load_params
@@ -17,60 +17,97 @@ params = load_params('../global_params.yml')
 ```
 
 
-## Section
+## Including BibTex references
 
-<!-- Dummy text -->
-Denmmark ... {{< lipsum 1 >}} 
+There are many ways to manage BibTex references. In [ReadCube Papers](https://www.papersapp.com/), you just right-click to select `Copy...>BibTex entry` and paste it into your BibTex file (I also have a script that formats your entire Papers library for BibTex with meaningful labels).
 
+You can render citations in different ways to accommodate their sentence. Skov et al. reported strong selection on the human X chromosome [-@Skov2023]. Lineages in small populations have shorter coalescence times [see @NielsenSlatkin2016, chap. 1]. The Neanderthal genome has been sequenced [@Prufer2012]. The X chromosome is subject to recurrent sweeps [@Nam2015; @Dutheil2015]. Following @Munch2014, we blah blah...
 
-### Subsection
+## Illustrations
 
-In Denmark, the workplace interaction is very informal and largely unaffected by seniority and age. 
+You can see an elephant in @fig-elephant. 
+
+::: {#fig-elephant }
+
+![](illustrations/elephant.png){width="50%"}
+
+Some caption for an illustration showing an elephant
+:::
+
+There are two elephants in @fig-twoelephants. The elephants in @fig-surus and @fig-hanno look similar.
+
+::: {#fig-twoelephants layout-ncol=2}
+
+![](illustrations/elephant.png){#fig-surus}
+
+![](illustrations/elephant.png){#fig-hanno}
+
+Some caption you wrote for an illustration of two elephants.
+:::
+
+## Text included from notebook
 
 {{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
 
-I found that neither academic seniority or age of workplace individuals much affected how informal our interaction was (see @fig-danish-interaction). 
+## Table included from notebook
 
-{{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
-
-<!-- Dummy text -->
-
-{{< embed ../notebooks/example.ipynb#doc-formality-correlation echo=false >}}
-
-<!-- Dummy text -->
-{{< lipsum 1 >}} 
-
-## Section
-
-This this investigation of `{python} params.sample_size` Danes..., 
-
-<!-- Dummy text -->
-{{< lipsum 1 >}} 
-
-## Section
-
-### Subsection
-
-<!-- Dummy text -->
-{{< lipsum 1 >}} 
-
-@tbl-subjects lists the samples included in the analysis.
+These were selected to represent as many nationalities as possible (@tbl-subjects). 
 
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
 
+## Math
+
+This is calculated as $\pi_k = \prod_{i=1}^K x_i$. You can crossref formulas (@eq-definition).
+
+$$
+\lambda = \sum_{k=1}^N \pi_k
+$$ {#eq-definition}
+
+## Code
+
+Executed but hide code and any output:
+
+```{python}
+#| echo: false
+#| output: false
+
+x = 5
+```
+
+
+Show and execute Python code:
+
+```{python}
+
+x = 5
+```
+
+Values can be embedded in the text, too. The value of `x` is `{python} x`.
+
+Shown, not executed, Python code:
+
+```python
+y = 4
+```
+
+Shown, not executed, R code:
+
+```r
+z <- 7
+```
+
+## Bold and italics
+
+**This is bold**, __so is this__. *This is italics*, _so is this_. __*This is both*__, **_so is this_**. 
+
+## Section
+
 {{< lipsum 1 >}} 
 
-{{< embed ../notebooks/example.ipynb#fig-meaninformality echo=false >}}
+### Subsection
 
 {{< lipsum 1 >}} 
 
-@tbl-subjects lists the mean interaction scores by position and nationality.
+### Subsubsection
 
-{{< embed ../notebooks/example.ipynb#tbl-meaninformality echo=false >}}
-
-## References
-
-::: {#refs}
-:::
-
-
+{{< lipsum 1 >}} 
