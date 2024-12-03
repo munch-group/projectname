@@ -199,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./reports/example.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Example</span></a>
+  <a href="./reports/example.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Markdown in Quarto</span></a>
   </div>
 </li>
       </ul>
@@ -311,7 +311,7 @@ file label:                'output_path'                              'output_pa
 <p>““”</p>
 <section id="imports-and-utility-functions" class="level2">
 <h2 class="anchored" data-anchor-id="imports-and-utility-functions">Imports and utility functions</h2>
-<div id="2414d9b8" class="cell" data-execution_count="1">
+<div id="e22efe82" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> gwf <span class="im">import</span> Workflow, AnonymousTarget</span>
@@ -319,12 +319,12 @@ file label:                'output_path'                              'output_pa
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> glob</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Instantiate the workflow with the name of the project folder:</p>
-<div id="ead15648" class="cell" data-execution_count="2">
+<div id="04dbeb4d" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># instantiate the workflow</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>gwf <span class="op">=</span> Workflow(defaults<span class="op">=</span>{<span class="st">'account'</span>: <span class="st">'your-project-folder-name'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Utility functions:</p>
-<div id="5af5e548" class="cell" data-execution_count="3">
+<div id="f5e52606" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># utility function</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> modify_path(path, <span class="op">**</span>kwargs):</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
@@ -354,7 +354,7 @@ file label:                'output_path'                              'output_pa
 </section>
 <section id="template-functions" class="level2">
 <h2 class="anchored" data-anchor-id="template-functions">Template functions:</h2>
-<div id="55228356" class="cell" data-execution_count="4">
+<div id="e41055b3" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># task template function</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> uppercase_names(raw_path): </span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
@@ -520,7 +520,7 @@ file label:                'output_path'                              'output_pa
 </section>
 <section id="workflow" class="level2">
 <h2 class="anchored" data-anchor-id="workflow">Workflow:</h2>
-<div id="7c56d924" class="cell" data-execution_count="5">
+<div id="d4fe4778" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># instantiate the workflow</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>gwf <span class="op">=</span> Workflow(defaults<span class="op">=</span>{<span class="st">'account'</span>: <span class="st">'your-project-folder-name'</span>})</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
