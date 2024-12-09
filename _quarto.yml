@@ -4,6 +4,7 @@ project:
     # - quarto render --profile slides
     - quarto render slides/
     - quarto render thesis/
+    - quarto render manuscript/
 
 execute:
   freeze: auto
@@ -44,6 +45,10 @@ book:
       chapters:
       # (the same files must be listed _quarto-slides.yml to render as slides)
       - slides/index.qmd 
+    - part: "Manuscript"
+      chapters:
+      # (the same files must be listed _quarto-slides.yml to render as slides)
+      - manuscript/index.qmd 
     - part: "Thesis"
       chapters:
       # (the same files must be listed _quarto-slides.yml to render as slides)
