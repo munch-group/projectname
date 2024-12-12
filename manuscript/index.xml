@@ -229,184 +229,184 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
       <caption><p>Table 1: People included in the
       analysis.</p></caption>
       <table-wrap>
-        <table id="T_8db8e">
+        <table id="T_0b8ad">
           <thead>
             <tr>
-              <th id="T_8db8e_level0_col0">name</th>
-              <th id="T_8db8e_level0_col1">age</th>
-              <th id="T_8db8e_level0_col2">sex</th>
-              <th id="T_8db8e_level0_col3">position</th>
-              <th id="T_8db8e_level0_col4">nationality</th>
+              <th id="T_0b8ad_level0_col0">name</th>
+              <th id="T_0b8ad_level0_col1">age</th>
+              <th id="T_0b8ad_level0_col2">sex</th>
+              <th id="T_0b8ad_level0_col3">position</th>
+              <th id="T_0b8ad_level0_col4">nationality</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td id="T_8db8e_row0_col0">Julie</td>
-              <td id="T_8db8e_row0_col1">27</td>
-              <td id="T_8db8e_row0_col2">F</td>
-              <td id="T_8db8e_row0_col3">PhDstudent</td>
-              <td id="T_8db8e_row0_col4">DK</td>
+              <td id="T_0b8ad_row0_col0">Julie</td>
+              <td id="T_0b8ad_row0_col1">27</td>
+              <td id="T_0b8ad_row0_col2">F</td>
+              <td id="T_0b8ad_row0_col3">PhDstudent</td>
+              <td id="T_0b8ad_row0_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row1_col0">Thomas</td>
-              <td id="T_8db8e_row1_col1">33</td>
-              <td id="T_8db8e_row1_col2">M</td>
-              <td id="T_8db8e_row1_col3">Postdoc</td>
-              <td id="T_8db8e_row1_col4">GB</td>
+              <td id="T_0b8ad_row1_col0">Thomas</td>
+              <td id="T_0b8ad_row1_col1">33</td>
+              <td id="T_0b8ad_row1_col2">M</td>
+              <td id="T_0b8ad_row1_col3">Postdoc</td>
+              <td id="T_0b8ad_row1_col4">GB</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row2_col0">Emilie</td>
-              <td id="T_8db8e_row2_col1">23</td>
-              <td id="T_8db8e_row2_col2">F</td>
-              <td id="T_8db8e_row2_col3">PhDstudent</td>
-              <td id="T_8db8e_row2_col4">CH</td>
+              <td id="T_0b8ad_row2_col0">Emilie</td>
+              <td id="T_0b8ad_row2_col1">23</td>
+              <td id="T_0b8ad_row2_col2">F</td>
+              <td id="T_0b8ad_row2_col3">PhDstudent</td>
+              <td id="T_0b8ad_row2_col4">CH</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row3_col0">Sofie</td>
-              <td id="T_8db8e_row3_col1">31</td>
-              <td id="T_8db8e_row3_col2">F</td>
-              <td id="T_8db8e_row3_col3">Postdoc</td>
-              <td id="T_8db8e_row3_col4">DK</td>
+              <td id="T_0b8ad_row3_col0">Sofie</td>
+              <td id="T_0b8ad_row3_col1">31</td>
+              <td id="T_0b8ad_row3_col2">F</td>
+              <td id="T_0b8ad_row3_col3">Postdoc</td>
+              <td id="T_0b8ad_row3_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row4_col0">Sara</td>
-              <td id="T_8db8e_row4_col1">29</td>
-              <td id="T_8db8e_row4_col2">F</td>
-              <td id="T_8db8e_row4_col3">Postdoc</td>
-              <td id="T_8db8e_row4_col4">US</td>
+              <td id="T_0b8ad_row4_col0">Sara</td>
+              <td id="T_0b8ad_row4_col1">29</td>
+              <td id="T_0b8ad_row4_col2">F</td>
+              <td id="T_0b8ad_row4_col3">Postdoc</td>
+              <td id="T_0b8ad_row4_col4">US</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row5_col0">Cecilie</td>
-              <td id="T_8db8e_row5_col1">34</td>
-              <td id="T_8db8e_row5_col2">F</td>
-              <td id="T_8db8e_row5_col3">Postdoc</td>
-              <td id="T_8db8e_row5_col4">DK</td>
+              <td id="T_0b8ad_row5_col0">Cecilie</td>
+              <td id="T_0b8ad_row5_col1">34</td>
+              <td id="T_0b8ad_row5_col2">F</td>
+              <td id="T_0b8ad_row5_col3">Postdoc</td>
+              <td id="T_0b8ad_row5_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row6_col0">Anders</td>
-              <td id="T_8db8e_row6_col1">32</td>
-              <td id="T_8db8e_row6_col2">M</td>
-              <td id="T_8db8e_row6_col3">PhDstudent</td>
-              <td id="T_8db8e_row6_col4">UK</td>
+              <td id="T_0b8ad_row6_col0">Anders</td>
+              <td id="T_0b8ad_row6_col1">32</td>
+              <td id="T_0b8ad_row6_col2">M</td>
+              <td id="T_0b8ad_row6_col3">PhDstudent</td>
+              <td id="T_0b8ad_row6_col4">UK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row7_col0">Emma</td>
-              <td id="T_8db8e_row7_col1">42</td>
-              <td id="T_8db8e_row7_col2">F</td>
-              <td id="T_8db8e_row7_col3">Professor</td>
-              <td id="T_8db8e_row7_col4">DK</td>
+              <td id="T_0b8ad_row7_col0">Emma</td>
+              <td id="T_0b8ad_row7_col1">42</td>
+              <td id="T_0b8ad_row7_col2">F</td>
+              <td id="T_0b8ad_row7_col3">Professor</td>
+              <td id="T_0b8ad_row7_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row8_col0">Caroline</td>
-              <td id="T_8db8e_row8_col1">31</td>
-              <td id="T_8db8e_row8_col2">F</td>
-              <td id="T_8db8e_row8_col3">PhDstudent</td>
-              <td id="T_8db8e_row8_col4">DK</td>
+              <td id="T_0b8ad_row8_col0">Caroline</td>
+              <td id="T_0b8ad_row8_col1">31</td>
+              <td id="T_0b8ad_row8_col2">F</td>
+              <td id="T_0b8ad_row8_col3">PhDstudent</td>
+              <td id="T_0b8ad_row8_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row9_col0">Laura</td>
-              <td id="T_8db8e_row9_col1">30</td>
-              <td id="T_8db8e_row9_col2">F</td>
-              <td id="T_8db8e_row9_col3">Postdoc</td>
-              <td id="T_8db8e_row9_col4">DK</td>
+              <td id="T_0b8ad_row9_col0">Laura</td>
+              <td id="T_0b8ad_row9_col1">30</td>
+              <td id="T_0b8ad_row9_col2">F</td>
+              <td id="T_0b8ad_row9_col3">Postdoc</td>
+              <td id="T_0b8ad_row9_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row10_col0">Mikkel</td>
-              <td id="T_8db8e_row10_col1">33</td>
-              <td id="T_8db8e_row10_col2">M</td>
-              <td id="T_8db8e_row10_col3">Postdoc</td>
-              <td id="T_8db8e_row10_col4">NL</td>
+              <td id="T_0b8ad_row10_col0">Mikkel</td>
+              <td id="T_0b8ad_row10_col1">33</td>
+              <td id="T_0b8ad_row10_col2">M</td>
+              <td id="T_0b8ad_row10_col3">Postdoc</td>
+              <td id="T_0b8ad_row10_col4">NL</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row11_col0">Jens</td>
-              <td id="T_8db8e_row11_col1">27</td>
-              <td id="T_8db8e_row11_col2">M</td>
-              <td id="T_8db8e_row11_col3">PhDstudent</td>
-              <td id="T_8db8e_row11_col4">DK</td>
+              <td id="T_0b8ad_row11_col0">Jens</td>
+              <td id="T_0b8ad_row11_col1">27</td>
+              <td id="T_0b8ad_row11_col2">M</td>
+              <td id="T_0b8ad_row11_col3">PhDstudent</td>
+              <td id="T_0b8ad_row11_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row12_col0">Andreas</td>
-              <td id="T_8db8e_row12_col1">29</td>
-              <td id="T_8db8e_row12_col2">M</td>
-              <td id="T_8db8e_row12_col3">PhDstudent</td>
-              <td id="T_8db8e_row12_col4">DK</td>
+              <td id="T_0b8ad_row12_col0">Andreas</td>
+              <td id="T_0b8ad_row12_col1">29</td>
+              <td id="T_0b8ad_row12_col2">M</td>
+              <td id="T_0b8ad_row12_col3">PhDstudent</td>
+              <td id="T_0b8ad_row12_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row13_col0">Jakob</td>
-              <td id="T_8db8e_row13_col1">28</td>
-              <td id="T_8db8e_row13_col2">M</td>
-              <td id="T_8db8e_row13_col3">PhDstudent</td>
-              <td id="T_8db8e_row13_col4">DK</td>
+              <td id="T_0b8ad_row13_col0">Jakob</td>
+              <td id="T_0b8ad_row13_col1">28</td>
+              <td id="T_0b8ad_row13_col2">M</td>
+              <td id="T_0b8ad_row13_col3">PhDstudent</td>
+              <td id="T_0b8ad_row13_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row14_col0">Mathilde</td>
-              <td id="T_8db8e_row14_col1">61</td>
-              <td id="T_8db8e_row14_col2">F</td>
-              <td id="T_8db8e_row14_col3">Professor</td>
-              <td id="T_8db8e_row14_col4">DK</td>
+              <td id="T_0b8ad_row14_col0">Mathilde</td>
+              <td id="T_0b8ad_row14_col1">61</td>
+              <td id="T_0b8ad_row14_col2">F</td>
+              <td id="T_0b8ad_row14_col3">Professor</td>
+              <td id="T_0b8ad_row14_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row15_col0">Katrine</td>
-              <td id="T_8db8e_row15_col1">35</td>
-              <td id="T_8db8e_row15_col2">F</td>
-              <td id="T_8db8e_row15_col3">Postdoc</td>
-              <td id="T_8db8e_row15_col4">DK</td>
+              <td id="T_0b8ad_row15_col0">Katrine</td>
+              <td id="T_0b8ad_row15_col1">35</td>
+              <td id="T_0b8ad_row15_col2">F</td>
+              <td id="T_0b8ad_row15_col3">Postdoc</td>
+              <td id="T_0b8ad_row15_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row16_col0">Poul</td>
-              <td id="T_8db8e_row16_col1">30</td>
-              <td id="T_8db8e_row16_col2">M</td>
-              <td id="T_8db8e_row16_col3">Postdoc</td>
-              <td id="T_8db8e_row16_col4">DK</td>
+              <td id="T_0b8ad_row16_col0">Poul</td>
+              <td id="T_0b8ad_row16_col1">30</td>
+              <td id="T_0b8ad_row16_col2">M</td>
+              <td id="T_0b8ad_row16_col3">Postdoc</td>
+              <td id="T_0b8ad_row16_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row17_col0">Anna</td>
-              <td id="T_8db8e_row17_col1">26</td>
-              <td id="T_8db8e_row17_col2">F</td>
-              <td id="T_8db8e_row17_col3">PhDstudent</td>
-              <td id="T_8db8e_row17_col4">DK</td>
+              <td id="T_0b8ad_row17_col0">Anna</td>
+              <td id="T_0b8ad_row17_col1">26</td>
+              <td id="T_0b8ad_row17_col2">F</td>
+              <td id="T_0b8ad_row17_col3">PhDstudent</td>
+              <td id="T_0b8ad_row17_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row18_col0">Peter</td>
-              <td id="T_8db8e_row18_col1">42</td>
-              <td id="T_8db8e_row18_col2">M</td>
-              <td id="T_8db8e_row18_col3">Professor</td>
-              <td id="T_8db8e_row18_col4">GB</td>
+              <td id="T_0b8ad_row18_col0">Peter</td>
+              <td id="T_0b8ad_row18_col1">42</td>
+              <td id="T_0b8ad_row18_col2">M</td>
+              <td id="T_0b8ad_row18_col3">Professor</td>
+              <td id="T_0b8ad_row18_col4">GB</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row19_col0">Ida</td>
-              <td id="T_8db8e_row19_col1">53</td>
-              <td id="T_8db8e_row19_col2">F</td>
-              <td id="T_8db8e_row19_col3">Postdoc</td>
-              <td id="T_8db8e_row19_col4">DK</td>
+              <td id="T_0b8ad_row19_col0">Ida</td>
+              <td id="T_0b8ad_row19_col1">53</td>
+              <td id="T_0b8ad_row19_col2">F</td>
+              <td id="T_0b8ad_row19_col3">Postdoc</td>
+              <td id="T_0b8ad_row19_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row20_col0">Freja</td>
-              <td id="T_8db8e_row20_col1">30</td>
-              <td id="T_8db8e_row20_col2">F</td>
-              <td id="T_8db8e_row20_col3">Postdoc</td>
-              <td id="T_8db8e_row20_col4">DK</td>
+              <td id="T_0b8ad_row20_col0">Freja</td>
+              <td id="T_0b8ad_row20_col1">30</td>
+              <td id="T_0b8ad_row20_col2">F</td>
+              <td id="T_0b8ad_row20_col3">Postdoc</td>
+              <td id="T_0b8ad_row20_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row21_col0">Maria</td>
-              <td id="T_8db8e_row21_col1">39</td>
-              <td id="T_8db8e_row21_col2">F</td>
-              <td id="T_8db8e_row21_col3">Professor</td>
-              <td id="T_8db8e_row21_col4">UK</td>
+              <td id="T_0b8ad_row21_col0">Maria</td>
+              <td id="T_0b8ad_row21_col1">39</td>
+              <td id="T_0b8ad_row21_col2">F</td>
+              <td id="T_0b8ad_row21_col3">Professor</td>
+              <td id="T_0b8ad_row21_col4">UK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row22_col0">Amalie</td>
-              <td id="T_8db8e_row22_col1">29</td>
-              <td id="T_8db8e_row22_col2">F</td>
-              <td id="T_8db8e_row22_col3">PhDstudent</td>
-              <td id="T_8db8e_row22_col4">DK</td>
+              <td id="T_0b8ad_row22_col0">Amalie</td>
+              <td id="T_0b8ad_row22_col1">29</td>
+              <td id="T_0b8ad_row22_col2">F</td>
+              <td id="T_0b8ad_row22_col3">PhDstudent</td>
+              <td id="T_0b8ad_row22_col4">DK</td>
             </tr>
             <tr>
-              <td id="T_8db8e_row23_col0">Camilla</td>
-              <td id="T_8db8e_row23_col1">35</td>
-              <td id="T_8db8e_row23_col2">F</td>
-              <td id="T_8db8e_row23_col3">Postdoc</td>
-              <td id="T_8db8e_row23_col4">DK</td>
+              <td id="T_0b8ad_row23_col0">Camilla</td>
+              <td id="T_0b8ad_row23_col1">35</td>
+              <td id="T_0b8ad_row23_col2">F</td>
+              <td id="T_0b8ad_row23_col3">Postdoc</td>
+              <td id="T_0b8ad_row23_col4">DK</td>
             </tr>
           </tbody>
         </table>
@@ -1096,184 +1096,184 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
       analysis.</p></caption>
       <boxed-text>
         <table-wrap>
-          <table id="T_8db8e-nb-article">
+          <table id="T_0b8ad-nb-article">
             <thead>
               <tr>
-                <th id="T_8db8e_level0_col0-nb-article">name</th>
-                <th id="T_8db8e_level0_col1-nb-article">age</th>
-                <th id="T_8db8e_level0_col2-nb-article">sex</th>
-                <th id="T_8db8e_level0_col3-nb-article">position</th>
-                <th id="T_8db8e_level0_col4-nb-article">nationality</th>
+                <th id="T_0b8ad_level0_col0-nb-article">name</th>
+                <th id="T_0b8ad_level0_col1-nb-article">age</th>
+                <th id="T_0b8ad_level0_col2-nb-article">sex</th>
+                <th id="T_0b8ad_level0_col3-nb-article">position</th>
+                <th id="T_0b8ad_level0_col4-nb-article">nationality</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td id="T_8db8e_row0_col0-nb-article">Julie</td>
-                <td id="T_8db8e_row0_col1-nb-article">27</td>
-                <td id="T_8db8e_row0_col2-nb-article">F</td>
-                <td id="T_8db8e_row0_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row0_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row0_col0-nb-article">Julie</td>
+                <td id="T_0b8ad_row0_col1-nb-article">27</td>
+                <td id="T_0b8ad_row0_col2-nb-article">F</td>
+                <td id="T_0b8ad_row0_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row0_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row1_col0-nb-article">Thomas</td>
-                <td id="T_8db8e_row1_col1-nb-article">33</td>
-                <td id="T_8db8e_row1_col2-nb-article">M</td>
-                <td id="T_8db8e_row1_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row1_col4-nb-article">GB</td>
+                <td id="T_0b8ad_row1_col0-nb-article">Thomas</td>
+                <td id="T_0b8ad_row1_col1-nb-article">33</td>
+                <td id="T_0b8ad_row1_col2-nb-article">M</td>
+                <td id="T_0b8ad_row1_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row1_col4-nb-article">GB</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row2_col0-nb-article">Emilie</td>
-                <td id="T_8db8e_row2_col1-nb-article">23</td>
-                <td id="T_8db8e_row2_col2-nb-article">F</td>
-                <td id="T_8db8e_row2_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row2_col4-nb-article">CH</td>
+                <td id="T_0b8ad_row2_col0-nb-article">Emilie</td>
+                <td id="T_0b8ad_row2_col1-nb-article">23</td>
+                <td id="T_0b8ad_row2_col2-nb-article">F</td>
+                <td id="T_0b8ad_row2_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row2_col4-nb-article">CH</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row3_col0-nb-article">Sofie</td>
-                <td id="T_8db8e_row3_col1-nb-article">31</td>
-                <td id="T_8db8e_row3_col2-nb-article">F</td>
-                <td id="T_8db8e_row3_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row3_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row3_col0-nb-article">Sofie</td>
+                <td id="T_0b8ad_row3_col1-nb-article">31</td>
+                <td id="T_0b8ad_row3_col2-nb-article">F</td>
+                <td id="T_0b8ad_row3_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row3_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row4_col0-nb-article">Sara</td>
-                <td id="T_8db8e_row4_col1-nb-article">29</td>
-                <td id="T_8db8e_row4_col2-nb-article">F</td>
-                <td id="T_8db8e_row4_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row4_col4-nb-article">US</td>
+                <td id="T_0b8ad_row4_col0-nb-article">Sara</td>
+                <td id="T_0b8ad_row4_col1-nb-article">29</td>
+                <td id="T_0b8ad_row4_col2-nb-article">F</td>
+                <td id="T_0b8ad_row4_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row4_col4-nb-article">US</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row5_col0-nb-article">Cecilie</td>
-                <td id="T_8db8e_row5_col1-nb-article">34</td>
-                <td id="T_8db8e_row5_col2-nb-article">F</td>
-                <td id="T_8db8e_row5_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row5_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row5_col0-nb-article">Cecilie</td>
+                <td id="T_0b8ad_row5_col1-nb-article">34</td>
+                <td id="T_0b8ad_row5_col2-nb-article">F</td>
+                <td id="T_0b8ad_row5_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row5_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row6_col0-nb-article">Anders</td>
-                <td id="T_8db8e_row6_col1-nb-article">32</td>
-                <td id="T_8db8e_row6_col2-nb-article">M</td>
-                <td id="T_8db8e_row6_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row6_col4-nb-article">UK</td>
+                <td id="T_0b8ad_row6_col0-nb-article">Anders</td>
+                <td id="T_0b8ad_row6_col1-nb-article">32</td>
+                <td id="T_0b8ad_row6_col2-nb-article">M</td>
+                <td id="T_0b8ad_row6_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row6_col4-nb-article">UK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row7_col0-nb-article">Emma</td>
-                <td id="T_8db8e_row7_col1-nb-article">42</td>
-                <td id="T_8db8e_row7_col2-nb-article">F</td>
-                <td id="T_8db8e_row7_col3-nb-article">Professor</td>
-                <td id="T_8db8e_row7_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row7_col0-nb-article">Emma</td>
+                <td id="T_0b8ad_row7_col1-nb-article">42</td>
+                <td id="T_0b8ad_row7_col2-nb-article">F</td>
+                <td id="T_0b8ad_row7_col3-nb-article">Professor</td>
+                <td id="T_0b8ad_row7_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row8_col0-nb-article">Caroline</td>
-                <td id="T_8db8e_row8_col1-nb-article">31</td>
-                <td id="T_8db8e_row8_col2-nb-article">F</td>
-                <td id="T_8db8e_row8_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row8_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row8_col0-nb-article">Caroline</td>
+                <td id="T_0b8ad_row8_col1-nb-article">31</td>
+                <td id="T_0b8ad_row8_col2-nb-article">F</td>
+                <td id="T_0b8ad_row8_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row8_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row9_col0-nb-article">Laura</td>
-                <td id="T_8db8e_row9_col1-nb-article">30</td>
-                <td id="T_8db8e_row9_col2-nb-article">F</td>
-                <td id="T_8db8e_row9_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row9_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row9_col0-nb-article">Laura</td>
+                <td id="T_0b8ad_row9_col1-nb-article">30</td>
+                <td id="T_0b8ad_row9_col2-nb-article">F</td>
+                <td id="T_0b8ad_row9_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row9_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row10_col0-nb-article">Mikkel</td>
-                <td id="T_8db8e_row10_col1-nb-article">33</td>
-                <td id="T_8db8e_row10_col2-nb-article">M</td>
-                <td id="T_8db8e_row10_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row10_col4-nb-article">NL</td>
+                <td id="T_0b8ad_row10_col0-nb-article">Mikkel</td>
+                <td id="T_0b8ad_row10_col1-nb-article">33</td>
+                <td id="T_0b8ad_row10_col2-nb-article">M</td>
+                <td id="T_0b8ad_row10_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row10_col4-nb-article">NL</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row11_col0-nb-article">Jens</td>
-                <td id="T_8db8e_row11_col1-nb-article">27</td>
-                <td id="T_8db8e_row11_col2-nb-article">M</td>
-                <td id="T_8db8e_row11_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row11_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row11_col0-nb-article">Jens</td>
+                <td id="T_0b8ad_row11_col1-nb-article">27</td>
+                <td id="T_0b8ad_row11_col2-nb-article">M</td>
+                <td id="T_0b8ad_row11_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row11_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row12_col0-nb-article">Andreas</td>
-                <td id="T_8db8e_row12_col1-nb-article">29</td>
-                <td id="T_8db8e_row12_col2-nb-article">M</td>
-                <td id="T_8db8e_row12_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row12_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row12_col0-nb-article">Andreas</td>
+                <td id="T_0b8ad_row12_col1-nb-article">29</td>
+                <td id="T_0b8ad_row12_col2-nb-article">M</td>
+                <td id="T_0b8ad_row12_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row12_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row13_col0-nb-article">Jakob</td>
-                <td id="T_8db8e_row13_col1-nb-article">28</td>
-                <td id="T_8db8e_row13_col2-nb-article">M</td>
-                <td id="T_8db8e_row13_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row13_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row13_col0-nb-article">Jakob</td>
+                <td id="T_0b8ad_row13_col1-nb-article">28</td>
+                <td id="T_0b8ad_row13_col2-nb-article">M</td>
+                <td id="T_0b8ad_row13_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row13_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row14_col0-nb-article">Mathilde</td>
-                <td id="T_8db8e_row14_col1-nb-article">61</td>
-                <td id="T_8db8e_row14_col2-nb-article">F</td>
-                <td id="T_8db8e_row14_col3-nb-article">Professor</td>
-                <td id="T_8db8e_row14_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row14_col0-nb-article">Mathilde</td>
+                <td id="T_0b8ad_row14_col1-nb-article">61</td>
+                <td id="T_0b8ad_row14_col2-nb-article">F</td>
+                <td id="T_0b8ad_row14_col3-nb-article">Professor</td>
+                <td id="T_0b8ad_row14_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row15_col0-nb-article">Katrine</td>
-                <td id="T_8db8e_row15_col1-nb-article">35</td>
-                <td id="T_8db8e_row15_col2-nb-article">F</td>
-                <td id="T_8db8e_row15_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row15_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row15_col0-nb-article">Katrine</td>
+                <td id="T_0b8ad_row15_col1-nb-article">35</td>
+                <td id="T_0b8ad_row15_col2-nb-article">F</td>
+                <td id="T_0b8ad_row15_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row15_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row16_col0-nb-article">Poul</td>
-                <td id="T_8db8e_row16_col1-nb-article">30</td>
-                <td id="T_8db8e_row16_col2-nb-article">M</td>
-                <td id="T_8db8e_row16_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row16_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row16_col0-nb-article">Poul</td>
+                <td id="T_0b8ad_row16_col1-nb-article">30</td>
+                <td id="T_0b8ad_row16_col2-nb-article">M</td>
+                <td id="T_0b8ad_row16_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row16_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row17_col0-nb-article">Anna</td>
-                <td id="T_8db8e_row17_col1-nb-article">26</td>
-                <td id="T_8db8e_row17_col2-nb-article">F</td>
-                <td id="T_8db8e_row17_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row17_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row17_col0-nb-article">Anna</td>
+                <td id="T_0b8ad_row17_col1-nb-article">26</td>
+                <td id="T_0b8ad_row17_col2-nb-article">F</td>
+                <td id="T_0b8ad_row17_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row17_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row18_col0-nb-article">Peter</td>
-                <td id="T_8db8e_row18_col1-nb-article">42</td>
-                <td id="T_8db8e_row18_col2-nb-article">M</td>
-                <td id="T_8db8e_row18_col3-nb-article">Professor</td>
-                <td id="T_8db8e_row18_col4-nb-article">GB</td>
+                <td id="T_0b8ad_row18_col0-nb-article">Peter</td>
+                <td id="T_0b8ad_row18_col1-nb-article">42</td>
+                <td id="T_0b8ad_row18_col2-nb-article">M</td>
+                <td id="T_0b8ad_row18_col3-nb-article">Professor</td>
+                <td id="T_0b8ad_row18_col4-nb-article">GB</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row19_col0-nb-article">Ida</td>
-                <td id="T_8db8e_row19_col1-nb-article">53</td>
-                <td id="T_8db8e_row19_col2-nb-article">F</td>
-                <td id="T_8db8e_row19_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row19_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row19_col0-nb-article">Ida</td>
+                <td id="T_0b8ad_row19_col1-nb-article">53</td>
+                <td id="T_0b8ad_row19_col2-nb-article">F</td>
+                <td id="T_0b8ad_row19_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row19_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row20_col0-nb-article">Freja</td>
-                <td id="T_8db8e_row20_col1-nb-article">30</td>
-                <td id="T_8db8e_row20_col2-nb-article">F</td>
-                <td id="T_8db8e_row20_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row20_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row20_col0-nb-article">Freja</td>
+                <td id="T_0b8ad_row20_col1-nb-article">30</td>
+                <td id="T_0b8ad_row20_col2-nb-article">F</td>
+                <td id="T_0b8ad_row20_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row20_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row21_col0-nb-article">Maria</td>
-                <td id="T_8db8e_row21_col1-nb-article">39</td>
-                <td id="T_8db8e_row21_col2-nb-article">F</td>
-                <td id="T_8db8e_row21_col3-nb-article">Professor</td>
-                <td id="T_8db8e_row21_col4-nb-article">UK</td>
+                <td id="T_0b8ad_row21_col0-nb-article">Maria</td>
+                <td id="T_0b8ad_row21_col1-nb-article">39</td>
+                <td id="T_0b8ad_row21_col2-nb-article">F</td>
+                <td id="T_0b8ad_row21_col3-nb-article">Professor</td>
+                <td id="T_0b8ad_row21_col4-nb-article">UK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row22_col0-nb-article">Amalie</td>
-                <td id="T_8db8e_row22_col1-nb-article">29</td>
-                <td id="T_8db8e_row22_col2-nb-article">F</td>
-                <td id="T_8db8e_row22_col3-nb-article">PhDstudent</td>
-                <td id="T_8db8e_row22_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row22_col0-nb-article">Amalie</td>
+                <td id="T_0b8ad_row22_col1-nb-article">29</td>
+                <td id="T_0b8ad_row22_col2-nb-article">F</td>
+                <td id="T_0b8ad_row22_col3-nb-article">PhDstudent</td>
+                <td id="T_0b8ad_row22_col4-nb-article">DK</td>
               </tr>
               <tr>
-                <td id="T_8db8e_row23_col0-nb-article">Camilla</td>
-                <td id="T_8db8e_row23_col1-nb-article">35</td>
-                <td id="T_8db8e_row23_col2-nb-article">F</td>
-                <td id="T_8db8e_row23_col3-nb-article">Postdoc</td>
-                <td id="T_8db8e_row23_col4-nb-article">DK</td>
+                <td id="T_0b8ad_row23_col0-nb-article">Camilla</td>
+                <td id="T_0b8ad_row23_col1-nb-article">35</td>
+                <td id="T_0b8ad_row23_col2-nb-article">F</td>
+                <td id="T_0b8ad_row23_col3-nb-article">Postdoc</td>
+                <td id="T_0b8ad_row23_col4-nb-article">DK</td>
               </tr>
             </tbody>
           </table>
@@ -1322,11 +1322,11 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
   </sec>
   <sec id="subsection-with-code-nb-article">
     <title>Subsection (with code)</title>
-    <sec id="cell-5d241077-nb-article" specific-use="notebook-content">
+    <sec id="c163ce9c-nb-article" specific-use="notebook-content">
     <code language="python"># this code is executed but not shown in the output
 x = 5</code>
     </sec>
-    <sec id="cell-8f24f2b9-nb-article" specific-use="notebook-content">
+    <sec id="cell-09ed7abc-nb-article" specific-use="notebook-content">
     <p><italic>Pulvinar tempus nascetur sollicitudin fringilla
     sodales.</italic> The value of <monospace>x</monospace> is 5.
     <italic>Sapien ullamcorper pretium tellus ultricies sodales aliquet.
