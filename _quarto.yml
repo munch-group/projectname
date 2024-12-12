@@ -17,10 +17,13 @@ format:
       - .custom.scss
     toc-depth: 2
     notebook-links: true
-    number-sections: false
+    number-sections: false  
+    reference-location: margin
 
 comments:
   hypothesis: true
+
+lightbox: true
 
 book:
   repo-url: "https://github.com/munch-group/projectname"

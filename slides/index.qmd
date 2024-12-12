@@ -59,7 +59,7 @@ In Denmark, the workplace interaction is very informal and largely unaffected by
 
 ### Neither academic seniority or age affected interaction
 
-{{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
+{{< embed ../notebooks/example.ipynb#fig-danishinteraction >}}
 
 <!-- a bug in quarto does not allow successive embeds witout somthing in between (like this) -->
 
@@ -97,7 +97,7 @@ Left column
 :::
 
 ::: {.column width="60%"}
-{{< embed ../notebooks/example.ipynb#fig-danish-interaction >}}
+{{< embed ../notebooks/example.ipynb#fig-danishinteraction >}}
 :::
 
 ::::
