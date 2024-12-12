@@ -53,12 +53,15 @@ Some caption you wrote for an illustration of two elephants.
 
 ## Plot included from notebook
 
+See plot @fig-danish-interaction below.
+
 {{< embed ../notebooks/example.ipynb#fig-danish-interaction echo=false >}}
 
-(Or bigger)
+Or this really wide plot below (@fig-danish-interaction-facets).
 
-{{< embed ../notebooks/example.ipynb#fig-danish-interaction echo=false column=page >}}
-
+:::{.column-page}
+{{< embed ../notebooks/example.ipynb#fig-danish-interaction-facets echo=false>}}
+:::
 
 ## Text included from notebook
 
@@ -70,10 +73,11 @@ These were selected to represent as many nationalities as possible (@tbl-subject
 
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
 
-(you can also make the table wider)
+you can also allow the table to be wider
 
+:::{.column-page}
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false column=page>}}
-
+:::
 
 ## Math
 
