@@ -14,7 +14,7 @@
     "href": "index.html#section",
     "title": "projectname",
     "section": "Section",
-    "text": "Section\nUt ut condimentum augue, nec eleifend nisl. Sed facilisis egestas odio ac pretium. Pellentesque consequat magna sed venenatis sagittis. Vivamus feugiat lobortis magna vitae accumsan. Pellentesque euismod malesuada hendrerit. Ut non mauris non arcu condimentum sodales vitae vitae dolor. Nullam dapibus, velit eget lacinia rutrum, ipsum justo malesuada odio, et lobortis sapien magna vel lacus. Nulla purus neque, hendrerit non malesuada eget, mattis vel erat. Suspendisse potenti.",
+    "text": "Section\nNullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim.",
     "crumbs": [
       "Preface"
     ]
@@ -24,7 +24,7 @@
     "href": "index.html#section-1",
     "title": "projectname",
     "section": "Section",
-    "text": "Section\nEtiam quis tortor luctus, pellentesque ante a, finibus dolor. Phasellus in nibh et magna pulvinar malesuada. Ut nisl ex, sagittis at sollicitudin et, sollicitudin id nunc. In id porta urna. Proin porta dolor dolor, vel dapibus nisi lacinia in. Pellentesque ante mauris, ornare non euismod a, fermentum ut sapien. Proin sed vehicula enim. Aliquam tortor odio, vestibulum vitae odio in, tempor molestie justo. Praesent maximus lacus nec leo maximus blandit.",
+    "text": "Section\nProin sodales neque erat, varius cursus diam tincidunt sit amet. Etiam scelerisque fringilla nisl eu venenatis. Donec sem ipsum, scelerisque ac venenatis quis, hendrerit vel mauris. Praesent semper erat sit amet purus condimentum, sit amet auctor mi feugiat. In hac habitasse platea dictumst. Nunc ac mauris in massa feugiat bibendum id in dui. Praesent accumsan urna at lacinia aliquet. Proin ultricies eu est quis pellentesque. In vel lorem at nisl rhoncus cursus eu quis mi. In eu rutrum ante, quis placerat justo. Etiam euismod nibh nibh, sed elementum nunc imperdiet in. Praesent gravida nunc vel odio lacinia, at tempus nisl placerat. Aenean id ipsum sed est sagittis hendrerit non in tortor.",
     "crumbs": [
       "Preface"
     ]
@@ -118,6 +118,17 @@
     ]
   },
   {
+    "objectID": "reports/example.html#plot-included-from-notebook",
+    "href": "reports/example.html#plot-included-from-notebook",
+    "title": "Markdown in Quarto",
+    "section": "Plot included from notebook",
+    "text": "Plot included from notebook\n\n\n\n\n\n\n\n\n\nFigure 3.4: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches.\n\n\n\n\n\n\n(Or bigger)\n\n\n\n\n\n\n\n\n\nFigure 3.5: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches.",
+    "crumbs": [
+      "Reports",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Markdown in Quarto</span>"
+    ]
+  },
+  {
     "objectID": "reports/example.html#text-included-from-notebook",
     "href": "reports/example.html#text-included-from-notebook",
     "title": "Markdown in Quarto",
@@ -133,51 +144,7 @@
     "href": "reports/example.html#table-included-from-notebook",
     "title": "Markdown in Quarto",
     "section": "Table included from notebook",
-    "text": "Table included from notebook\nThese were selected to represent as many nationalities as possible (Table 9.1).\n\n\n\n\n\nTable 3.1: People included in the analysis.\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\nJulie\n27\nF\nPhDstudent\nDK\n\n\nThomas\n33\nM\nPostdoc\nGB\n\n\nEmilie\n23\nF\nPhDstudent\nCH\n\n\nSofie\n31\nF\nPostdoc\nDK\n\n\nSara\n29\nF\nPostdoc\nUS\n\n\nCecilie\n34\nF\nPostdoc\nDK\n\n\nAnders\n32\nM\nPhDstudent\nUK\n\n\nEmma\n42\nF\nProfessor\nDK\n\n\nCaroline\n31\nF\nPhDstudent\nDK\n\n\nLaura\n30\nF\nPostdoc\nDK\n\n\nMikkel\n33\nM\nPostdoc\nNL\n\n\nJens\n27\nM\nPhDstudent\nDK\n\n\nAndreas\n29\nM\nPhDstudent\nDK\n\n\nJakob\n28\nM\nPhDstudent\nDK\n\n\nMathilde\n61\nF\nProfessor\nDK\n\n\nKatrine\n35\nF\nPostdoc\nDK\n\n\nPoul\n30\nM\nPostdoc\nDK\n\n\nAnna\n26\nF\nPhDstudent\nDK\n\n\nPeter\n42\nM\nProfessor\nGB\n\n\nIda\n53\nF\nPostdoc\nDK\n\n\nFreja\n30\nF\nPostdoc\nDK\n\n\nMaria\n39\nF\nProfessor\nUK\n\n\nAmalie\n29\nF\nPhDstudent\nDK\n\n\nCamilla\n35\nF\nPostdoc\nDK",
-    "crumbs": [
-      "Reports",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Markdown in Quarto</span>"
-    ]
-  },
-  {
-    "objectID": "reports/example.html#math",
-    "href": "reports/example.html#math",
-    "title": "Markdown in Quarto",
-    "section": "Math",
-    "text": "Math\nThis is calculated as \\(\\pi_k = \\prod_{i=1}^K x_i\\). You can crossref formulas (Equation 3.1).\n\\[\n\\lambda = \\sum_{k=1}^N \\pi_k\n\\tag{3.1}\\]",
-    "crumbs": [
-      "Reports",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Markdown in Quarto</span>"
-    ]
-  },
-  {
-    "objectID": "reports/example.html#code",
-    "href": "reports/example.html#code",
-    "title": "Markdown in Quarto",
-    "section": "Code",
-    "text": "Code\nExecuted but hide code and any output:\nShow and execute Python code:\n\n\nCode\nx = 5\n\n\nValues can be embedded in the text, too. The value of x is 5.\nShown, not executed, Python code:\ny = 4\nShown, not executed, R code:\nz &lt;- 7",
-    "crumbs": [
-      "Reports",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Markdown in Quarto</span>"
-    ]
-  },
-  {
-    "objectID": "reports/example.html#bold-and-italics",
-    "href": "reports/example.html#bold-and-italics",
-    "title": "Markdown in Quarto",
-    "section": "Bold and italics",
-    "text": "Bold and italics\nThis is bold, so is this. This is italics, so is this. This is both, so is this.",
-    "crumbs": [
-      "Reports",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Markdown in Quarto</span>"
-    ]
-  },
-  {
-    "objectID": "reports/example.html#section",
-    "href": "reports/example.html#section",
-    "title": "Markdown in Quarto",
-    "section": "Section",
-    "text": "Section\nNulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet.\n\nSubsection\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\n\nSubsubsection\nVestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.\n\n\n\n\nDutheil, Julien Y, Kasper Munch, Kiwoong Nam, Thomas Mailund, and Mikkel H Schierup. 2015. “Strong Selective Sweeps on the X Chromosome in the Human-Chimpanzee Ancestor Explain Its Low Divergence.” PLOS Genetics 11 (8): e1005451. https://doi.org/10.1371/journal.pgen.1005451.\n\n\nMunch, Kasper, Thomas Mailund, Julien Y Dutheil, and Mikkel Schierup. 2014. “A fine-scale recombination map of the human–chimpanzee ancestor reveals faster change in humans than in chimpanzees and a strong impact of GC-biased gene conversion.” Genome Research 24 (3): 467–74. https://doi.org/10.1101/gr.158469.113.\n\n\nNam, Kiwoong, Kasper Munch, Asger Hobolth, Julien Dutheil, Krishna R Veeramah, August E Woerner, Michael F Hammer, et al. 2015. “Extreme selective sweeps independently targeted the X chromosomes of the great apes.” Proceedings of the National Academy of Sciences 112 (20): 6413–18. https://doi.org/10.1073/pnas.1419306112.\n\n\nNielsen, Rasmgb, and Montgomery Slatkin. 2016. An Introduction to Population Genetics: Theory and Applications.\n\n\nPrüfer, Kay, Kasper Munch, Ines Hellmann, Keiko Akagi, Jason R. Miller, Brian Walenz, Sergey Koren, et al. 2012. “The bonobo genome compared with the chimpanzee and human genomes.” Nature 486 (7404): 527–31. https://doi.org/10.1038/nature11128.\n\n\nSkov, Laurits, Moisès Coll Macià, Elise Anne Lucotte, Maria Izabel Alvez Cavassim, David Castellano, Mikkel Heide Schierup, and Kasper Munch. 2023. “Extraordinary selection on the human X chromosome associated with archaic admixture.” Cell Genomics, 100274. https://doi.org/10.1016/j.xgen.2023.100274.",
+    "text": "Table included from notebook\nThese were selected to represent as many nationalities as possible (Table 9.1).\n\n\n\n\n\nTable 3.1: People included in the analysis.\n\n\n\n\n\n\n\n\nname\nage\nsex\nposition\nnationality\n\n\n\n\nJulie\n27\nF\nPhDstudent\nDK\n\n\nThomas\n33\nM\nPostdoc\nGB\n\n\nEmilie\n23\nF\nPhDstudent\nCH\n\n\nSofie\n31\nF\nPostdoc\nDK\n\n\nSara\n29\nF\nPostdoc\nUS\n\n\nCecilie\n34\nF\nPostdoc\nDK\n\n\nAnders\n32\nM\nPhDstudent\nUK\n\n\nEmma\n42\nF\nProfessor\nDK\n\n\nCaroline\n31\nF\nPhDstudent\nDK\n\n\nLaura\n30\nF\nPostdoc\nDK\n\n\nMikkel\n33\nM\nPostdoc\nNL\n\n\nJens\n27\nM\nPhDstudent\nDK\n\n\nAndreas\n29\nM\nPhDstudent\nDK\n\n\nJakob\n28\nM\nPhDstudent\nDK\n\n\nMathilde\n61\nF\nProfessor\nDK\n\n\nKatrine\n35\nF\nPostdoc\nDK\n\n\nPoul\n30\nM\nPostdoc\nDK\n\n\nAnna\n26\nF\nPhDstudent\nDK\n\n\nPeter\n42\nM\nProfessor\nGB\n\n\nIda\n53\nF\nPostdoc\nDK\n\n\nFreja\n30\nF\nPostdoc\nDK\n\n\nMaria\n39\nF\nProfessor\nUK\n\n\nAmalie\n29\nF\nPhDstudent\nDK\n\n\nCamilla\n35\nF\nPostdoc\nDK\n\n\n\n\n\n\n\n\n\n(you can also make the table wider)\n\n\nDutheil, Julien Y, Kasper Munch, Kiwoong Nam, Thomas Mailund, and Mikkel H Schierup. 2015. “Strong Selective Sweeps on the X Chromosome in the Human-Chimpanzee Ancestor Explain Its Low Divergence.” PLOS Genetics 11 (8): e1005451. https://doi.org/10.1371/journal.pgen.1005451.\n\n\nMunch, Kasper, Thomas Mailund, Julien Y Dutheil, and Mikkel Schierup. 2014. “A fine-scale recombination map of the human–chimpanzee ancestor reveals faster change in humans than in chimpanzees and a strong impact of GC-biased gene conversion.” Genome Research 24 (3): 467–74. https://doi.org/10.1101/gr.158469.113.\n\n\nNam, Kiwoong, Kasper Munch, Asger Hobolth, Julien Dutheil, Krishna R Veeramah, August E Woerner, Michael F Hammer, et al. 2015. “Extreme selective sweeps independently targeted the X chromosomes of the great apes.” Proceedings of the National Academy of Sciences 112 (20): 6413–18. https://doi.org/10.1073/pnas.1419306112.\n\n\nNielsen, Rasmgb, and Montgomery Slatkin. 2016. An Introduction to Population Genetics: Theory and Applications.\n\n\nPrüfer, Kay, Kasper Munch, Ines Hellmann, Keiko Akagi, Jason R. Miller, Brian Walenz, Sergey Koren, et al. 2012. “The bonobo genome compared with the chimpanzee and human genomes.” Nature 486 (7404): 527–31. https://doi.org/10.1038/nature11128.\n\n\nSkov, Laurits, Moisès Coll Macià, Elise Anne Lucotte, Maria Izabel Alvez Cavassim, David Castellano, Mikkel Heide Schierup, and Kasper Munch. 2023. “Extraordinary selection on the human X chromosome associated with archaic admixture.” Cell Genomics, 100274. https://doi.org/10.1016/j.xgen.2023.100274.",
     "crumbs": [
       "Reports",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Markdown in Quarto</span>"
