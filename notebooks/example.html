@@ -75,6 +75,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-42fe6902d9bc97920db93319f8ebf48e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -271,7 +274,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.dev/munch-group/projectname/blob/main/notebooks/example.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/munch-group/projectname/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/munch-group/projectname/blob/main/notebooks/example.ipynb" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/example.html">Notebooks</a></li><li class="breadcrumb-item"><a href="../notebooks/example.html"><span class="chapter-title">Workplace interaction</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -778,7 +781,7 @@ By generaing markdown for descriptions that will eventually end up in the manusc
 </div>
 </div>
 </section>
-<section id="interviews" class="level2">
+<section id="interviews" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="interviews">Interviews</h2>
 <p>In interviewed <code>{python} params.sample_size</code> workplace individuals were interviewed by …. blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah,</p>
 <div id="cell-17" class="cell" data-execution_count="9">
@@ -1028,20 +1031,20 @@ By generaing markdown for descriptions that will eventually end up in the manusc
 </div>
 </div>
 </div>
-<div id="cell-fig-danish-interaction" class="cell" data-execution_count="10">
+<div id="cell-fig-danishinteraction" class="cell" data-execution_count="28">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">4</span>,<span class="dv">3</span>))</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span><span class="st">'age'</span>, y<span class="op">=</span><span class="st">'informality'</span>, data<span class="op">=</span>data, hue<span class="op">=</span><span class="st">'position'</span>, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'How informal you can be'</span>)</span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Age'</span>)</span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">'Seniority'</span>, loc<span class="op">=</span><span class="st">'lower right'</span>)</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>plt.ylim(bottom<span class="op">=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>plt.ylim(bottom<span class="op">=</span><span class="dv">0</span>) <span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="fig-danish-interaction" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-danishinteraction" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-danish-interaction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="example_files/figure-html/fig-danish-interaction-output-1.png" width="367" height="286" class="figure-img">
+<div aria-describedby="fig-danishinteraction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="example_files/figure-html/fig-danishinteraction-output-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;2.1: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches."><img src="example_files/figure-html/fig-danishinteraction-output-1.png" width="367" height="286" class="figure-img"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danish-interaction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danishinteraction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.1: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches.
 </figcaption>
 </figure>
@@ -1049,22 +1052,21 @@ Figure&nbsp;2.1: Figure legends are defined alongside the figure in the notebook
 </div>
 </div>
 <p>or plotted differently:</p>
-<div id="cell-fig-danish-interaction-facets" class="cell" data-execution_count="22">
+<div id="cell-fig-danishinteractionfacets" class="cell page-columns page-full" data-execution_count="31">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.figure(figsize=(4,3))</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.FacetGrid(data<span class="op">=</span>data, col<span class="op">=</span><span class="st">"nationality"</span>,hue<span class="op">=</span><span class="st">"position"</span>, palette<span class="op">=</span><span class="st">'viridis'</span>, aspect<span class="op">=</span><span class="fl">0.8</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>g <span class="op">=</span> sns.FacetGrid(data<span class="op">=</span>data, col<span class="op">=</span><span class="st">"nationality"</span>,hue<span class="op">=</span><span class="st">"position"</span>, palette<span class="op">=</span><span class="st">'viridis'</span>, aspect<span class="op">=</span><span class="fl">0.9</span>)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>g.<span class="bu">map</span>(sns.scatterplot, <span class="st">'age'</span>, <span class="st">'informality'</span>)</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co">#sns.scatterplot(x='age', y='informality', data=data, hue='position', palette='viridis')</span></span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'How informal you can be'</span>)</span>
 <span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Age'</span>)</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">'Seniority'</span>, loc<span class="op">=</span><span class="st">'lower right'</span>)</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>plt.ylim(bottom<span class="op">=</span><span class="dv">0</span>) <span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="fig-danish-interaction-facets" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-danish-interaction-facets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="example_files/figure-html/fig-danish-interaction-facets-output-1.png" width="1428" height="295" class="figure-img">
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">'Seniority'</span>, loc<span class="op">=</span><span class="st">'lower right'</span>) <span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-danishinteractionfacets" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-danishinteractionfacets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<a href="example_files/figure-html/fig-danishinteractionfacets-output-1.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2.2: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches."><img src="example_files/figure-html/fig-danishinteractionfacets-output-1.png" width="1616" height="295" class="figure-img column-page"></a>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danish-interaction-facets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danishinteractionfacets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.2: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches.
 </figcaption>
 </figure>
@@ -1163,7 +1165,7 @@ Table&nbsp;2.2: Mean interaction scores by position and nationality.
 <div id="fig-meaninformality" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-meaninformality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="example_files/figure-html/fig-meaninformality-output-1.png" width="436" height="286" class="figure-img">
+<a href="example_files/figure-html/fig-meaninformality-output-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;2.3: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches."><img src="example_files/figure-html/fig-meaninformality-output-1.png" width="436" height="286" class="figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-meaninformality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.3: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches.
@@ -1185,7 +1187,7 @@ Figure&nbsp;2.3: Figure legends are defined alongside the figure in the notebook
 <div id="fig-danish-interaction-regressions" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-danish-interaction-regressions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="example_files/figure-html/fig-danish-interaction-regressions-output-1.png" width="478" height="296" class="figure-img">
+<a href="example_files/figure-html/fig-danish-interaction-regressions-output-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;2.4: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches."><img src="example_files/figure-html/fig-danish-interaction-regressions-output-1.png" width="478" height="296" class="figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danish-interaction-regressions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.4: Figure legends are defined alongside the figure in the notebook. The figure size in the notebook is determines its size when embedded in a document 4x3 inches.
@@ -1629,8 +1631,40 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/munch-group/projectname/blob/main/notebooks/example.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/munch-group/projectname/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/munch-group/projectname/blob/main/notebooks/example.ipynb" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/munch-group/projectname/blob/main/notebooks/example.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/munch-group/projectname/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/munch-group/projectname/blob/main/notebooks/example.ipynb" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+</body></html>

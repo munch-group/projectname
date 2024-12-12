@@ -499,13 +499,13 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
     mus nullam molestie himenaeos neque lacus bibendum penatibus. Velit
     porttitor eget massa hac massa feugiat netus ac. Sodales scelerisque
     imperdiet curae luctus iaculis est vehicula elementum.</italic>
-    (<xref alt="Figure 3" rid="fig-danish-interaction">Figure 3</xref>).</p>
-    <fig id="fig-danish-interaction">
+    (<xref alt="Figure 3" rid="fig-danishinteraction">Figure 3</xref>).</p>
+    <fig id="fig-danishinteraction">
       <caption><p>Figure 3: Figure legends are defined alongside the
       figure in the notebook. The figure size in the notebook is
       determines its size when embedded in a document 4x3
       inches.</p></caption>
-      <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-danish-interaction-output-1.png" />
+      <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-danishinteraction-output-1.png" />
     </fig>
     <p>As shown in
     <xref alt="Figure 4" rid="fig-meaninformality">Figure 4</xref>,
@@ -1322,11 +1322,11 @@ blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
   </sec>
   <sec id="subsection-with-code-nb-article">
     <title>Subsection (with code)</title>
-    <sec id="c163ce9c-nb-article" specific-use="notebook-content">
+    <sec id="cell-5dd53e17-nb-article" specific-use="notebook-content">
     <code language="python"># this code is executed but not shown in the output
 x = 5</code>
     </sec>
-    <sec id="cell-09ed7abc-nb-article" specific-use="notebook-content">
+    <sec id="d86fd0eb-nb-article" specific-use="notebook-content">
     <p><italic>Pulvinar tempus nascetur sollicitudin fringilla
     sodales.</italic> The value of <monospace>x</monospace> is 5.
     <italic>Sapien ullamcorper pretium tellus ultricies sodales aliquet.
@@ -1373,21 +1373,21 @@ x = 5</code>
     mus nullam molestie himenaeos neque lacus bibendum penatibus. Velit
     porttitor eget massa hac massa feugiat netus ac. Sodales scelerisque
     imperdiet curae luctus iaculis est vehicula elementum.</italic>
-    (<xref alt="Figure 3" rid="fig-danish-interaction-nb-article">Figure 3</xref>).</p>
-    <sec id="cell-fig-danish-interaction-nb-article" specific-use="notebook-content">
+    (<xref alt="Figure 3" rid="fig-danishinteraction-nb-article">Figure 3</xref>).</p>
+    <sec id="cell-fig-danishinteraction-nb-article" specific-use="notebook-content">
     <code language="python">plt.figure(figsize=(4,3))
 sns.scatterplot(x='age', y='informality', data=data, hue='position', palette='viridis')
 plt.ylabel('How informal you can be')
 plt.xlabel('Age')
 plt.legend(title='Seniority', loc='lower right')
-plt.ylim(bottom=0)</code>
+plt.ylim(bottom=0) ;</code>
     <boxed-text>
-      <fig id="fig-danish-interaction-nb-article">
+      <fig id="fig-danishinteraction-nb-article">
         <caption><p>Figure 3: Figure legends are defined alongside the
         figure in the notebook. The figure size in the notebook is
         determines its size when embedded in a document 4x3
         inches.</p></caption>
-        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-danish-interaction-output-1.png" />
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/..-notebooks-example-fig-danishinteraction-output-1.png" />
       </fig>
     </boxed-text>
     </sec>
