@@ -51,6 +51,15 @@ There are two elephants in @fig-twoelephants. The elephants in @fig-surus and @f
 Some caption you wrote for an illustration of two elephants.
 :::
 
+## Plot included from notebook
+
+{{< embed ../notebooks/example.ipynb#fig-danish-interaction echo=false >}}
+
+(Or bigger)
+
+{{< embed ../notebooks/example.ipynb#fig-danish-interaction echo=false column=page >}}
+
+
 ## Text included from notebook
 
 {{< embed ../notebooks/example.ipynb#doc-sampling echo=false >}}
@@ -60,6 +69,11 @@ Some caption you wrote for an illustration of two elephants.
 These were selected to represent as many nationalities as possible (@tbl-subjects). 
 
 {{< embed ../notebooks/example.ipynb#tbl-subjects echo=false >}}
+
+(you can also make the table wider)
+
+{{< embed ../notebooks/example.ipynb#tbl-subjects echo=false column=page>}}
+
 
 ## Math
 
