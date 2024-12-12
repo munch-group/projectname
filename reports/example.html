@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="My Name">
-<meta name="dcterms.date" content="2024-12-09">
+<meta name="dcterms.date" content="2024-12-12">
 
 <title>Markdown in Quarto – projectname</title>
 <style>
@@ -328,7 +328,7 @@ window.Quarto = {
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/munch-group/projectname/edit/main/reports/example.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/munch-group/projectname/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/munch-group/projectname/blob/main/reports/example.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../reports/example.html">Reports</a></li><li class="breadcrumb-item"><a href="../reports/example.html"><span class="chapter-title">Markdown in Quarto</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -349,7 +349,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 9, 2024</p>
+      <p class="date">December 12, 2024</p>
     </div>
   </div>
   
@@ -366,7 +366,7 @@ window.Quarto = {
 <p>There are many ways to manage BibTex references. In <a href="https://www.papersapp.com/">ReadCube Papers</a>, you just right-click to select <code>Copy...&gt;BibTex entry</code> and paste it into your BibTex file (I also have a script that formats your entire Papers library for BibTex with meaningful labels).</p>
 <p>You can render citations in different ways to accommodate their sentence. Skov et al.&nbsp;reported strong selection on the human X chromosome <span class="citation" data-cites="Skov2023">(<a href="../manuscript/index.html#ref-Skov2023" role="doc-biblioref">2023</a>)</span>. Lineages in small populations have shorter coalescence times <span class="citation" data-cites="NielsenSlatkin2016">(see <a href="../manuscript/index.html#ref-NielsenSlatkin2016" role="doc-biblioref">Nielsen and Slatkin 2016, chap. 1</a>)</span>. The Neanderthal genome has been sequenced <span class="citation" data-cites="Prufer2012">(<a href="../manuscript/index.html#ref-Prufer2012" role="doc-biblioref">Prüfer et al. 2012</a>)</span>. The X chromosome is subject to recurrent sweeps <span class="citation" data-cites="Nam2015 Dutheil2015">(<a href="../manuscript/index.html#ref-Nam2015" role="doc-biblioref">Nam et al. 2015</a>; <a href="../manuscript/index.html#ref-Dutheil2015" role="doc-biblioref">Dutheil et al. 2015</a>)</span>. Following <span class="citation" data-cites="Munch2014">Munch et al. (<a href="../manuscript/index.html#ref-Munch2014" role="doc-biblioref">2014</a>)</span>, we blah blah…</p>
 </section>
-<section id="illustrations" class="level2">
+<section id="illustrations" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="illustrations">Illustrations</h2>
 <p>You can see an elephant in <a href="../thesis/index.html#fig-elephant" class="quarto-xref">Figure&nbsp;<span>8.1</span></a>.</p>
 <div id="fig-elephant" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -376,6 +376,17 @@ window.Quarto = {
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-elephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.1: Some caption for an illustration showing an elephant
+</figcaption>
+</figure>
+</div>
+<p>Elephants are big (<a href="#fig-bigelephant" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>):</p>
+<div id="fig-bigelephant" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-bigelephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="illustrations/elephant.png" class="img-fluid figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-bigelephant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.2
 </figcaption>
 </figure>
 </div>
@@ -411,7 +422,7 @@ Figure&nbsp;3.1: Some caption for an illustration showing an elephant
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-twoelephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.2: Some caption you wrote for an illustration of two elephants.
+Figure&nbsp;3.3: Some caption you wrote for an illustration of two elephants.
 </figcaption>
 </figure>
 </div>
@@ -640,7 +651,7 @@ Table&nbsp;3.1: People included in the analysis.
 <h2 class="anchored" data-anchor-id="code">Code</h2>
 <p>Executed but hide code and any output:</p>
 <p>Show and execute Python code:</p>
-<div id="dd48fb85" class="cell" data-execution_count="3">
+<div id="5517c852" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -658,14 +669,14 @@ Table&nbsp;3.1: People included in the analysis.
 </section>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">Section</h2>
-<p>Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.</p>
+<p>Nulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet.</p>
 <section id="subsection" class="level3">
 <h3 class="anchored" data-anchor-id="subsection">Subsection</h3>
-<p>Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 </section>
 <section id="subsubsection" class="level3">
 <h3 class="anchored" data-anchor-id="subsubsection">Subsubsection</h3>
-<p>Ut ut condimentum augue, nec eleifend nisl. Sed facilisis egestas odio ac pretium. Pellentesque consequat magna sed venenatis sagittis. Vivamus feugiat lobortis magna vitae accumsan. Pellentesque euismod malesuada hendrerit. Ut non mauris non arcu condimentum sodales vitae vitae dolor. Nullam dapibus, velit eget lacinia rutrum, ipsum justo malesuada odio, et lobortis sapien magna vel lacus. Nulla purus neque, hendrerit non malesuada eget, mattis vel erat. Suspendisse potenti.</p>
+<p>Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
