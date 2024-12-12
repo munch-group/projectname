@@ -34,6 +34,12 @@ You can see an elephant in @fig-elephant.
 Some caption for an illustration showing an elephant
 :::
 
+Elephants are big (@fig-bigelephant):
+
+:::{#fig-bigelephant .column-page}
+![](illustrations/elephant.png)
+:::
+
 There are two elephants in @fig-twoelephants. The elephants in @fig-surus and @fig-hanno look similar.
 
 ::: {#fig-twoelephants layout-ncol=2}
