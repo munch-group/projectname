@@ -129,18 +129,9 @@ graph G {
 
 
 ```{mermaid}
-%%| label: fig-graphviz
-%%| fig-cap: "This is a simple graphviz graph."
-%%| fig-width: 6.5
-
-flowchart LR
-  A[Raw paired-end <br> reads] -- bwa, <br> bowtie2 <br> ... --> B[Mapped <br> pairs]
-  B --> C{Identify <br> ligation <br> events}
-  C --> CA[dangling-end <br> self-circle <br> weird]
-  C --> CB[cis <br> trans]
-  CA -. discard -->stop((( )))
-  style stop fill:grey,stroke:white 
-  CB -- deduplication, <br> parse, <br> mapq filter -->  CBA[<b>Hi-C matrix</b>]
+flowchart TB
+  A[Beginning] --> B[Middle]
+  B --> C[End]
 ```
 
 

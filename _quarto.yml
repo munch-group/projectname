@@ -19,6 +19,8 @@ format:
     notebook-links: true
     number-sections: false  
     reference-location: margin
+    mermaid:
+      theme: neutral
 
 comments:
   hypothesis: true
