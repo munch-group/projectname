@@ -130,7 +130,7 @@ graph G {
 
 ```{mermaid}
 %%| label: fig-graphviz
-%% fig-cap: "This is a simple graphviz graph."
+%%| fig-cap: "This is a simple graphviz graph."
 %%| fig-width: 6.5
 
 flowchart LR
