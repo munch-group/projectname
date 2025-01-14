@@ -2,6 +2,9 @@ project:
   type: manuscript
   output-dir: ../_book/thesis
 
+# filters:
+#   - movesubcaptions.lua
+
 manuscript:
   article: index.qmd
 
@@ -11,7 +14,11 @@ format:
 #  jats: default
 
   pdf:
-    # latex-clean: false
+    # filters:
+    # # - at: pre-ast
+    # #   path: filter1.lua
+    #   - movesubcaptions.lua  
+    # # latex-clean: false
     documentclass: scrbook
     pdf-engine: pdflatex
     papersize: A4

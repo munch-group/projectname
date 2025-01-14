@@ -1,4 +1,11 @@
 ---
+format: native
+# filters: [movesubcaptions.lua]
+
+filters:
+  - at: pre-ast
+    path: movesubcaptions.lua
+
 title: Title of my thesis
 subtitle: Some subtitle for my thesis
 authors:
@@ -56,9 +63,9 @@ Some caption for an illustration showing an elephant
 
 ::: {#fig-twoelephants layout-ncol=2}
 
-![](illustrations/elephant.png){#fig-surus}
+![Left elephant](illustrations/elephant.png){#fig-surus}
 
-![](illustrations/elephant.png){#fig-hanno}
+![Right elephant](illustrations/elephant.png){#fig-hanno}
 
 Some caption for an illustration with two elephants.
 :::
