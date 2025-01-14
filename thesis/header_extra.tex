@@ -3,7 +3,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{palatino}
 
-\usepackage{mathpazo}
+\usepackage{ragged2e}
+
+%\usepackage{mathpazo}
+\usepackage{newpxtext}
+\usepackage{newpxmath}
 
 \usepackage{upquote}
 
@@ -131,8 +135,6 @@
 %   % no code blocks with markup...
 % \fi
 
-
-
 \usepackage{etoolbox}
 \makeatletter
 \g@addto@macro{\appendix}{%
@@ -201,3 +203,162 @@
 \let\oldemph\emph
 \renewcommand\emph[1]{\oldemph{\color{gray}#1}} % delete this line to make italics black again.
 
+
+
+% \usepackage{parskip}
+% \newlength{\currentparskip}
+% \newenvironment{tableminipage}
+%   {\setlength{\currentparskip}{\parskip}% save the value
+%    \begin{minipage}{\textwidth}% open the minipage
+%    \setlength{\parskip}{\currentparskip}% restore the value
+%   }
+%   {\end{minipage}}
+
+% \usepackage{etoolbox}
+% \AtBeginEnvironment{table}{\begin{tableminipage}}
+% \AtEndEnvironment{table}{\end{tableminipage}}
+% % \AtBeginEnvironment{tabular}{\tiny}
+
+% \let\oldtabular\tabular
+% \let\endoldtabular\endtabular
+% \renewenvironment{tabular}{\bgroup\footnotesize\oldtabular}%
+%                           {\endoldtabular\egroup}
+
+% \let\oldlongtable\longtable
+% \let\endoldlongtable\endlongtable
+% \renewenvironment{longtable}{\footnotesize\oldlongtable}{\endoldlongtable} 
+
+% \makeatletter
+% \renewenvironment{table}{%
+%   \if@tablecaptionabove\let\caption\captionabove
+%   \else\let\caption\captionbelow\fi
+%   \small\@float{table}%
+% }{%
+%   \end@float
+% }
+% \makeatother
+
+% \usepackage{longtable}
+% \makeatletter
+% \renewenvironment{longtable}{%
+%   \if@tablecaptionabove\let\caption\captionabove
+%   \else\let\caption\captionbelow\fi
+%   \small\@float{longtable}%
+% }{%
+%   \end@float
+% }
+% \makeatother
+
+
+
+% \usepackage[font={footnotesize},labelfont={bf}]{caption}
+% \AddToHook{env/longtable/before}{\fontsize{8}{10}\selectfont}
+% \AddToHook{env/longtable/after}{\normalsize}
+% \AddToHook{env/table/before}{\fontsize{8}{10}\selectfont}
+% \AddToHook{env/table/after}{\normalsize}
+
+
+
+
+%\captionsetup[table]{labelformat={empty}
+
+% \let\oldlongtable\longtable
+% \def\longtable{%
+% \footnotesize
+% \oldlongtable}
+
+
+% \usepackage{longtable}
+% \usepackage{caption}
+% \captionsetup[table]{font={tiny}}
+
+% \AddToHook{env/longtable/before}{\footnotesize}
+% \AddToHook{env/longtable/after}{\normalsize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% %% from arcxiv.sty:  %%%
+\RedeclareSectionCommand[
+  beforeskip=-2ex,
+  afterskip=1.5ex
+]{chapter}
+
+\RedeclareSectionCommand[
+  beforeskip=-1.8ex,
+  afterskip=0.8ex
+]{section}
+
+\RedeclareSectionCommand[
+  beforeskip=--1.5ex,
+  afterskip=0.5ex
+]{subsection}
+
+\RedeclareSectionCommand[
+  beforeskip=1.5ex,
+  afterskip=-1em
+]{subsubsection}
+
+\RedeclareSectionCommand[
+  beforeskip=1.5ex,
+  afterskip=-1em
+]{paragraph}
+
+% \RedeclareSectionCommand[
+%   beforeskip=1.5ex plus 0.5ex minus 0.2ex,
+%   afterskip=-1em
+% ]{subparagraph}
+
+
+% \setkomafont{section}{\normalfont\Large\bfseries\raggedright}
+% \setkomafont{subsection}{\normalfont\large\bfseries\raggedright}
+% \setkomafont{subsubsection}{\normalfont\normalsize\bfseries\raggedright}
+% \setkomafont{paragraph}{\normalfont\normalsize\bfseries}
+% \setkomafont{subparagraph}{\normalfont\normalsize\bfseries}
+
+% \setkomafont{caption}{\small}
+% \setkomafont{captionlabel}{\bfseries\sffamily}
+
+%% Tables
+% \usepackage[style=plaintop]{floatrow}
+% \floatsetup[table]{capposition=top}
+% \floatsetup[figure]{capposition=bottom}
+% \floatsetup[table]{font=small}
+% \usepackage{booktabs} % professional-quality tables (arxiv.sty)
+
+\usepackage[font={footnotesize},labelfont={bf}]{caption}
+\AddToHook{env/longtable/before}{\fontsize{8}{10}\selectfont}
+\AddToHook{env/longtable/after}{\normalsize}
+\AddToHook{env/table/before}{\fontsize{8}{10}\selectfont}
+\AddToHook{env/table/after}{\normalsize}
+\AddToHook{env/codelisting/before}{\fontsize{8}{10}\selectfont}
+\AddToHook{env/codelisting/after}{\normalsize}
+% \captionsetup[longtable]{font={footnotesize},labelfont={footnotesize}, position={top}, labelfont={bf}}
+\captionsetup[sub]{font=footnotesize,labelfont=footnotesize, position=top}
+\captionsetup[codelisting]{font=footnotesize, labelfont=bf}
+% \captionsetup[subtable]{font=scriptsize,labelfont=scriptsize, position=top}
+
+% \setlength\LTleft{0pt}
+% \setlength\LTright{0pt}
+% \begin{longtable}{@{\extracolsep{...}}...}
+
+%\AddToHook{phantomsection/before}{\normalsize}
+\AddToHook{phantomsection/after}{\normalsize}
+
+
+%%% For code blocks using the Shaded environment
+% \AddToHook{env/Shaded/before}{\vspace{-0.5em}\small} % Reduces space before
+% \AddToHook{env/Shaded/after}{\vspace{-1em}} % Reduces space after
+\definecolor{shadecolor}{RGB}{245,245,245}
+
+\renewenvironment{Shaded}
+{
+  \vspace{-0.5em} % Add spacing before
+  \begin{snugshade} % Begin shaded block
+  \small % Smaller font
+}
+{
+  \end{snugshade} % End shaded block
+  \vspace{-1em} % Add spacing after
+}
