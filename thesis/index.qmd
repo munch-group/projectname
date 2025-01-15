@@ -1,11 +1,4 @@
 ---
-format: native
-# filters: [movesubcaptions.lua]
-
-filters:
-  - at: pre-ast
-    path: movesubcaptions.lua
-
 title: Title of my thesis
 subtitle: Some subtitle for my thesis
 authors:

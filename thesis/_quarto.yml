@@ -2,11 +2,18 @@ project:
   type: manuscript
   output-dir: ../_book/thesis
 
-# filters:
-#   - movesubcaptions.lua
+filters:
+  - at: pre-quarto
+    path: ../filters/abstract-section.lua
+    # moves abstract section to meta data so it does not need
+    # to to in metadata. Just put it in an "# Abstract" section    # same as any other section
+  - at: post-quarto
+    path: ../filters/captions.lua
+    # moves subcaptions into the main caption
 
 manuscript:
   article: index.qmd
+
 
 format:
   html: default

@@ -1,6 +1,7 @@
 
 return {
   FloatRefTarget = function(float)
+    quarto.log.output(float)
     if float.type == "Figure" and float.caption_long ~= nil then
       local alphabet = 'abcdefghijklmnopqrstuvwxyz'
       local captures = pandoc.Inlines({})
