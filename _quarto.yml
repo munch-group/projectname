@@ -32,6 +32,9 @@ book:
   repo-actions: [edit, issue, source]  
   title: "projectname"
   author: "Joanna Doh"  
+  sidebar:
+    collapse-level: 1
+    search: true  
   chapters:
     - index.qmd
     - part: "Manuscript"
