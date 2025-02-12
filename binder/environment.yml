@@ -3,8 +3,7 @@ channels:
   - kaspermunch
   - gwforg
   - micknudsen
-  - r  
-  - defaults
+  - anaconda
 dependencies:
   - jupyterlab=4
   - jupyterlab-quarto  
