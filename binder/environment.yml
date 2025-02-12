@@ -6,13 +6,15 @@ channels:
   - r  
   - defaults
 dependencies:
-  - jupyterlab
+  - jupyterlab=4
+  - jupyterlab-quarto  
   - nodejs
   - pytables
   - scipy
   - seaborn
   - slurm-jupyter
   - statsmodels
+  - scikit-learn
   - geneinfo
   - git
   - nbdime
@@ -24,3 +26,10 @@ dependencies:
   - pycryptodome>3.10
   - pbkdf2
   - cryptography 
+  - git 
+  - nbdime
+  - missingno
+  - geneinfo # munch-group
+  - horizonplot # munch-group
+  - chromwindow # munch-group
+  - genominterv # munch-group
