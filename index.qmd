@@ -28,11 +28,17 @@ These pages are generated from a Git repository...
 
 Git Large File Storage
 
-## Download
+## Install
 
-https://git-lfs.com/
+    conda install -c conda-forge git git-lfs
+    git lfs install
 
 ## Configure
+
+    git lfs track "*.h5"
+    git add .gitattributes ; git commit -m 'Added LFS' ; git push
+
+From now, on all h5 files add added to the repo will go on lfs.
 
 https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage
 
