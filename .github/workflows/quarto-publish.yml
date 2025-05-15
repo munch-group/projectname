@@ -39,6 +39,10 @@ jobs:
           # uncomment below and fill to pin a version
           # version: SPECIFIC-QUARTO-VERSION-HERE
 
+      # Chromium is needed for Diagrams through Mermaid
+      - name: Install Chromium
+        run: quarto install chromium
+        
       # - name: Set up texlive
       #   uses: paolobrasolin/setup-texlive-action@v1
 
