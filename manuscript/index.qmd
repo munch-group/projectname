@@ -124,9 +124,9 @@ As shown in @fig-meaninformality, *feugiat leo quis ante condimentum, eu ornare 
 
 ## Section (with table embedded from notebook)
 
-*Cubilia hendrerit ipsum suspendisse curae curae suspendisse scelerisque semper luctus. Erat turpis dictum bibendum taciti pharetra. Nisi sed vestibulum felis duis; dapibus id. Justo semper felis potenti commodo class. Mauris venenatis purus integer urna cras faucibus. Eu consequat varius massa porttitor nisi. Est fringilla sed senectus ante fames ipsum aenean porta neque,* @tbl-meaninformality lists the mean interaction scores by position and nationality.
+*Cubilia hendrerit ipsum suspendisse curae curae suspendisse scelerisque semper luctus. Erat turpis dictum bibendum taciti pharetra. Nisi sed vestibulum felis duis; dapibus id. Justo semper felis potenti commodo class. Mauris venenatis purus integer urna cras faucibus. Eu consequat varius massa porttitor nisi. Est fringilla sed senectus ante fames ipsum aenean porta neque,* @tbl-mean-informality lists the mean interaction scores by position and nationality.
 
-{{< embed ../notebooks/example.ipynb#tbl-meaninformality echo=false >}}
+{{< embed ../notebooks/example.ipynb#tbl-mean-informality echo=false >}}
 
 *Ligula molestie convallis magnis elit tellus volutpat. Hac id in libero nibh inceptos. Malesuada blandit porttitor ad; netus integer tortor. Quis venenatis lorem sit ex hendrerit porta in. Purus praesent felis eget class luctus condimentum finibus quis tincidunt. Nam lectus malesuada primis dapibus consectetur. Quam placerat nam ullamcorper fusce conubia fermentum himenaeos gravida nostra.*
 

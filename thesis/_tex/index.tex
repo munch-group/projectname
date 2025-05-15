@@ -1,26 +1,29 @@
 % Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
+  10pt,
   a4paper,
 ]{scrbook}
-
+\usepackage{xcolor}
+\usepackage[left=2.54cm,right=2.54cm]{geometry}
 \usepackage{amsmath,amssymb}
-\usepackage{setspace}
+\setcounter{secnumdepth}{2}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 \usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -28,6 +31,7 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\usepackage{setspace}
 \makeatletter
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
@@ -38,10 +42,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\usepackage[left=2.54cm,right=2.54cm]{geometry}
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -107,8 +107,7 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.75,0.01,0.01}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.75,0.01,0.01}{#1}}
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -133,6 +132,8 @@
 % Set default figure placement to htbp
 \def\fps@figure{htbp}
 \makeatother
+
+
 % definitions for citeproc citations
 \NewDocumentCommand\citeproctext{}{}
 \NewDocumentCommand\citeproc{mm}{%
@@ -167,12 +168,28 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
 % Palatino font:
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{palatino}
 
-\usepackage{mathpazo}
+\usepackage{ragged2e}
+
+%\usepackage{mathpazo}
+\usepackage{newpxtext}
+\usepackage{newpxmath}
 
 \usepackage{upquote}
 
@@ -300,8 +317,6 @@
 %   % no code blocks with markup...
 % \fi
 
-
-
 \usepackage{etoolbox}
 \makeatletter
 \g@addto@macro{\appendix}{%
@@ -370,6 +385,172 @@
 \let\oldemph\emph
 \renewcommand\emph[1]{\oldemph{\color{gray}#1}} % delete this line to make italics black again.
 
+
+
+% \usepackage{parskip}
+% \newlength{\currentparskip}
+% \newenvironment{tableminipage}
+%   {\setlength{\currentparskip}{\parskip}% save the value
+%    \begin{minipage}{\textwidth}% open the minipage
+%    \setlength{\parskip}{\currentparskip}% restore the value
+%   }
+%   {\end{minipage}}
+
+% \usepackage{etoolbox}
+% \AtBeginEnvironment{table}{\begin{tableminipage}}
+% \AtEndEnvironment{table}{\end{tableminipage}}
+% % \AtBeginEnvironment{tabular}{\tiny}
+
+% \let\oldtabular\tabular
+% \let\endoldtabular\endtabular
+% \renewenvironment{tabular}{\bgroup\footnotesize\oldtabular}%
+%                           {\endoldtabular\egroup}
+
+% \let\oldlongtable\longtable
+% \let\endoldlongtable\endlongtable
+% \renewenvironment{longtable}{\footnotesize\oldlongtable}{\endoldlongtable} 
+
+% \makeatletter
+% \renewenvironment{table}{%
+%   \if@tablecaptionabove\let\caption\captionabove
+%   \else\let\caption\captionbelow\fi
+%   \small\@float{table}%
+% }{%
+%   \end@float
+% }
+% \makeatother
+
+% \usepackage{longtable}
+% \makeatletter
+% \renewenvironment{longtable}{%
+%   \if@tablecaptionabove\let\caption\captionabove
+%   \else\let\caption\captionbelow\fi
+%   \small\@float{longtable}%
+% }{%
+%   \end@float
+% }
+% \makeatother
+
+
+
+% \usepackage[font={footnotesize},labelfont={bf}]{caption}
+% \AddToHook{env/longtable/before}{\fontsize{8}{10}\selectfont}
+% \AddToHook{env/longtable/after}{\normalsize}
+% \AddToHook{env/table/before}{\fontsize{8}{10}\selectfont}
+% \AddToHook{env/table/after}{\normalsize}
+
+
+
+
+%\captionsetup[table]{labelformat={empty}
+
+% \let\oldlongtable\longtable
+% \def\longtable{%
+% \footnotesize
+% \oldlongtable}
+
+
+% \usepackage{longtable}
+% \usepackage{caption}
+% \captionsetup[table]{font={tiny}}
+
+% \AddToHook{env/longtable/before}{\footnotesize}
+% \AddToHook{env/longtable/after}{\normalsize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% %% from arcxiv.sty:  %%%
+\RedeclareSectionCommand[
+  beforeskip=-2ex,
+  afterskip=1.5ex
+]{chapter}
+
+\RedeclareSectionCommand[
+  beforeskip=-1.8ex,
+  afterskip=0.8ex
+]{section}
+
+\RedeclareSectionCommand[
+  beforeskip=--1.5ex,
+  afterskip=0.5ex
+]{subsection}
+
+\RedeclareSectionCommand[
+  beforeskip=1.5ex,
+  afterskip=-1em
+]{subsubsection}
+
+\RedeclareSectionCommand[
+  beforeskip=1.5ex,
+  afterskip=-1em
+]{paragraph}
+
+% \RedeclareSectionCommand[
+%   beforeskip=1.5ex plus 0.5ex minus 0.2ex,
+%   afterskip=-1em
+% ]{subparagraph}
+
+
+% \setkomafont{section}{\normalfont\Large\bfseries\raggedright}
+% \setkomafont{subsection}{\normalfont\large\bfseries\raggedright}
+% \setkomafont{subsubsection}{\normalfont\normalsize\bfseries\raggedright}
+% \setkomafont{paragraph}{\normalfont\normalsize\bfseries}
+% \setkomafont{subparagraph}{\normalfont\normalsize\bfseries}
+
+% \setkomafont{caption}{\small}
+% \setkomafont{captionlabel}{\bfseries\sffamily}
+
+%% Tables
+% \usepackage[style=plaintop]{floatrow}
+% \floatsetup[table]{capposition=top}
+% \floatsetup[figure]{capposition=bottom}
+% \floatsetup[table]{font=small}
+% \usepackage{booktabs} % professional-quality tables (arxiv.sty)
+
+\usepackage[font={footnotesize},labelfont={bf}]{caption}
+\AddToHook{env/longtable/before}{\fontsize{8}{10}\selectfont}
+\AddToHook{env/longtable/after}{\normalsize}
+\AddToHook{env/table/before}{\fontsize{8}{10}\selectfont}
+\AddToHook{env/table/after}{\normalsize}
+\AddToHook{env/codelisting/before}{\fontsize{8}{10}\selectfont}
+\AddToHook{env/codelisting/after}{\normalsize}
+
+% \AddToHook{cmd/subcaption/before}{\vspace{-3mm}}
+%\AddToHook{cmd/subcaption/after}{\vspace{-2cm}}
+
+
+% \captionsetup[longtable]{font={footnotesize},labelfont={footnotesize}, position={top}, labelfont={bf}}
+\captionsetup[sub]{font=footnotesize,labelfont=footnotesize, position=top}
+\captionsetup[codelisting]{font=footnotesize, labelfont=bf}
+% \captionsetup[subtable]{font=scriptsize,labelfont=scriptsize, position=top}
+
+%\captionsetup[subfigure]{margin=150pt}
+
+% \setlength\LTleft{0pt}
+% \setlength\LTright{0pt}
+% \begin{longtable}{@{\extracolsep{...}}...}
+
+%\AddToHook{phantomsection/before}{\normalsize}
+\AddToHook{phantomsection/after}{\normalsize}
+
+
+%%% For code blocks using the Shaded environment
+% \AddToHook{env/Shaded/before}{\vspace{-0.5em}\small} % Reduces space before
+% \AddToHook{env/Shaded/after}{\vspace{-1em}} % Reduces space after
+\definecolor{shadecolor}{RGB}{245,245,245}
+
+\renewenvironment{Shaded}
+{
+  \vspace{-0.5em} % Add spacing before
+  \begin{snugshade} % Begin shaded block
+  \small % Smaller font
+}
+{
+  \end{snugshade} % End shaded block
+  \vspace{-1em} % Add spacing after
+}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -411,11 +592,9 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-
 \usepackage{bookmark}
-
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Title of my thesis},
   hidelinks,
@@ -430,9 +609,8 @@
 }
 \makeatother
 \subtitle{Some subtitle for my thesis}
-\author{Your Name \and Kasper Munch}
-\date{December 19, 2024}
-
+\author{Your Name}
+\date{May 15, 2025}
 \begin{document}
 \frontmatter
 \cleardoublepage
@@ -451,11 +629,6 @@
         %
         {\bfseries\large Aarhus University \par}
     %
-    {\Large\bfseries Kasper Munch \par}
-    %
-        %
-        {\bfseries\large Aarhus University \par}
-    %
 %
 \vskip 0cm plus 2fill
 
@@ -465,7 +638,7 @@
 {\bfseries\Large\textit{Master of Science in Bioinformatics} \par}
 \vspace{3ex}
 
-{\bfseries\large December 19, 2024 \par}
+{\bfseries\large May 15, 2025 \par}
 \vspace{3ex}
 
 \vspace{12ex}
@@ -480,7 +653,6 @@ Somethings was not previously know. I found something and was able to
 conclude something. The perspectives of this result is something. \par
 \raggedleft    
     {- Your Name \par}
-    {- Kasper Munch \par}
 %    
 \end{quote}
 }
@@ -490,25 +662,11 @@ conclude something. The perspectives of this result is something. \par
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+\listoffigures
+\listoftables
 
 \setstretch{1}
 \mainmatter
-\chapter{Abstract}\label{abstract}
-
-\emph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.}
-
 \chapter{Introduction}\label{introduction}
 
 \emph{Fringilla sem fusce vivamus pellentesque in commodo penatibus
@@ -602,7 +760,7 @@ potenti.} You can see an elephant in Figure~\ref{fig-elephant}.
 \end{minipage}%
 
 \caption{\label{fig-twoelephants}Some caption for an illustration with
-two elephants.}
+two elephants. (a): Left elephant (b): Right elephant}
 
 \end{figure}%
 
@@ -634,69 +792,47 @@ fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend.
 Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at
 condimentum purus volutpat eu.}
 
-\section{Subsection (with embedded table from
-notebook)}\label{subsection-with-embedded-table-from-notebook}
+\section{Subsection (with inline
+table)}\label{subsection-with-inline-table}
 
-These were selected to represent as many nationalities as possible
-(Table~\ref{tbl-subjects}). \emph{Proin feugiat leo quis ante
-condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi
-tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-cursus laoreet ex, ignissim bibendum est posuere iaculis. Suspendisse et
-maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar,
-sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit
-fringilla et in quam.}
+The table below does not have analysis data but is used to tabulate
+something that could also be said with prose (Table~\ref{tbl-inline}).
+\emph{Proin feugiat leo quis ante condimentum, eu ornare mauris
+feugiatque eu arcu blandit fringilla et in quam.}
 
-\begin{longtable}[]{@{}lllll@{}}
-
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0900}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9100}}@{}}
+\caption{Four categories of RNA with some summary
+info.}\label{tbl-inline}\tabularnewline
 \toprule\noalign{}
-name & age & sex & position & nationality \\
+\begin{minipage}[b]{\linewidth}\raggedright
+Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
-name & age & sex & position & nationality \\
+\begin{minipage}[b]{\linewidth}\raggedright
+Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
-\tabularnewline
-\caption{}\label{T_0b8ad}\tabularnewline
 \endlastfoot
-Julie & 27 & F & PhDstudent & DK \\
-Thomas & 33 & M & Postdoc & GB \\
-Emilie & 23 & F & PhDstudent & CH \\
-Sofie & 31 & F & Postdoc & DK \\
-Sara & 29 & F & Postdoc & US \\
-Cecilie & 34 & F & Postdoc & DK \\
-Anders & 32 & M & PhDstudent & UK \\
-Emma & 42 & F & Professor & DK \\
-Caroline & 31 & F & PhDstudent & DK \\
-Laura & 30 & F & Postdoc & DK \\
-Mikkel & 33 & M & Postdoc & NL \\
-Jens & 27 & M & PhDstudent & DK \\
-Andreas & 29 & M & PhDstudent & DK \\
-Jakob & 28 & M & PhDstudent & DK \\
-Mathilde & 61 & F & Professor & DK \\
-Katrine & 35 & F & Postdoc & DK \\
-Poul & 30 & M & Postdoc & DK \\
-Anna & 26 & F & PhDstudent & DK \\
-Peter & 42 & M & Professor & GB \\
-Ida & 53 & F & Postdoc & DK \\
-Freja & 30 & F & Postdoc & DK \\
-Maria & 39 & F & Professor & UK \\
-Amalie & 29 & F & PhDstudent & DK \\
-Camilla & 35 & F & Postdoc & DK \\
-
-
-\caption{\label{tbl-subjects}People included in the analysis.}
-
-\tabularnewline
+tRNA & A type of RNA that blah, blah, blah, blah, blah, blah, blah,
+blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah,
+blah, blah, blah, blah \\
+mRNA & A type of RNA that blah, blah, blah, blah, blah, blah, blah,
+blah, blah, blah, blah, blah \\
+piRNA & A type of RNA that blah, blah, blah, blah, blah, blah, blah,
+blah, blah, blah, blah, blah \\
+snoRNA & A type of RNA that blah, blah, blah, blah, blah, blah, blah,
+blah, blah, blah, blah, blah \\
 \end{longtable}
-
-\emph{Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam
-vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit
-amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin
-tempor lorem arcu, at condimentum purus volutpat eu. Fusce et
-ellentesque ligula. Pellentesque id tellus at erat luctus fringilla.
-Suspendisse potenti.}
 
 \section{Subsection (with math)}\label{subsection-with-math}
 
@@ -738,7 +874,7 @@ like this:
 \end{Highlighting}
 \end{Shaded}
 
-\subsubsection{Subsection (bold and
+\section{Subsection (bold and
 italics)}\label{subsection-bold-and-italics}
 
 \textbf{This is bold}, \textbf{so is this}. \emph{This is italics},
@@ -749,7 +885,16 @@ conubia neque cras curae vitae curabitur facilisi inceptos ante.
 Vehicula volutpat nulla nostra inceptos parturient dui purus ipsum
 ante.}
 
-\subsubsection{Subsubsection}\label{subsubsection}
+\subsection{Subsubsection}\label{subsubsection}
+
+\emph{Pulvinar tempus nascetur sollicitudin fringilla sodales. Urna
+lorem nisi volutpat; lobortis dapibus auctor mollis. Suscipit conubia
+neque cras curae vitae curabitur facilisi inceptos ante. Phasellus augue
+inceptos nulla; amet id egestas ad. Enim ad eget nullam fames blandit
+neque varius mi. Velit pretium est conubia montes gravida. Vehicula
+volutpat nulla nostra inceptos parturient dui purus ipsum ante.}
+
+\subsubsection{Subsubsubsection}\label{subsubsubsection}
 
 \emph{Pulvinar tempus nascetur sollicitudin fringilla sodales. Urna
 lorem nisi volutpat; lobortis dapibus auctor mollis. Suscipit conubia
@@ -821,39 +966,33 @@ scelerisque semper luctus. Erat turpis dictum bibendum taciti pharetra.
 Nisi sed vestibulum felis duis; dapibus id. Justo semper felis potenti
 commodo class. Mauris venenatis purus integer urna cras faucibus. Eu
 consequat varius massa porttitor nisi. Est fringilla sed senectus ante
-fames ipsum aenean porta neque,} Table~\ref{tbl-meaninformality} lists
+fames ipsum aenean porta neque,} Table~\ref{tbl-mean-informality} lists
 the mean interaction scores by position and nationality.
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}llll@{}}
 
-\toprule\noalign{}
-position & nationality & informality \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-position & nationality & informality \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\tabularnewline
-\caption{}\label{T_fca36}\tabularnewline
-\endlastfoot
-Professor & UK & 8.949278 \\
-PhDstudent & CH & 9.623167 \\
-Postdoc & NL & 9.892308 \\
-Postdoc & DK & 10.175595 \\
-PhDstudent & DK & 10.220303 \\
-Professor & DK & 10.234365 \\
-Postdoc & GB & 10.431451 \\
-Postdoc & US & 10.808717 \\
-Professor & GB & 11.626458 \\
-PhDstudent & UK & 11.709714 \\
-
-
-\caption{\label{tbl-meaninformality}Mean interaction scores by position
+\caption{\label{tbl-mean-informality}Mean interaction scores by position
 and nationality.}
 
 \tabularnewline
+
+\toprule\noalign{}
+& position & nationality & informality \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2 & PhDstudent & UK & 8.047080 \\
+4 & Postdoc & GB & 8.348845 \\
+5 & Postdoc & NL & 8.440463 \\
+0 & PhDstudent & CH & 9.860340 \\
+1 & PhDstudent & DK & 9.937346 \\
+8 & Professor & GB & 9.946008 \\
+3 & Postdoc & DK & 10.140271 \\
+7 & Professor & DK & 10.366510 \\
+9 & Professor & UK & 10.748114 \\
+6 & Postdoc & US & 10.770385 \\
+
 \end{longtable}
 
 \emph{Ligula molestie convallis magnis elit tellus volutpat. Hac id in
@@ -863,7 +1002,7 @@ felis eget class luctus condimentum finibus quis tincidunt. Nam lectus
 malesuada primis dapibus consectetur. Quam placerat nam ullamcorper
 fusce conubia fermentum himenaeos gravida nostra.}
 
-\subsection{Discussion}\label{discussion}
+\chapter{Discussion}\label{discussion}
 
 \emph{Sociosqu iaculis molestie consectetur; pulvinar imperdiet
 pellentesque sollicitudin erat. Varius mattis neque blandit sodales
@@ -883,7 +1022,7 @@ Interdum per velit lacus ridiculus augue convallis mollis. Faucibus eget
 eros aptent; fusce magnis lacinia duis. Justo ad fames laoreet nisl
 viverra.}
 
-\subsection{Conclusion}\label{conclusion}
+\chapter{Conclusion}\label{conclusion}
 
 \emph{Laoreet ullamcorper urna et amet nunc faucibus finibus. Eget
 consequat sed integer bibendum a mollis nisl luctus. Orci leo quisque

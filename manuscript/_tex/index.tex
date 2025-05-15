@@ -1,26 +1,28 @@
 % Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
   a4paper,
 ]{scrbook}
-
+\usepackage{xcolor}
+\usepackage[left=2.54cm,right=2.54cm]{geometry}
 \usepackage{amsmath,amssymb}
-\usepackage{setspace}
+\setcounter{secnumdepth}{5}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 \usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -28,6 +30,7 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\usepackage{setspace}
 \makeatletter
 \@ifundefined{KOMAClassName}{% if non-KOMA class
   \IfFileExists{parskip.sty}{%
@@ -38,10 +41,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\usepackage[left=2.54cm,right=2.54cm]{geometry}
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -107,8 +106,7 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.75,0.01,0.01}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.75,0.01,0.01}{#1}}
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -133,6 +131,8 @@
 % Set default figure placement to htbp
 \def\fps@figure{htbp}
 \makeatother
+
+
 % definitions for citeproc citations
 \NewDocumentCommand\citeproctext{}{}
 \NewDocumentCommand\citeproc{mm}{%
@@ -166,6 +166,18 @@
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
 
 
 % add a dummy abstract environment that is defined in quarto manuscript 
@@ -221,11 +233,9 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-
 \usepackage{bookmark}
-
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Title of my thesis},
   pdfkeywords={Vestibulum, Nunc ac dignissim, Proin feugiat},
@@ -242,8 +252,7 @@
 \makeatother
 \subtitle{Some subtitle for my thesis}
 \author{Your Name}
-\date{December 19, 2024}
-
+\date{May 15, 2025}
 \begin{document}
 \frontmatter
 \maketitle
@@ -421,7 +430,7 @@ name & age & sex & position & nationality \\
 \endhead
 \bottomrule\noalign{}
 \tabularnewline
-\caption{}\label{T_0b8ad}\tabularnewline
+\caption{}\label{T_74e4e}\tabularnewline
 \endlastfoot
 Julie & 27 & F & PhDstudent & DK \\
 Thomas & 33 & M & Postdoc & GB \\
@@ -584,36 +593,30 @@ scelerisque semper luctus. Erat turpis dictum bibendum taciti pharetra.
 Nisi sed vestibulum felis duis; dapibus id. Justo semper felis potenti
 commodo class. Mauris venenatis purus integer urna cras faucibus. Eu
 consequat varius massa porttitor nisi. Est fringilla sed senectus ante
-fames ipsum aenean porta neque,} Table~\ref{tbl-meaninformality} lists
+fames ipsum aenean porta neque,} Table~\ref{tbl-mean-informality} lists
 the mean interaction scores by position and nationality.
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}llll@{}}
 
 \toprule\noalign{}
-position & nationality & informality \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-position & nationality & informality \\
+& position & nationality & informality \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
-\tabularnewline
-\caption{}\label{T_fca36}\tabularnewline
 \endlastfoot
-Professor & UK & 8.949278 \\
-PhDstudent & CH & 9.623167 \\
-Postdoc & NL & 9.892308 \\
-Postdoc & DK & 10.175595 \\
-PhDstudent & DK & 10.220303 \\
-Professor & DK & 10.234365 \\
-Postdoc & GB & 10.431451 \\
-Postdoc & US & 10.808717 \\
-Professor & GB & 11.626458 \\
-PhDstudent & UK & 11.709714 \\
+2 & PhDstudent & UK & 8.047080 \\
+4 & Postdoc & GB & 8.348845 \\
+5 & Postdoc & NL & 8.440463 \\
+0 & PhDstudent & CH & 9.860340 \\
+1 & PhDstudent & DK & 9.937346 \\
+8 & Professor & GB & 9.946008 \\
+3 & Postdoc & DK & 10.140271 \\
+7 & Professor & DK & 10.366510 \\
+9 & Professor & UK & 10.748114 \\
+6 & Postdoc & US & 10.770385 \\
 
 
-\caption{\label{tbl-meaninformality}Mean interaction scores by position
+\caption{\label{tbl-mean-informality}Mean interaction scores by position
 and nationality.}
 
 \tabularnewline
