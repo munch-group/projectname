@@ -237,20 +237,13 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={Title of my thesis},
+  pdftitle={Title of manuscript},
   pdfkeywords={Vestibulum, Nunc ac dignissim, Proin feugiat},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 
-\title{Title of my thesis}
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
-}
-\makeatother
-\subtitle{Some subtitle for my thesis}
+\title{Title of manuscript}
 \author{Your Name}
 \date{May 15, 2025}
 \begin{document}
@@ -357,7 +350,7 @@ potenti.} You can see an elephant in Figure~\ref{fig-elephant}.
 
 }
 
-\subcaption{\label{fig-surus}}
+\subcaption{\label{fig-surus}Left elephant}
 
 \end{minipage}%
 %
@@ -369,7 +362,7 @@ potenti.} You can see an elephant in Figure~\ref{fig-elephant}.
 
 }
 
-\subcaption{\label{fig-hanno}}
+\subcaption{\label{fig-hanno}Right elephant}
 
 \end{minipage}%
 
