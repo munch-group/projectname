@@ -6,6 +6,14 @@ project:
     - quarto render thesis/
     - quarto render manuscript/
 
+filters:
+  # - at: pre-quarto
+  #   path: ../filters/abstract-section.lua
+  #   # moves abstract section to meta data so it does not need
+  #   # to to in metadata. Just put it in an "# Abstract" section    # same as any other section
+  - at: post-quarto
+    path: ./filters/captions.lua
+    
 execute:
   freeze: auto
   echo: true
